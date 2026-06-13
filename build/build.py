@@ -586,17 +586,17 @@ function fitSlide(slide){
   if(!slide) return;
   slide.style.setProperty('--fs','1');
   const cl=slide.classList;
-  if(cl.contains('title-slide')||cl.contains('section-divider')||cl.contains('placeholder-slide')||cl.contains('bk')||cl.contains('statement')
-     || slide.querySelector('.stat-row, .agenda-flow, .lector-grid')) return;
+  if(cl.contains('bk') || slide.querySelector('.stat-row, .agenda-flow, .lector-grid')) return;
+  const hero=cl.contains('title-slide')||cl.contains('section-divider')||cl.contains('placeholder-slide')||cl.contains('statement');
   const isTwocol=!!slide.querySelector('.illust-col');
   const isFlow=!!slide.querySelector('.flow');
-  const capFs=isTwocol?1.45:isFlow?1.5:1.9;
+  const capFs=hero?1.0:isTwocol?1.45:isFlow?1.5:1.9;
   const savedT=hostEl?hostEl.style.transform:''; if(hostEl) hostEl.style.transform='none';
   const cs=getComputedStyle(slide);
   const availH=slide.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
   const availW=slide.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
   const prevJ=slide.style.justifyContent; slide.style.justifyContent='flex-start';
-  const fns=[].slice.call(slide.querySelectorAll('.footnote')); fns.forEach(f=>f.style.marginTop='0');
+  const fns=[].slice.call(slide.querySelectorAll('.footnote, .meta')); fns.forEach(f=>f.style.marginTop='0');
   const measure=()=>{ let t=Infinity,b=-Infinity,l=Infinity,r=-Infinity;
     for(const c of slide.children){ if(c.classList.contains('notes-data')||c.classList.contains('footnote'))continue;
       const q=c.getBoundingClientRect(); if(q.height<1)continue; t=Math.min(t,q.top);b=Math.max(b,q.bottom);l=Math.min(l,q.left);r=Math.max(r,q.right);}
