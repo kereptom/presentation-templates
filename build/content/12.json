@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Vibrant Gradient · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · marketing a eventy","h1":"Značka, která <br><em>táhne publikum</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Kampaně a akce"],["Délka","50 minut"],["Publikum","Marketing a vedení"],["Rok","2026"]],"notes":"Úvodní slide. Název akce, podtitul a metařádek dole. Zvýraznění přes em."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný cíl.","members":[["KN","Klára Novotná","Vedoucí marketingu"],["DV","David Vágner","Brand stratég"],["MP","Markéta Pešková","Eventy a produkce"],["JH","Jakub Hájek","Výkonnostní kampaně"],["TS","Tereza Šimková","Sociální sítě"]],"notes":"Slide týmu s iniciálami místo fotek."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde je naše značka","2 · Kampaně a akce","3 · Plán na další sezónu"],"notes":"Agenda jako tři velké dlaždice."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde je naše <em>značka</em>.","lead":"Pozice na trhu, publikum a největší příležitosti.","notes":"Předělový slide mezi bloky."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Pozornost se <em>nekupuje</em>.","illus":"megaphone","lead":"Reklamní prostor zaplatíte, zájem publika ne. Ten vzniká až relevantním sdělením ve správný čas.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_up","+41 %","vyšší zásah po sjednocení vizuálního stylu"],["dollar","-27 %","nižší cena za získání zákazníka díky cílení"],["heart","3,2×","silnější zapamatovatelnost značky po kampani"]],"bullets":["Měřte dopad na publikum, ne jen počet zobrazení.","Začněte u kanálu, kde už vaše publikum je.","Konzistentní značka pracuje, i když kampaň zrovna neběží."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, číslem a popiskem, pod nimi odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Cesta zákazníka <em>v kostce</em>.","lead":"Od prvního dotyku ke koupi i doporučení.","bullets":[["Zaujme.","Sdělením, které publikum okamžitě pozná."],["Zaujetí.","Obsahem, který stojí za pozornost a čas."],["Důvěra.","Recenzemi, příběhy a konzistencí značky."],["Akce.","Jasnou výzvou a snadným dalším krokem."],["Doporučení.","Spokojený zákazník přivede další."]],"illus":"people","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Budovat značku, nebo <em>výkon</em>.","lead":"Stejný rozpočet, dva přístupy a dvě křivky růstu.","cards":[["Jen výkon","Rychlé výsledky dnes, ale dražší zákazník zítra."],["Jen značka","Dlouhý dosah bez okamžitě měřitelného prodeje."],["Vyvážený mix","Značka tvoří poptávku, výkon ji sklízí."],["Sezónně","Větší důraz na akce ve špičce nákupní sezóny."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami pro srovnání variant."},
+
+    {"type":"cards3","kicker":"// kanály","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků kampaně.","cards":[["globe","Web a SEO","Místo, kam vede veškerá pozornost."],["megaphone","Sociální sítě","Příběh značky v každodenním kontaktu."],["target","Placené cílení","Sdělení přesně tam, kde je publikum."],["doc","Obsah a PR","Témata, která posilují důvěru a autoritu."],["calendar","Eventy a akce","Osobní zážitek, který online nenahradí."],["heart","Komunita","Fanoušci, kteří značku šíří dál."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>sezóny</em>.","items":[["1","plateau","Stabilizace","Růst zpomalí, vyplatí se posílit věrnost stávajících."],["2","expo","Zrychlení","Kampaň zasáhne nové publikum a poptávka roste."],["3","selfimp","Průlom","Značka se šíří sama, publikum tvoří obsah za vás."]],"illus":"megaphone","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od nápadu k <em>akci</em>.","lead":"Pět kroků přípravy kampaně i eventu.","steps":[["Cíl","koho a proč"],["Sdělení","co řekneme"],["Kanály","kde to zazní"],["Spuštění","kampaň a event"],["Vyhodnocení","co fungovalo"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Lidé si nepamatují, co jste prodali. Pamatují si, jak se u vaší značky cítili.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>kampaně</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jedno sdělení.","Kampaň, která říká vše, neřekne nic."],["Jasná výzva.","Publikum musí vědět, co má udělat dál."],["Měřitelný cíl.","Předem víte, podle čeho poznáte úspěch."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>konzistence</em>, ne křik.","lead":"Kampaň bez jasného sdělení a cíle zapadne mezi tisíci dalšími.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na další <em>sezónu</em>.","lead":"Co spustit tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Návrh kampaně za <em>5 minut</em>.","lead":"Naživo sestavíme sdělení, kanály a výzvu pro novou akci.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Uvidíme se na <em>akci</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@znacka.cz"],["Web","znacka.cz"],["Další krok","Brief za týden"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

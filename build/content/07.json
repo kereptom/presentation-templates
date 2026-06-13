@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Legal Charcoal · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · právo a profesní služby","h1":"Compliance v praxi<br><em>od rizika k jistotě</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Smluvní právo a soulad"],["Délka","45 minut"],["Publikum","Vedení a právní odbor"],["Rok","2026"]],"notes":"Úvodní slide. Název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte přes em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš právní tým","h2":"Kdo vás dnes <em>zastoupí</em>.","lead":"Pět rolí, jeden společný cíl: vaše jistota.","members":[["JK","Jana Konečná","Vedoucí advokátka"],["MP","Martin Pospíšil","Smluvní agenda"],["VŠ","Veronika Šimková","Compliance"],["DN","David Němec","Soudní spory"],["KL","Kateřina Liška","GDPR a data"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// program jednání","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na dotazy.","blocks":["1 · Kde dnes stojíme","2 · Klíčová rizika","3 · Plán nápravy"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Stav smluv, interních pravidel a největší slabá místa.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Riziko už ve smlouvách <em>je</em>.","illus":"scale","lead":"Staré šablony, ústní dodatky i chybějící doložky tvoří expozici, kterou nikdo nečte celou. Hodnota vzniká až jejich přehledem.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_down","-41 %","méně sporů po zavedení standardizovaných doložek"],["clock","6 h","ušetřených týdně na revizi rutinních smluv"],["shield","100 %","smluv v centrální evidenci s lhůtami"]],"bullets":["Měřte dopad na riziko, ne počet odeslaných stanovisek.","Začněte u smluv, které uzavíráte nejčastěji a v největším objemu.","Jedna pravá verze dokumentu poráží deset kopií po e-mailu."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Revize smlouvy <em>v kostce</em>.","lead":"Kontrola nečeká na spor, předchází mu.","bullets":[["Načte.","Smlouvu i přílohy a porovná s vaší šablonou."],["Označí.","Chybějící doložky a odchylky od standardu."],["Posoudí.","Rizika podle závažnosti a pravděpodobnosti."],["Doporučí.","Konkrétní úpravu textu k jednání."]],"illus":"doc","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Reaktivně, nebo <em>preventivně</em>.","lead":"Stejná smlouva, dva přístupy a dvě nákladové křivky.","cards":[["Reaktivně","Řešíme, až když vznikne spor. Drahé a nejisté."],["Formálně","Revize jen u velkých kontraktů. Lepší, ale děravé."],["Preventivně","Standard a kontrola u každé smlouvy. Nejnižší riziko."],["Hybridně","Klíčové kontrakty individuálně, rutinu přes šablonu."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků právního souladu.","cards":[["doc","Vzorové smlouvy","Schválené šablony pro běžné případy."],["lock","Správa přístupu","Kdo smí dokument vidět a měnit."],["alert","Hlídání lhůt","Upozorní na výpovědi a obnovení včas."],["shield","GDPR a data","Souhlasy, retence a ochrana osobních údajů."],["compass","Compliance pravidla","Interní směrnice srozumitelně na jednom místě."],["users","Školení týmu","Lidé, kteří pravidlům rozumí a dodržují je."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Stabilizace","Rizika se ustálí, vyplatí se dotáhnout evidenci a lhůty."],["2","expo","Zpřísnění","Regulace přibývá rychle a mění zaběhnuté postupy."],["3","selfimp","Zlom","Automatizace přebírá i návrh doložek, ne jen kontrolu."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od poptávky k <em>podpisu</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Zadání","účel a strany"],["Návrh","z prověřené šablony"],["Revize","rizika a doložky"],["Vyjednání","úpravy a kompromis"],["Podpis","a evidence lhůt"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Dobrá smlouva není ta, kterou vyhrajete u soudu, ale ta, kvůli které k soudu nemusíte.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>souladu</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden vlastník.","Každá smlouva má jméno člověka, který za ni ručí."],["Jedna verze.","Platí poslední podepsané znění, ne kopie v poště."],["Hlídané lhůty.","Termíny obnovení a výpovědi hlídá systém, ne paměť."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Chrání <em>prevence</em>, ne litera.","lead":"Smlouva bez vlastníka a lhůt skončí jako důkaz u soudu.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán <em>nápravy</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Revize smlouvy za <em>60 sekund</em>.","lead":"Přepneme do nástroje a označíme rizikové doložky naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo dotazy."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Jsme na vaší <em>straně</em>.","lead":"Dotazy, kontakt a další kroky.","meta":[["Kontakt","jmeno@akkancelar.cz"],["Web","akkancelar.cz"],["Další krok","Audit smluv do 2 týdnů"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

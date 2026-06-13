@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Health Teal · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · zdravotnictví a biotech","h1":"Lepší péče<br><em>od dat k diagnóze</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Zdravotnictví a biotech"],["Délka","50 minut"],["Publikum","Lékaři a vedení"],["Rok","2026"]],"notes":"Úvodní slide. Název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden cíl: lepší výsledek pro pacienta.","members":[["HK","Hana Konečná","Primářka"],["DV","David Vlček","Klinický výzkum"],["MŠ","Marie Šťastná","Datová analýza"],["OP","Ondřej Pospíšil","Farmacie"],["ZN","Zuzana Němcová","Compliance a etika"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// program","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Diagnostika a data","3 · Plán na 90 dní"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Stav péče, dostupnost dat a největší úzká místa.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Data o pacientech už <em>existují</em>.","illus":"flask","lead":"Záznamy, snímky i laboratoře sbírají víc, než kdokoli stihne přečíst. Hodnota vzniká až propojením.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["clock","-40 %","kratší čas do stanovení diagnózy s podporou modelu"],["activity","30 %","dříve odhalených rizikových případů ve screeningu"],["dollar","12 mil.","ušetřených ročně na opakovaných vyšetřeních"]],"bullets":["Měřte dopad na pacienta, ne počet zpracovaných záznamů.","Začněte tam, kde už data máte a kde je bolest největší.","Malý pilot s jasnou metrikou poráží velký plán bez metriky."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Asistovaná diagnostika <em>v kostce</em>.","lead":"Model nenahrazuje lékaře, předpřipraví mu podklad.","bullets":[["Sbírá.","Snímky, laboratoře a anamnézu na jednom místě."],["Porovná.","Případ s tisíci podobných v datech."],["Upozorní.","Na nálezy, které je snadné přehlédnout."],["Doloží.","Každý návrh odkazem na zdroj a důvod."]],"illus":"brain","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Reaktivně, nebo <em>preventivně</em>.","lead":"Stejný pacient, dva přístupy a dvě nákladové křivky.","cards":[["Reaktivně","Léčíme, až když se nemoc projeví. Drahé a pozdě."],["Plánovaně","Prohlídky podle kalendáře. Lepší, ale neadresné."],["Prediktivně","Screening podle skutečného rizika pacienta."],["Hybridně","Rizikové skupiny prediktivně, zbytek plánovaně."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků digitální péče.","cards":[["activity","Monitoring vitálních funkcí","Živý přehled stavu pacienta a odchylek."],["pie","Analýza snímků","Podpora při čtení RTG, CT a MR."],["alert","Detekce rizika","Včasné upozornění na zhoršení stavu."],["doc","Auto dokumentace","Z vyšetření rovnou strukturovaný záznam."],["shield","Ochrana dat","Citlivé údaje zůstávají pod kontrolou."],["users","Zaškolení","Tým, který nástrojům rozumí a věří jim."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje péče</em>.","items":[["1","plateau","Stabilizace","Zlepšování se zpomalí, vyplatí se dotáhnout základy."],["2","expo","Zrychlení","Nástroje se rychle zlepšují a mění zaběhnuté postupy."],["3","selfimp","Skok","Modely navrhují i postup léčby, nejen čtou nálezy."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od příznaku k <em>léčbě</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Příjem","sběr anamnézy"],["Vyšetření","snímky a laboratoře"],["Diagnóza","s podporou modelu"],["Léčba","plán schválený lékařem"],["Sledování","kontrola výsledku"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Nevyhrává ten, kdo má nejvíc dat o pacientovi, ale ten, kdo z nich nejrychleji udělá správné rozhodnutí.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>nasazení</em>.","lead":"Jednoduchá, ale ve zdravotnictví nepostradatelná.","bullets":[["Lékař schvaluje.","O diagnóze a léčbě rozhoduje vždy člověk."],["Měřitelný cíl.","Předem víte, podle čeho poznáte přínos."],["Ochrana soukromí.","Data pacienta jsou chráněná na každém kroku."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>důvěra</em>, ne technologie.","lead":"Nástroj bez ověření a vlastníka se v ambulanci neujme.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>90 dní</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Strukturovaný nález za <em>60 sekund</em>.","lead":"Přepneme do nástroje a vytvoříme záznam z vyšetření naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Jdeme do toho <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@klinika.cz"],["Web","klinika.cz"],["Další krok","Pilot za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

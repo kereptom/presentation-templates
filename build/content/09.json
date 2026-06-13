@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Eco Green · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · udržitelnost a energetika","h1":"Cesta k uhlíkové<br><em>neutralitě</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","ESG a dekarbonizace"],["Délka","45 minut"],["Publikum","Vedení a udržitelnost"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný cíl.","members":[["KZ","Klára Zelená","Vedoucí udržitelnosti"],["MV","Marek Vítr","Energetický manažer"],["PD","Pavla Dubová","ESG reporting"],["JS","Jan Sluneční","Provoz a facility"],["TN","Tereza Nová","Compliance a regulace"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Co snížit hned","3 · Plán do roku 2030"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Naše emise, spotřeba a největší zdroje uhlíku.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Nejlevnější energie je ta <em>neuspořená</em>.","illus":"growth","lead":"Než postavíme nové zdroje, vyplatí se snížit spotřebu. Úspora je rychlá, levná a okamžitá.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_down","-41 %","nižší emise Scope 2 po přechodu na zelenou elektřinu"],["leaf","68 %","podíl obnovitelných zdrojů v naší spotřebě"],["dollar","2,3 mil.","roční úspora nákladů na energie po optimalizaci"]],"bullets":["Měřte skutečné emise, ne dobré úmysly: rozhoduje tuna CO2.","Začněte tam, kde je spotřeba největší a data nejdostupnější.","Malý projekt s ověřenou úsporou poráží velký plán bez měření."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Dekarbonizace <em>v kostce</em>.","lead":"Nejde o jeden krok, ale o promyšlené pořadí.","bullets":[["Změří.","Uhlíkovou stopu napříč Scope 1, 2 a 3."],["Sníží.","Spotřebu tam, kde je nejvyšší a nejdražší."],["Nahradí.","Fosilní zdroje obnovitelnou energií."],["Kompenzuje.","Jen zbytek, který nelze odstranit."]],"illus":"gears","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Kompenzovat, nebo <em>snížit</em>.","lead":"Stejný cíl, dva přístupy a dva dopady na klima.","cards":[["Kompenzace","Platíme za pohlcení emisí jinde. Rychlé, ale dočasné."],["Snižování","Měníme vlastní provoz. Pomalejší, ale trvalé."],["Zelená energie","Přechod na obnovitelné zdroje u dodavatele i u sebe."],["Kombinace","Snižujeme co lze, kompenzujeme jen nevyhnutelný zbytek."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků dekarbonizace.","cards":[["zap","Solární zdroje","Fotovoltaika na střechách a halách."],["activity","Energetický monitoring","Živý přehled spotřeby budov a linek."],["bars","Měření emisí","Stopa Scope 1, 2 i 3 v jednom přehledu."],["doc","ESG reporting","Z dat rovnou výkaz podle CSRD."],["shield","Soulad s regulací","Taxonomie EU a povinné limity pod kontrolou."],["users","Zapojení týmu","Lidé, kteří úsporám rozumí a žijí jimi."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Setrvání","Snižování se zastaví, snadné kroky jsou vyčerpané."],["2","expo","Zrychlení","Nové technologie zlevňují a tempo úspor roste."],["3","selfimp","Průlom","Skladování energie a vodík mění celou bilanci."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od záměru k <em>úspoře</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Změřit","výchozí stopu"],["Vytipovat","největší zdroje"],["Pilot","měřitelný a rychlý"],["Nasadit","do provozu"],["Vykázat","a ověřit dopad"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Udržitelnost není náklad navíc. Je to způsob, jak přestat plýtvat tím, za co už platíme.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>dekarbonizace</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Měřte nejdřív.","Bez výchozí stopy nepoznáte žádný pokrok."],["Jeden vlastník.","Každý cíl má jméno člověka, který za něj ručí."],["Žádný greenwashing.","Vykazujte jen to, co je skutečně ověřené."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>měření</em>, ne sliby.","lead":"Cíl bez dat a vlastníka zůstane jen na papíře.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán do roku <em>2030</em>.","lead":"Co udělat tento kvartál, letos a do konce dekády.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"ESG výkaz z dat za <em>60 sekund</em>.","lead":"Přepneme do nástroje a sestavíme přehled emisí naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Snižujeme <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@firma.cz"],["Web","firma.cz"],["Další krok","Audit za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

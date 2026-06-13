@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Creative Magenta sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · design & creative agency","h1":"Brands that<br><em>move people</em>.","lead":"Demo presentation of the template. All text is sample (dummy) content and serves only to showcase the styles.","meta":[["Subject","Branding & campaigns"],["Length","45 minutes"],["Audience","Founders & marketing leads"],["Year","2026"]],"notes":"Opening slide. Studio name, one-line subtitle and a meta row at the bottom. Highlight a word with em for the accent color."},
+
+    {"type":"team","kicker":"// the studio","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one creative vision.","members":[["MR","Mia Renner","Creative director"],["DK","Dan Kale","Brand strategist"],["SL","Sofia Lund","Art director"],["TO","Theo Okafor","Motion designer"],["NP","Nora Patel","Account lead"]],"notes":"Team slide. Uses colored initials instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How the session <em>flows</em>.","lead":"Three parts, with room for questions.","blocks":["1 · Where your brand stands","2 · What we would build","3 · The 90-day rollout"],"notes":"Agenda as three large tiles. Good for opening a block."},
+
+    {"type":"divider","kicker":"// part 1","h1":"Where your brand <em>stands</em>.","lead":"Your story, your market and the biggest gaps.","notes":"Divider slide between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"A brand is a <em>promise</em>.","illus":"megaphone","lead":"Logos, colors and copy are just the surface. The real value is the feeling people keep after they leave.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: big heading, bold illustration, short caption. Great for a key point or a chapter open."},
+
+    {"type":"kpi","kicker":"// numbers that land","h2":"Three numbers that <em>decide</em>.","items":[["trend_up","+47 %","higher recall after the brand refresh"],["clock","6 wk","from kickoff to a launch-ready system"],["heart","3.4×","more engagement on campaign content"]],"bullets":["Measure brand impact, not just output volume.","Start where the story is weakest and the stakes are highest.","A sharp small campaign beats a vague big one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, big number and label, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how we work","h2":"Our branding sprint <em>in brief</em>.","lead":"From a blank page to a system you can ship.","bullets":[["Listen.","To your customers, your team and your market."],["Define.","The positioning and the voice that set you apart."],["Design.","Identity, color and type into one coherent system."],["Deliver.","Guidelines and assets your team can actually use."]],"illus":"layers","footnote":"// two-column slide with an illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text resizes itself."},
+
+    {"type":"cards2","kicker":"// two routes","h2":"Refresh, or <em>rebuild</em>.","lead":"Same brand, two paths and two levels of change.","cards":[["Refresh","Polish the existing identity. Fast and low-risk."],["Rebuild","A new system from the ground up. Bold and lasting."],["Extend","Stretch the brand into new products and channels."],["Hybrid","Keep the core, reinvent the campaign layer."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparisons or listing options."},
+
+    {"type":"cards3","kicker":"// what we deliver","h2":"What goes in the <em>toolkit</em>.","lead":"Six typical building blocks of a brand system.","cards":[["target","Positioning","The single idea your brand owns in the market."],["pie","Identity","Logo, color and type as one coherent set."],["doc","Voice & copy","How the brand sounds across every channel."],["megaphone","Campaigns","Concepts that carry the brand into the world."],["grid","Guidelines","Clear rules so the brand stays consistent."],["rocket","Launch kit","Assets ready for web, social and print."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of services or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it leads","h2":"Three scenarios for the <em>rollout</em>.","items":[["1","plateau","Steady","The brand stabilizes, so we polish the fundamentals."],["2","expo","Breakout","A campaign lands and reach grows fast."],["3","selfimp","Compounding","Each launch builds equity for the next."]],"illus":"growth","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From brief to <em>launch</em>.","lead":"Five steps, each with a clear deliverable.","steps":[["Brief","goals & audience"],["Concept","directions to choose"],["Design","the chosen system"],["Refine","feedback & polish"],["Launch","assets shipped"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"Design is not how it looks. It is how clearly it makes people feel what you mean.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to keep in mind","h2":"Three rules of a <em>brand</em>.","lead":"Simple, but easy to forget under deadline.","bullets":[["One idea.","A brand that says everything says nothing."],["One voice.","Every touchpoint sounds like the same studio."],["One guardian.","Someone owns the brand and defends it."]],"footnote":"// simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text scales up automatically to fill the space."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Consistency builds <em>trust</em>.","lead":"A bold launch fades fast without a system behind it.","notes":"Statement slide: one big sentence centered on the page. Use it for the key message."},
+
+    {"type":"divider","kicker":"// part 2","h1":"The <em>90-day</em> rollout.","lead":"What we do this week, this month and this quarter.","notes":"Second divider, opens the practical part."},
+
+    {"type":"demo","kicker":"// live walkthrough","h1":"A brand board in <em>5 minutes</em>.","lead":"We switch into the studio and build a sample mood board live.","footnote":"// placeholder slide for a demo or break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's make something <em>memorable</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","hello@studio.com"],["Web","studio.com"],["Next step","Kickoff in 2 weeks"],["Portfolio","available on request"]],"notes":"Closing slide in the style of the title. Contact and call to action."}
+  ]
+}

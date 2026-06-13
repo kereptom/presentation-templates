@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Warm Education · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · vzdělávání a školení","h1":"Firemní rozvoj<br><em>od kurzu k dovednosti</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Vzdělávání a rozvoj"],["Délka","45 minut"],["Publikum","HR a manažeři"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný cíl: růst lidí.","members":[["MK","Marie Kohoutová","Vedoucí vzdělávání"],["JB","Jakub Beneš","Lektor a kouč"],["TV","Tereza Vlková","Onboarding"],["DP","David Pokorný","Rozvoj manažerů"],["AH","Alena Hájková","HR a metodika"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Co zavést hned","3 · Plán na 90 dní"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Stav rozvoje lidí, kurzů a největší mezery.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Učení se ve firmě už <em>děje</em>.","illus":"growth","lead":"Lidé se učí každý den od kolegů, z chyb i z praxe. Hodnota vzniká, když to dáme do systému.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["clock","8 dní","kratší zaškolení nováčka po zavedení onboardingu"],["trend_up","+27 %","vyšší dokončenost kurzů u kratších modulů"],["heart","+15 b.","růst spokojenosti lidí s možnostmi rozvoje"]],"bullets":["Měřte dovednost v praxi, ne počet odsezených hodin.","Začněte tam, kde je mezera nejvíc cítit a dopad nejrychlejší.","Krátký modul s jasným cílem porazí dlouhý kurz bez cíle."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Účinné školení <em>v kostce</em>.","lead":"Kurz nekončí prezentací, ale změnou v práci.","bullets":[["Zjistí.","Jakou dovednost a komu vlastně chybí."],["Naučí.","Krátce, prakticky a s příklady z provozu."],["Procvičí.","Hned na reálném úkolu, ne jen v testu."],["Ukotví.","Připomínkou a podporou po několika týdnech."]],"illus":"people","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Nárazově, nebo <em>průběžně</em>.","lead":"Stejné téma, dva přístupy a dvě křivky zapamatování.","cards":[["Nárazově","Jednorázové školení. Levné, ale rychle se zapomene."],["Plošně","Stejný kurz pro všechny. Spravedlivé, často ale mimo potřebu."],["Cíleně","Rozvoj podle role a mezery. Nejvyšší dopad."],["Smíšeně","Základ pro všechny, hloubka pro ty, kdo ji potřebují."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků firemního rozvoje.","cards":[["doc","Onboarding","Strukturovaný start nováčka v prvních týdnech."],["users","Mentoring","Zkušený kolega provede praxí, ne jen teorií."],["activity","E-learning","Krátké moduly dostupné kdykoli a odkudkoli."],["target","Plán rozvoje","Jasné cíle dovedností pro každou roli."],["compass","Koučink","Podpora manažerů v reálných situacích."],["calendar","Workshopy","Společné procvičení a sdílení zkušeností."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>rozvoje</em>.","items":[["1","plateau","Stagnace","Lidé se přestanou učit, vyplatí se obnovit motivaci."],["2","expo","Rozjezd","Kultura učení se šíří a zrychluje napříč týmy."],["3","selfimp","Samostatnost","Tým si plánuje rozvoj sám, role HR je podpora."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od potřeby k <em>dovednosti</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Zmapovat","mezeru v dovednostech"],["Navrhnout","krátký a cílený modul"],["Vyzkoušet","na malé skupině"],["Procvičit","přímo v praxi"],["Rozšířit","na další týmy"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Vzdělávání není náklad, ale jediná investice, kterou si lidé odnesou s sebou.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>rozvoje</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden vlastník.","Každý program má jméno člověka, který za něj ručí."],["Měřitelný cíl.","Předem víte, jakou změnu v práci čekáte."],["Podpora po kurzu.","Dovednost se ukotví až opakováním v praxi."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>praxe</em>, ne prezentace.","lead":"Kurz bez procvičení a podpory skončí jako zapomenutý certifikát.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>90 dní</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Plán rozvoje za <em>5 minut</em>.","lead":"Přepneme do nástroje a sestavíme rozvojový plán naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Rosteme <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@firma.cz"],["Web","firma.cz"],["Další krok","Pilot za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

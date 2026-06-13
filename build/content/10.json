@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Mono Minimal sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · architecture and minimalism","h1":"Quiet Space<br><em>shaped by light</em>.","lead":"Demonstration deck for the template. All text is sample (dummy) content and exists only to showcase the styles.","meta":[["Subject","Minimal architecture"],["Length","40 minutes"],["Audience","Studio and clients"],["Year","2026"]],"notes":"Opening slide. Place the studio name, a one line subtitle and a meta row at the bottom. Wrap one word in em for the accent color."},
+
+    {"type":"team","kicker":"// the studio","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared idea of restraint.","members":[["AR","Anna Reed","Principal architect"],["MV","Marek Voss","Design lead"],["IL","Iris Lund","Interiors"],["DC","Dan Cole","Project delivery"],["SP","Sara Pine","Sustainability"]],"notes":"Team slide. Uses initials in a circle instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this session <em>flows</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · How we think","2 · Selected projects","3 · How we work"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// part 1","h1":"How we <em>think</em>.","lead":"Principles, materials and the discipline of leaving things out.","notes":"Divider slide between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"Less is a <em>decision</em>.","illus":"layers","lead":"Minimalism is not empty space. It is the result of removing everything that does not earn its place.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: large heading, a strong illustration, a short caption. Good for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>matter</em>.","items":[["leaf","-41 %","lower operational energy across our completed homes"],["clock","6 wk","saved on site through prefabricated modules"],["target","92 %","of clients return for a second commission"]],"bullets":["Measure outcome, not effort: what changes for the people who live there.","Start where the constraint is real, not where the brief is loudest.","A small built room beats a large rendered plan."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a large number and a label, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Our method <em>in brief</em>.","lead":"We design by subtraction, not addition.","bullets":[["Listen.","To the site, the light and the way you actually live."],["Reduce.","Until only the load bearing ideas remain."],["Detail.","Every joint and edge resolved with care."],["Build.","With makers who share the same standard."]],"illus":"gears","footnote":"// two column slide with an illustration","notes":"Two column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"More, or <em>enough</em>.","lead":"Same brief, two attitudes and two very different rooms.","cards":[["Decorative","Surfaces carry the meaning. Rich, but quick to date."],["Maximal","Every wall does something. Generous, often restless."],["Minimal","Space and light carry the meaning. Calm and lasting."],["Essential","The few right moves, repeated with discipline."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or a short list of variants."},
+
+    {"type":"cards3","kicker":"// the toolkit","h2":"What we <em>work</em> with.","lead":"Six recurring building blocks of a quiet interior.","cards":[["compass","Site reading","Orientation, light and view set the plan."],["grid","Plan rigor","A clear structural grid keeps spaces honest."],["leaf","Natural light","Daylight as the primary material, free and alive."],["layers","Material palette","A short, tactile list of honest finishes."],["doc","Detailing","Every edge drawn, nothing left to chance on site."],["users","Craft partners","Makers who hold the same standard we do."]],"footnote":"// a 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it leads","h2":"Three paths a <em>space</em> can take.","items":[["1","plateau","Settled","The rooms reach a calm that asks for nothing more."],["2","expo","Opened","Removing one wall lets light reshape the whole plan."],["3","selfimp","Layered","Restraint today leaves room to grow slowly over years."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From sketch to <em>home</em>.","lead":"Five steps, each with a clear deliverable.","steps":[["Brief","listen and frame"],["Concept","one strong idea"],["Develop","resolve the detail"],["Build","on site with care"],["Hand over","and live in it"]],"footnote":"// horizontal process diagram","notes":"Horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"The best room is the one you stop noticing, because everything in it is exactly where it should be.","by":"Sample quote to showcase the style","notes":"Quote slide with a strong left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to remember","h2":"Three rules of <em>restraint</em>.","lead":"Simple, but easy to forget on a busy project.","bullets":[["One idea.","Each space carries a single clear intention."],["Honest material.","Show what a thing is made of, never fake it."],["Earn the edge.","Every line on the drawing must justify itself."]],"footnote":"// a simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text scales automatically to fill the area."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Discipline reads as <em>calm</em>.","lead":"A room without restraint feels busy, even when it is empty.","notes":"Statement slide: one large sentence centered on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// part 2","h1":"How we <em>work</em>.","lead":"What to expect this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live walkthrough","h1":"A plan walked in <em>60 seconds</em>.","lead":"We switch to the model and move through the house live.","footnote":"// placeholder slide for a demo or a break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's build it <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","studio@monominimal.com"],["Web","monominimal.com"],["Next step","Site visit in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and a call to action."}
+  ]
+}
