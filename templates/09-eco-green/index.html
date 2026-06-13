@@ -17,6 +17,7 @@
   --ink:#152014; --ink-2:#34452f; --ink-3:#61735c;
   --rule:#deeadc; --rule-soft:#ecf3eb;
   --divider-bg:linear-gradient(140deg,#56b257 0%,#3f9e44 55%,#2a7733 100%); --divider-ink:#ffffff;
+  --r:1;
   --display:"Inter Tight", system-ui, sans-serif; --serif:"Source Serif 4", Georgia, serif; --mono:"JetBrains Mono", ui-monospace, monospace;
 }
 *{box-sizing:border-box; -webkit-font-smoothing:antialiased}
@@ -114,10 +115,15 @@ body > .stage, body > .notes, body > .controls{flex:0 0 auto}
 .slide.statement{justify-content:center; align-items:center; text-align:center}
 .slide.statement h1{font-size:calc(5.2cqw*var(--fs,1)); max-width:90%}
 .slide.statement .lead{margin:1cqw auto 0; max-width:74%; font-size:calc(2.5cqw*var(--fs,1))}
+.slide .card,.slide .kpi,.slide .scn-card,.slide .flow-b,.af-b{border-radius:calc(0.95cqw*var(--r,1))}
+.slide .scn-num{border-radius:calc(0.7cqw*var(--r,1))}
+body.cs-outline .slide .card,body.cs-outline .slide .kpi,body.cs-outline .slide .scn-card,body.cs-outline .slide .flow-b,body.cs-outline .af-b{background:transparent}
+body.cs-flat .slide .card,body.cs-flat .slide .kpi,body.cs-flat .slide .scn-card,body.cs-flat .slide .flow-b,body.cs-flat .af-b{border-color:transparent}
+body.em-solid .slide em{background:none;-webkit-text-fill-color:var(--c-1);color:var(--c-1)}
 @media (max-width:640px){ .controls{gap:6px; padding:8px 12px; font-size:11px} .controls .hint{display:none} }
 </style>
 </head>
-<body>
+<body class="">
 <div class="stage">
   <div class="progress" id="progress"></div>
   <div class="slides-host" id="slidesHost">

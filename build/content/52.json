@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Emerald Bank sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · retail banking","h1":"Everyday banking<br><em>built around the customer</em>.","lead":"Demo presentation of the template. All text is sample (dummy) content and exists only to showcase the styles.","meta":[["Topic","Retail banking"],["Length","45 minutes"],["Audience","Leadership and operations"],["Date","2026"]],"notes":"Opening slide. Put the event name, a one-line subtitle and the meta row at the bottom here. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared goal.","members":[["AB","Anna Brooks","Head of Retail"],["DC","David Cole","Data Analyst"],["MR","Maria Reyes","Branch Operations"],["LK","Liam Kerr","Risk and Compliance"],["SO","Sara Owen","Digital and Security"]],"notes":"Team slide. Uses initials in a colored circle instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// agenda for today","h2":"How this block will <em>run</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where we stand today","2 · What to ship now","3 · The 90-day plan"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where we <em>stand</em> today.","lead":"The state of our channels, our data and the biggest bottlenecks.","notes":"Divider slide between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"The branch is no longer the <em>front door</em>.","illus":"people","lead":"Customers open accounts on a phone at midnight. Value comes from meeting them where they already are.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: large heading, bold illustration, short caption. Good for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that fit","h2":"Three numbers that <em>decide</em>.","items":[["trend_up","+27 %","more accounts opened end to end in the mobile app"],["clock","6 min","average time saved per onboarding after automation"],["trend_down","-19 %","fewer abandoned applications mid-flow"]],"bullets":["Measure impact, not activity: what moves the customer counts.","Start where you already have data and where the pain is sharpest.","A small pilot with a clear metric beats a big plan without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a large number and a caption, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Digital onboarding <em>in short</em>.","lead":"The flow does not wait at a counter, it follows the customer.","bullets":[["Captures.","Identity and documents straight from the phone camera."],["Verifies.","Against trusted sources in seconds, not days."],["Scores.","Risk and eligibility before the first reply."],["Activates.","The account is ready to use the same evening."]],"illus":"layers","footnote":"// two-column slide with illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Branch-first, or <em>mobile-first</em>.","lead":"Same customer, two approaches and two cost curves.","cards":[["Branch-first","Everything runs through a teller. Personal but slow and costly."],["Scheduled","Appointments and callbacks. Better, yet still tied to hours."],["Mobile-first","Self-service in the app, help on demand. Lowest cost to serve."],["Hybrid","High-value advice in branch, routine tasks in the app."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for a comparison or a list of options."},
+
+    {"type":"cards3","kicker":"// building blocks","h2":"What to <em>deploy</em> where.","lead":"Six typical building blocks of modern retail banking.","cards":[["doc","Digital onboarding","Open an account from a phone in minutes, not visits."],["activity","Spending insights","Clear views of where the money goes each month."],["alert","Fraud detection","Flags unusual transactions before the customer notices."],["dollar","Smart payments","Instant transfers and reminders that prevent late fees."],["shield","Data protection","Customer data stays inside your controlled network."],["users","Staff enablement","A team that understands and trusts the tools."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it leads","h2":"Three scenarios of <em>change</em>.","items":[["1","plateau","Stabilize","Growth slows, so it pays to finish the basics well."],["2","expo","Acceleration","Digital channels improve fast and reshape habits."],["3","selfimp","Leap","Automation starts to design offers, not just process them."]],"illus":"growth","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From idea to <em>production</em>.","lead":"Five steps, each with a clear output.","steps":[["Spot","the friction point"],["Pilot","small and measurable"],["Evaluate","impact and risk"],["Deploy","into the journey"],["Scale","to more segments"]],"footnote":"// horizontal process diagram","notes":"Horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// the idea","h2":"","quote":"Trust is not won at the counter anymore, it is won in the seconds it takes the app to respond.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to keep in mind","h2":"Three rules of <em>rollout</em>.","lead":"Simple, but easy to forget.","bullets":[["One owner.","Every feature has the name of a person who is accountable."],["A measurable goal.","You know in advance how you will recognize success."],["A human approves.","For high-risk steps a person always makes the call."]],"footnote":"// simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text scales automatically to fill the space."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"<em>Discipline</em> wins, not enthusiasm.","lead":"A pilot with no metric and no owner ends up in a drawer.","notes":"Statement slide: one large sentence centered on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"The <em>90-day</em> plan.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"Open an account in <em>3 minutes</em>.","lead":"We switch into the app and run a full onboarding live.","footnote":"// placeholder slide for a demo or a break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let us build it <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","name@bank.com"],["Web","bank.com"],["Next step","Pilot in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and a call to action."}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Mustard · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · podcasting a audio tvorba","h1":"Vlastní hlas<br><em>od mikrofonu k posluchači</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Podcasting"],["Délka","45 minut"],["Publikum","Tvůrci a marketing"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vám dnes <em>poradí</em>.","lead":"Pět rolí, jeden společný zvuk.","members":[["MK","Marek Kolář","Moderátor a host"],["VN","Veronika Nová","Zvukový technik"],["DR","David Říha","Střih a postprodukce"],["AH","Adéla Hájková","Obsah a scénář"],["JB","Jakub Beneš","Distribuce a růst"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Od nápadu k nahrávce","2 · Zvuk a střih","3 · Distribuce a růst"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Od nápadu k <em>nahrávce</em>.","lead":"Formát, příprava a první díl, který stojí za poslech.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Posluchač zůstává kvůli <em>hlasu</em>.","illus":"megaphone","lead":"Téma přitáhne, ale zvuk a osobnost rozhodují o tom, zda se vrátí na další díl.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["users","+44 %","více vrácených posluchačů po sjednocení formátu"],["clock","20 min","ideální délka dílu pro denní poslech"],["activity","68 %","posluchačů dokončí díl s pevnou strukturou"]],"bullets":["Měřte dokončení, ne jen stažení: prozradí kvalitu obsahu.","Začněte u tématu, které sami rádi posloucháte.","Pravidelnost poráží dokonalost: vychází díl za dílem."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Příprava dílu <em>v kostce</em>.","lead":"Dobrý díl vzniká dřív, než se zapne mikrofon.","bullets":[["Vybírá.","Téma, které má jasnou otázku a odpověď."],["Skládá.","Osnovu z úvodu, jádra a pointy."],["Nahrává.","V tichu, s jedním plynulým tahem."],["Doplňuje.","Zvukové předěly a krátkou znělku."]],"illus":"layers","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dva formáty","h2":"Sólo, nebo s <em>hostem</em>.","lead":"Stejné téma, dva způsoby vyprávění a dvě přípravy.","cards":[["Sólo","Jeden hlas, plná kontrola. Náročné na energii."],["S hostem","Rozhovor přináší napětí. Vyžaduje přípravu otázek."],["Panel","Více hlasů a názorů. Těžší střih a souznění."],["Příběh","Reportáž se scénářem. Nejvíc práce v postprodukci."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>použít</em>.","lead":"Šest typických stavebních bloků audio tvorby.","cards":[["activity","Nahrávání","Čistá stopa z mikrofonu, blízko zdroje zvuku."],["zap","Odšumění","Odstraní pozadí a sjednotí hlasitost."],["doc","Přepis","Z nahrávky rovnou text pro popis a titulky."],["heart","Znělka","Krátký motiv, který si posluchač zapamatuje."],["globe","Distribuce","Jeden upload do všech poslechových aplikací."],["bars","Analytika","Přehled poslechovosti a míst, kde lidé odcházejí."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>růstu</em>.","items":[["1","linear","Pomalý start","První díly rostou klidně, vyplatí se vytrvat a ladit."],["2","expo","Virální díl","Jeden host nebo téma rozjede publikum skokově."],["3","plateau","Strop dosahu","Růst se zastaví, je čas na nový formát nebo kanál."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od nápadu k <em>publikaci</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Vymyslet","téma a otázku"],["Připravit","osnovu a hosty"],["Nahrát","čistou stopu"],["Sestříhat","předěly a chyby"],["Vydat","do aplikací"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Posluchač vám nedá druhou šanci u špatného zvuku, ale odpustí leccos u dobrého příběhu.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>vydávání</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden den.","Díl vychází pravidelně, posluchač ho čeká."],["Jasný název.","Z titulku je hned poznat, o čem díl je."],["Silný úvod.","Prvních třicet sekund rozhodne o poslechu."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>pravidelnost</em>, ne dokonalost.","lead":"Jeden vydaný díl má větší dosah než deset rozpracovaných.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Distribuce a <em>růst</em>.","lead":"Jak díl dostat k lidem a udržet je u dalšího.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Z nahrávky k titulkům za <em>60 sekund</em>.","lead":"Přepneme do nástroje a vytvoříme přepis dílu naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Nahrajeme to <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@studio.cz"],["Web","studio.cz"],["Další krok","Pilotní díl za týden"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

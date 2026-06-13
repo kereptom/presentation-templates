@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Plum Atelier · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · móda a oděvní návrhářství","h1":"Móda jako řemeslo<br><em>od skici ke stehu</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Oděvní návrhářství"],["Délka","45 minut"],["Publikum","Ateliér a výroba"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jedna kolekce.","members":[["KV","Klára Vránová","Hlavní návrhářka"],["MS","Martin Souček","Střihač a konstruktér"],["AD","Anna Dvořáková","Textilní technoložka"],["JP","Jakub Pospíšil","Stylista a vizuál"],["TN","Tereza Nová","Udržitelnost a nákup"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Inspirace a koncept","2 · Od střihu k materiálu","3 · Kolekce na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde vzniká <em>nápad</em>.","lead":"Inspirace, moodboard a první obrysy kolekce.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Dobrý střih je <em>neviditelný</em>.","illus":"layers","lead":"Materiál, proporce a detail spolu mluví dřív, než si toho oko všimne. Síla kolekce vzniká v souladu vrstev.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_down","-28 %","méně odpadu látky díky chytrému naložení střihů"],["clock","6 týdnů","od skici k hotovému prototypu kolekce"],["target","+22 %","vyšší prodej modelů s lepším padnutím"]],"bullets":["Měřte dopad, ne počet návrhů: rozhoduje, co se prodá a nosí.","Začněte u materiálu, který už znáte a umíte zpracovat.","Malá kapsulová kolekce s jasným příběhem poráží rozsáhlý katalog."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Cesta modelu <em>v kostce</em>.","lead":"Od první čáry k hotovému kusu na ramínku.","bullets":[["Skicuje.","Siluetu, proporce a náladu kolekce."],["Konstruuje.","Střih, který sedí na skutečné tělo."],["Šije.","Prototyp z cílového materiálu."],["Ladí.","Detaily padnutí podle zkoušky."]],"illus":"branch","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Rychlá, nebo <em>pomalá</em> móda.","lead":"Stejný kabát, dva přístupy a dva životní cykly.","cards":[["Rychlá móda","Mnoho kolekcí ročně. Levné, ale krátká životnost."],["Sezónní","Dvě hlavní kolekce. Vyvážený rytmus a zásoby."],["Pomalá móda","Nadčasové kusy z kvalitních látek. Vyšší cena, delší život."],["Na míru","Kus šitý pro konkrétního zákazníka. Nulový sklad."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// stavební bloky","h2":"Co dělá <em>kolekci</em>.","lead":"Šest prvků, které drží kolekci pohromadě.","cards":[["doc","Moodboard","Vizuální směr, barvy a nálada sezóny."],["grid","Střihová sada","Šablony dílů připravené pro výrobu."],["leaf","Materiál","Volba látky podle střihu i dopadu."],["scale","Velikostní tabulka","Padnutí napříč postavami a tělesnými typy."],["heart","Detail","Knoflíky, švy a lemy, které dělají rozdíl."],["users","Zkouška","Model na skutečném těle, ne jen na figuríně."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>sezóny</em>.","items":[["1","plateau","Klasika","Osvědčené střihy se prodávají stabilně, vyplatí se dotáhnout kvalitu."],["2","expo","Trend","Nový směr rychle roste a mění poptávku napříč trhem."],["3","decline","Útlum","Trend opadá, sklad je třeba doprodat a uvolnit místo."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od skici k <em>prodeji</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Skica","koncept a silueta"],["Střih","konstrukce dílů"],["Prototyp","první vzorek"],["Výroba","série kusů"],["Prodej","do obchodu i online"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Móda pomine, styl zůstává. Dobře ušitý kus přežije sezónu i náladu.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>kolekce</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden příběh.","Každá kolekce drží jednu srozumitelnou myšlenku."],["Padnutí první.","Krásný střih bez dobrého padnutí nikdo nenosí."],["Materiál rozhoduje.","Látka určuje, jak kus vypadá i jak vydrží."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>střih</em>, ne potisk.","lead":"Efektní vzor neschová špatně posazené rameno.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Kolekce na <em>sezónu</em>.","lead":"Co ušít hned, co do výlohy a co pro online.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Návrh siluety za <em>30 sekund</em>.","lead":"Přepneme do skicáku a načrtneme model naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Šijeme to <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","atelier@plum.cz"],["Web","plumatelier.cz"],["Další krok","Zkouška za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

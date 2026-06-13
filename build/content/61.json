@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Bronze Exhibit · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · muzejní výstava a kulturní dědictví","h1":"Živé dědictví<br><em>od depozitáře k návštěvníkovi</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Kulturní dědictví"],["Délka","45 minut"],["Publikum","Kurátoři a vedení"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název výstavy, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, pět pohledů na jednu sbírku.","members":[["AH","Anna Hrabová","Hlavní kurátorka"],["MV","Martin Veselý","Restaurátor"],["KD","Klára Dušková","Edukace a programy"],["JŘ","Jakub Říha","Sbírkový depozitář"],["TN","Tereza Němcová","Digitalizace"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Stav sbírky dnes","2 · Co zpřístupnit hned","3 · Plán na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Stav sbírky <em>dnes</em>.","lead":"Co máme v depozitáři, co chátrá a co táhne návštěvníky.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Většina sbírky leží v <em>depozitáři</em>.","illus":"layers","lead":"Ve vitrínách je jen zlomek toho, co spravujeme. Hodnota vzniká, až když předmět dostane příběh a dojde k návštěvníkovi.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["users","+24 %","více návštěvníků po obnovení stálé expozice"],["doc","12 %","sbírky je digitalizováno a dostupné online"],["clock","3 dny","průměrná příprava jednoho předmětu do vitríny"]],"bullets":["Měřte zážitek návštěvníka, ne počet vystavených předmětů.","Začněte u toho, co už máme zkatalogizováno a zrestaurováno.","Malá výstava s jasným příběhem porazí velkou bez příběhu."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Cesta předmětu <em>v kostce</em>.","lead":"Od nálezu v depozitáři po vitrínu s příběhem.","bullets":[["Vybere.","Předmět, který nese silný příběh sbírky."],["Zhodnotí.","Stav, původ a potřebu restaurování."],["Doplní.","Kontext, popisku a digitální záznam."],["Vystaví.","Do prostředí, kde vynikne a chrání ho."]],"illus":"branch","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dva přístupy","h2":"Sklad, nebo <em>vyprávění</em>.","lead":"Stejná sbírka, dva způsoby, jak ji ukázat.","cards":[["Skladově","Předměty vedle sebe podle inventáře. Úplné, ale němé."],["Chronologicky","Podle doby vzniku. Přehledné, ale bez napětí."],["Tematicky","Kolem otázky nebo příběhu. Vtáhne návštěvníka."],["Hybridně","Hlavní linka tematická, doplněná badatelským koutem."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// stavební bloky","h2":"Z čeho výstavu <em>postavit</em>.","lead":"Šest prvků, které dělají expozici živou.","cards":[["doc","Katalogizace","Každý předmět má úplný a dohledatelný záznam."],["shield","Konzervace","Klima a světlo nastavené tak, aby předmět vydržel."],["compass","Návštěvnická trasa","Jasná cesta sálem bez bloudění a slepých uliček."],["cpu","Digitální průvodce","Rozšířený výklad v mobilu a online katalog."],["heart","Edukace","Programy pro školy, rodiny i seniory."],["globe","Spolupráce","Zápůjčky a společné výstavy s dalšími institucemi."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>návštěvnosti</em>.","items":[["1","plateau","Ustálení","Návštěvnost se zastaví, vyplatí se obnovit stálou expozici."],["2","expo","Vlna zájmu","Silné téma a média přitáhnou nové publikum."],["3","decline","Únava","Bez obměny zájem postupně opadá."]],"illus":"people","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od nápadu k <em>vernisáži</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Vybrat","téma a předměty"],["Restaurovat","co to potřebuje"],["Připravit","texty a scénář"],["Instalovat","do sálu"],["Otevřít","návštěvníkům"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Předmět ve vitríně mlčí. Teprve příběh kolem něj promluví k návštěvníkovi.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>výstavy</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden příběh.","Návštěvník si odnese jednu jasnou myšlenku."],["Předmět chráníš.","Zážitek nikdy nesmí ohrozit samotnou sbírku."],["Texty stručně.","Popisky se čtou vestoje, ne jako studie."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>příběh</em>, ne počet předmětů.","lead":"Plná vitrína bez výkladu zůstane jen skladem za sklem.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>sezónu</em>.","lead":"Co připravit tento týden, tento měsíc a do otevření.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Digitální katalog za <em>30 sekund</em>.","lead":"Přepneme do systému a najdeme předmět i s jeho příběhem naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Otevíráme dveře <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","kurator@muzeum.cz"],["Web","muzeum.cz"],["Další krok","Vernisáž do 6 týdnů"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

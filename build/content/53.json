@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Clay and Craft · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · keramika a řemeslná výroba","h1":"Z hlíny do rukou<br><em>příběh řemesla</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Keramická dílna"],["Délka","40 minut"],["Publikum","Tvůrci a obchod"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// naše dílna","h2":"Kdo stojí za <em>hlínou</em>.","lead":"Pět párů rukou, jeden společný kruh.","members":[["MK","Marie Konvičková","Mistrová dílny"],["JT","Jiří Tvaroh","Točíř na kruhu"],["AD","Anna Dolejší","Glazury a barvy"],["RP","Radek Pec","Výpal a pece"],["VS","Věra Stará","Prodej a zakázky"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní setkání <em>poteče</em>.","lead":"Tři části, mezi nimi prostor na dotazy.","blocks":["1 · Od hlíny ke kusu","2 · Glazura a výpal","3 · Cesta k zákazníkovi"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Od hlíny ke <em>kusu</em>.","lead":"Příprava materiálu, tvarování a sušení.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Každý kus je <em>jedinečný</em>.","illus":"gears","lead":"Ruční práce nedělá dvakrát stejnou věc. Právě v tom je její hodnota, kterou stroj nedokáže napodobit.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>vypovídají</em>.","items":[["clock","8 h","schne každý kus, než jde do prvního výpalu"],["activity","1280 °C","teplota při ostrém výpalu kameniny"],["heart","92 %","zákazníků se vrací pro další kousek"]],"bullets":["Trpělivost je surovina: hlína nechce být uspěchaná.","Začněte od materiálu, který znáte a který vám sedne do ruky.","Malá série s pečlivým výpalem překoná velkou sérii bez kontroly."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Cesta kusu <em>v kostce</em>.","lead":"Od hroudy hlíny k hotovému dílu.","bullets":[["Hnětu.","Hlínu, dokud z ní zmizí vzduchové bubliny."],["Točím.","Stěnu nahoru jemným tahem prstů."],["Suším.","Pomalu, aby kus nepopraskal."],["Pálím.","V přesně řízené teplotě pece."]],"illus":"flask","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Ruční, nebo <em>strojní</em>.","lead":"Stejný hrnek, dva přístupy a dva příběhy.","cards":[["Strojně","Lití do forem. Rychlé, levné, ale bez duše."],["Na kruhu","Točeno rukou. Pomalejší, zato originál."],["Z plátu","Skládáno z válcovaných plátů. Hranaté tvary."],["Kombinovaně","Forma jako základ, ruční dotvarování detailů."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje dílny","h2":"Co kde <em>použít</em>.","lead":"Šest základních prvků keramické dílny.","cards":[["target","Hrnčířský kruh","Srdce dílny, na něm vzniká většina tvarů."],["flask","Glazury","Barva i ochrana povrchu po výpalu."],["zap","Pec","Řízený výpal, který hlínu promění v keramiku."],["doc","Skicář","Návrhy tvarů a dekorů před prací s hlínou."],["shield","Ochranné rukavice","Bezpečí při práci s horkou pecí."],["users","Učni","Mladé ruce, které se učí cit pro materiál."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>dílny</em>.","items":[["1","plateau","Stálá řemeslnost","Držíme tradiční postupy a stabilní okruh zákazníků."],["2","expo","Růst poptávky","Zájem o ruční kusy roste, dílna nestíhá objednávky."],["3","selfimp","Vlastní značka","Z dílny se stává rozpoznatelná značka s příběhem."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od nápadu k <em>polici</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Návrh","tvar a dekor"],["Tvarování","na kruhu"],["Sušení","pomalu a v klidu"],["Výpal","glazura a teplota"],["Prodej","do rukou zákazníka"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Hlína si pamatuje každý dotek ruky, proto ji nelze obelhat spěchem.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>řemesla</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Znej materiál.","Každá hlína se chová jinak, poznej tu svou."],["Respektuj čas.","Sušení ani výpal se nedají uspěchat."],["Podepiš se.","Každý kus nese rukopis svého tvůrce."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>poctivost</em>, ne spěch.","lead":"Kus odbytý ve spěchu poznáte na první dotek.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Cesta k <em>zákazníkovi</em>.","lead":"Jak dostat ruční kus z dílny do správných rukou.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Vytočíme misku za <em>5 minut</em>.","lead":"Přejdeme ke kruhu a ukážeme tvarování naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Tvoříme dál <em>společně</em>.","lead":"Dotazy, kontakt a další kroky.","meta":[["Kontakt","dilna@keramika.cz"],["Web","keramika.cz"],["Další krok","Kurz za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

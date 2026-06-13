@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Aqua Utility sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · water utility and infrastructure","h1":"Smart water<br><em>from source to tap</em>.","lead":"Demo presentation of the template. All text is sample (dummy) content and only exists to showcase the styles.","meta":[["Topic","Water infrastructure"],["Length","45 minutes"],["Audience","Utility leadership"],["Year","2026"]],"notes":"Opening slide. The event name, a one-line subtitle and a meta row at the bottom belong here. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared goal.","members":[["RW","River Wells","Network operations"],["MS","Mara Stone","Data analyst"],["DH","Daniel Hart","Field maintenance"],["LC","Lena Cruz","Water quality"],["OS","Omar Said","IT and security"]],"notes":"Team slide. Instead of photos it uses initials in a colored circle, so no images are needed."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this block will <em>flow</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where we stand","2 · What to deploy now","3 · The 90 day plan"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where we <em>stand</em>.","lead":"Network state, data and the biggest bottlenecks.","notes":"Divider slide between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"The data is already in the <em>pipes</em>.","illus":"network","lead":"Flow meters, pressure sensors and SCADA collect more than anyone can read. Value appears only when it is connected.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: large heading, bold illustration, short caption. Good for a point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>decide</em>.","items":[["trend_down","-27 %","less non-revenue water lost after leak detection rollout"],["clock","6 h","saved daily on manual meter reporting"],["target","+15 %","higher network pressure stability across the grid"]],"bullets":["Measure impact, not activity: the effect on supply is what counts.","Start where the data already exists and where the pain is sharpest.","A small pilot with a clear metric beats a big plan without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a large number and a caption, supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Leak detection <em>in short</em>.","lead":"The model does not wait for a burst, it predicts it.","bullets":[["Collects.","Pressure, flow and acoustic signals from key mains."],["Learns.","What preceded past pipe failures."],["Warns.","Before water surfaces on the street."],["Plans.","Repairs into the window with least disruption."],["Confirms.","Field crews validate each flagged zone."]],"illus":"gears","footnote":"// two column slide with illustration","notes":"Two column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Reactive, or <em>preventive</em>.","lead":"Same pipe, two approaches and two cost curves.","cards":[["Reactive","We dig only when a main bursts. Costly and unpredictable."],["Scheduled","Service by calendar. Better, but often far too early."],["Predictive","Service by actual condition. The lowest cost."],["Hybrid","Critical mains predictive, the rest scheduled."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or a list of variants."},
+
+    {"type":"cards3","kicker":"// tools","h2":"What to deploy <em>where</em>.","lead":"Six typical building blocks of a smart water network.","cards":[["cpu","Edge metering","Data from the network in real time, near the source."],["activity","Monitoring","Live views of grid pressure and anomalies."],["alert","Leak detection","Flags unusual flow earlier than a human could."],["doc","Auto report","Data straight into a daily brief for leadership."],["shield","Security","Telemetry stays inside your network, under control."],["users","Training","A team that understands the tools and trusts them."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in the header of each card. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where this leads","h2":"Three scenarios of <em>change</em>.","items":[["1","plateau","Stabilization","Gains slow down, it pays to finish the basics."],["2","expo","Acceleration","Tools improve fast and reshape established routines."],["3","selfimp","Leap","Automation takes over design, not just calculation."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From idea to <em>operation</em>.","lead":"Five steps, each with a clear output.","steps":[["Spot","the bottleneck"],["Pilot","small and measurable"],["Evaluate","impact and risk"],["Deploy","into the process"],["Scale","to more zones"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// the thought","h2":"","quote":"It is not the utility with the most sensors that wins, but the one that turns a reading into a decision fastest.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to keep in mind","h2":"Three rules of <em>rollout</em>.","lead":"Simple, yet easy to forget.","bullets":[["One owner.","Every tool has the name of a person who answers for it."],["A measurable goal.","You know in advance how you will recognize success."],["A human approves.","On critical steps a person always decides."]],"footnote":"// simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text scales up automatically to fill the area."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"<em>Discipline</em> wins, not enthusiasm.","lead":"A pilot without a metric and an owner ends up in a drawer.","notes":"Statement slide: one large sentence centered on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"The <em>90 day</em> plan.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"A report from data in <em>30 seconds</em>.","lead":"We switch into the tool and build a daily network brief live.","footnote":"// placeholder slide for a demo or a break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let us do this <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","name@utility.com"],["Web","utility.com"],["Next step","Pilot in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and a call to action."}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Indigo Learn sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · e-learning and online education","h1":"Learning that<br><em>scales with people</em>.","lead":"This is a demo (sample) template. All text is dummy content and exists only to showcase the styles.","meta":[["Topic","Online education"],["Length","45 minutes"],["Audience","L&D and faculty"],["Date","2026"]],"notes":"Opening slide. Put the event title, a one-line subtitle and a meta row at the bottom here. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared goal: better learning.","members":[["AR","Anna Reed","Head of learning"],["DK","David Kade","Instructional designer"],["MO","Mia Olsen","Learning data analyst"],["JP","Jon Park","Platform engineer"],["SV","Sara Voss","Student success"]],"notes":"Team slide. Instead of photos it uses initials in a colored circle, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this session will <em>run</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where learners are today","2 · What to ship now","3 · The 90 day plan"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where learners <em>are</em> today.","lead":"Engagement, outcomes and the biggest drop-off points.","notes":"Divider slide between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"Content is everywhere, <em>attention</em> is not.","illus":"brain","lead":"Courses, videos and articles are abundant. The scarce resource is sustained learner attention, and that is where design wins.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: large heading, a bold illustration, a short caption. Good for a key point or chapter open."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>matter</em>.","items":[["trend_up","+41 %","higher course completion after redesigning the first week"],["clock","6 h","saved weekly per instructor on manual grading"],["users","2.3x","more active learners with cohort-based pacing"]],"bullets":["Measure outcomes, not logins: completion and skill gain beat raw traffic.","Start where learners already drop off and fix that step first.","A small cohort with a clear metric beats a huge launch without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a big number and a caption, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Adaptive learning <em>in short</em>.","lead":"The path bends to the learner, not the other way around.","bullets":[["Senses.","What each learner already knows and where they stall."],["Adapts.","Difficulty and pace to keep the challenge just right."],["Nudges.","With timely reminders before motivation fades."],["Reports.","Progress that mentors can actually act on."]],"illus":"branch","footnote":"// two-column slide with an illustration","notes":"Two-column slide: bullets with a strong lead word on the left, an illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Self-paced, or <em>cohort-based</em>.","lead":"Same content, two formats and two very different finish rates.","cards":[["Self-paced","Learn anytime. Flexible, but completion often quietly stalls."],["Scheduled","Fixed weekly releases. More rhythm, less personal flexibility."],["Cohort-based","Learn together on a shared timeline. Highest completion."],["Blended","Live sessions plus self-paced work between them."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for a comparison or a list of variants."},
+
+    {"type":"cards3","kicker":"// building blocks","h2":"What to put <em>where</em>.","lead":"Six typical building blocks of a modern learning platform.","cards":[["doc","Course studio","Author lessons, quizzes and paths in one place."],["activity","Live progress","Real-time view of where every cohort stands."],["alert","Drop-off alerts","Flag stalling learners before they quietly leave."],["target","Skill mapping","Tie each lesson to a concrete, assessable skill."],["users","Mentoring","Pair learners with a human who checks in."],["lock","Privacy","Learner data stays governed and under control."]],"footnote":"// a 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three scenarios for <em>growth</em>.","items":[["1","plateau","Steady state","Completion levels off, so it pays to polish the fundamentals."],["2","expo","Acceleration","Adaptive tools improve fast and reshape established courses."],["3","selfimp","Leap","Automation starts drafting the lessons, not just grading them."]],"illus":"growth","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From idea to a <em>live course</em>.","lead":"Five steps, each with a clear deliverable.","steps":[["Scope","one skill"],["Pilot","small cohort"],["Measure","gain and effort"],["Ship","into the catalog"],["Scale","to more learners"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"The best course is not the one with the most lessons, but the one learners actually finish.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// things to keep in mind","h2":"Three rules of <em>rollout</em>.","lead":"Simple, but easy to forget under deadline pressure.","bullets":[["One owner.","Every course has the name of a person accountable for it."],["A measurable goal.","You decide upfront how you will know it worked."],["A human in the loop.","For high-stakes feedback, a mentor always reviews."]],"footnote":"// a simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text scales up automatically to fill the space."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Finishing beats <em>enrolling</em>.","lead":"A course no one completes is a cost, not an outcome.","notes":"Statement slide: one large sentence centered on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"The <em>90 day</em> plan.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"A graded quiz in <em>30 seconds</em>.","lead":"We switch into the platform and build a lesson live.","footnote":"// placeholder slide for a demo or break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's build it <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","name@school.edu"],["Web","learn.example.edu"],["Next step","Pilot in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title slide. Contact and a call to action."}
+  ]
+}

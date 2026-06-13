@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Saffron · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · restaurace a gastronomie","h1":"Skvělá kuchyně<br><em>i skvělý provoz</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Gastro provoz"],["Délka","45 minut"],["Publikum","Majitelé a provozní"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný stůl.","members":[["KV","Karel Vařil","Šéfkuchař"],["MN","Marie Nová","Provozní"],["JŠ","Jana Šťastná","Sommeliér"],["ON","Ondřej Pekař","Cukrář"],["RB","Radek Bílý","Marketing a rezervace"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři chody, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Co zlepšit hned","3 · Plán na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Stav provozu, hosté a největší úzká místa.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Host se vrací kvůli <em>zážitku</em>.","illus":"people","lead":"Skvělé jídlo je základ. O návratu ale rozhoduje atmosféra, rychlost a pocit, že o hosta pečujete.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_down","-21 %","nižší plýtvání surovinami po zavedení skladových karet"],["clock","12 min","kratší čekání na jídlo ve špičce"],["heart","+34 %","více vracejících se hostů díky věrnostnímu programu"]],"bullets":["Měřte to, co host cítí: čas u stolu a kvalitu talíře.","Začněte u jídel, která prodáváte nejčastěji.","Malá změna v menu poráží velkou změnu bez měření."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Chytré menu <em>v kostce</em>.","lead":"Menu není seznam jídel, je to nástroj zisku.","bullets":[["Měří.","Které jídlo se prodává a kolik na něm vyděláte."],["Řadí.","Výdělečné položky na místa, kam padne oko."],["Zjednodušuje.","Méně pokrmů, čerstvější suroviny, méně plýtvání."],["Vypráví.","Krátký popis, který hostovi pomůže vybrat."]],"illus":"layers","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Levně, nebo <em>chytře</em>.","lead":"Stejná kuchyně, dva přístupy a dvě křivky zisku.","cards":[["Jen levně","Tlačíme cenu surovin dolů. Trpí chuť i host."],["Jen draze","Prémiové suroviny bez kontroly nákladů. Tenká marže."],["Chytře","Cena podle hodnoty pro hosta i podle nákladu."],["Sezónně","Měníme nabídku podle toho, co je zrovna nejlevnější a nejlepší."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>zlepšit</em>.","lead":"Šest typických opěrných bodů úspěšného podniku.","cards":[["calendar","Rezervace online","Stoly plné i mimo špičku, méně telefonů."],["doc","Skladové karty","Přehled o surovinách a konec plýtvání."],["activity","Sledování prodejů","Víte, co se prodává a co táhne marži."],["heart","Věrnost hostů","Důvod, proč se host vrátí příště k vám."],["leaf","Méně odpadu","Plánování porcí podle skutečné poptávky."],["users","Stabilní tým","Lidé, kteří zůstávají a znají vaše standardy."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>sezóny</em>.","items":[["1","plateau","Klidná sezóna","Návštěvnost se ustálí, vyplatí se dotáhnout standardy."],["2","expo","Nával","Poptávka rychle roste, klíčem je kapacita a rychlost."],["3","decline","Mimo sezónu","Hostů ubývá, sázíme na akce a stálé hosty."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od suroviny k <em>talíři</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Nakoupit","čerstvé a chytře"],["Připravit","podle standardu"],["Vydat","rychle a teplé"],["Obsloužit","s úsměvem"],["Vyhodnotit","co se prodalo"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Hosta nezískáte talířem, který nasytí, ale talířem, na který si vzpomene.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>provozu</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden standard.","Každé jídlo chutná stejně dobře pokaždé."],["Měřitelný cíl.","Předem víte, podle čeho poznáte úspěšný večer."],["Host na prvním místě.","U sporu s hostem rozhoduje vždy jeho pocit."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>stálost</em>, ne náhoda.","lead":"Skvělý večer bez standardu se příště nemusí opakovat.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>sezónu</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Nové menu za <em>30 sekund</em>.","lead":"Přepneme do nástroje a sestavíme denní nabídku naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Vaříme dál <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@podnik.cz"],["Web","podnik.cz"],["Další krok","Ochutnávka za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

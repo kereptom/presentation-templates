@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Teal Data · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · data a analytika","h1":"Z dat k<br><em>rozhodnutím</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Business intelligence"],["Délka","50 minut"],["Publikum","Vedení a analytici"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný zdroj pravdy.","members":[["MV","Marek Veselý","Vedoucí analytiky"],["KD","Klára Dvořáková","Data engineer"],["OŠ","Ondřej Šimek","BI vývojář"],["VN","Veronika Nová","Data governance"],["RP","Radek Pokorný","Datová věda"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Stav našich dat","2 · Co dodat hned","3 · Roadmapa BI"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Stav našich <em>dat</em>.","lead":"Zdroje, kvalita a největší slepá místa.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Dat máme <em>dost</em>.","illus":"layers","lead":"ERP, CRM i webová analytika sbírají víc, než kdokoli stihne otevřít. Hodnota vzniká až propojením a kontextem.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["clock","-60 %","kratší čas k reportu po centralizaci dat"],["dollar","2,1 M","odhalené úniky v nákladech díky analýze"],["trend_up","+24 %","přesnější prognóza poptávky po modelu"]],"bullets":["Měřte dopad na rozhodnutí, ne počet vytvořených dashboardů.","Začněte u otázky byznysu, ne u dostupné tabulky.","Jeden ověřený zdroj pravdy poráží deset verzí exportu."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Datový sklad <em>v kostce</em>.","lead":"Data putují od zdroje k rozhodnutí v jasných krocích.","bullets":[["Sbírá.","Data z ERP, CRM a webu do jednoho místa."],["Čistí.","Sjednotí formáty, doplní chybějící hodnoty."],["Modeluje.","Spojí tabulky do srozumitelných metrik."],["Ukazuje.","Dashboardy, kterým rozumí i vedení."]],"illus":"network","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dva přístupy","h2":"Tabulky, nebo <em>platforma</em>.","lead":"Stejná data, dva způsoby práce a dvě rychlosti.","cards":[["Tabulky","Každý si stahuje vlastní export. Rychlé, ale brzy nekonzistentní."],["Sdílené sestavy","Jeden report pro všechny. Lepší, ale stále ruční."],["BI platforma","Živé dashboardy nad jedním zdrojem pravdy."],["Self-service","Tým si tvoří pohledy sám nad ověřenými metrikami."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// stavební bloky","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických vrstev moderní analytiky.","cards":[["grid","Datový sklad","Jedno místo pro všechna firemní data."],["activity","Datové toky","Automatické nahrávání dat ze zdrojů."],["pie","Dashboardy","Živé přehledy metrik pro každý tým."],["alert","Hlídání kvality","Upozorní, když data nesedí nebo chybí."],["shield","Správa přístupů","Kdo vidí co, podle role a citlivosti."],["cpu","Prediktivní modely","Z historie odhad budoucího vývoje."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","linear","Postupně","Reporting dozrává, kvalita dat se ustaluje krok za krokem."],["2","expo","Zrychlení","Self-service se šíří a poptávka po datech rychle roste."],["3","decline","Stagnace","Bez vlastníka a metrik důvěra v data klesá."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od otázky k <em>dashboardu</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Definovat","otázku byznysu"],["Připojit","zdroje dat"],["Očistit","a sjednotit"],["Modelovat","metriky"],["Sdílet","dashboard"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Bez kontextu je číslo jen šum. Teprve otázka z něj dělá odpověď.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>analytiky</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden zdroj pravdy.","Každá metrika má jednu oficiální definici."],["Jasný vlastník.","Za každý dashboard ručí konkrétní člověk."],["Otázka napřed.","Nejdřív problém byznysu, pak teprve graf."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Rozhoduje <em>důvěra</em> v data.","lead":"Dashboard, kterému tým nevěří, nikdo neotevře.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Roadmapa na <em>90 dní</em>.","lead":"Co dodat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Dashboard za <em>5 minut</em>.","lead":"Přepneme do nástroje a postavíme přehled prodejů naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Začněme u jedné <em>otázky</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@firma.cz"],["Web","firma.cz"],["Další krok","Workshop za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

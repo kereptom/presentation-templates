@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Broadsheet sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · publishing and print media","h1":"From Press to Pixel<br><em>the modern newsroom</em>.","lead":"Demo presentation of this template. All text is sample (dummy) content and exists only to show the styles.","meta":[["Topic","Print and digital"],["Length","45 minutes"],["Audience","Editors and publishers"],["Date","2026"]],"notes":"Opening slide. Holds the event title, a one-line subtitle and a meta row at the bottom. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared front page.","members":[["MR","Mara Reed","Editor in chief"],["DC","Dan Cole","Print production"],["SO","Sofia Ortiz","Digital editor"],["JW","Jamal Wells","Circulation lead"],["AN","Anna Novak","Ad operations"]],"notes":"Team slide. Uses initials in a colored circle instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this session <em>runs</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where the press stands","2 · What to ship now","3 · The 90 day plan"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where the press <em>stands</em>.","lead":"Readership, revenue and the biggest bottlenecks.","notes":"Divider slide between blocks. Large headline on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"Readers have <em>moved</em>.","illus":"megaphone","lead":"Attention now spreads across print, web, app and inbox. Value comes from meeting the reader on every surface.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: big headline, bold illustration, short caption. Good for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>decide</em>.","items":[["trend_up","+41 %","growth in digital subscriptions year over year"],["clock","6 h","saved daily on manual page layout"],["users","220k","paying readers across all editions"]],"bullets":["Measure loyalty, not just reach: renewals beat first clicks.","Start where the audience already is and the pain is loudest.","A small pilot with one clear metric beats a grand plan without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a large number and a label, supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"The subscription loop <em>in brief</em>.","lead":"The model does not chase clicks, it earns renewals.","bullets":[["Attracts.","Free headlines and sharp newsletters draw new readers."],["Converts.","A timely paywall turns a habit into a subscription."],["Engages.","Daily relevance keeps the reader opening the app."],["Retains.","Smooth billing and value keep churn low."]],"illus":"layers","footnote":"// two column slide with an illustration","notes":"Two column slide: bullets with a strong lead word on the left, illustration on the right. Text scales to fit."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Free reach, or <em>paid depth</em>.","lead":"Same story, two business models and two revenue curves.","cards":[["Ad funded","Free pages paid by advertising. Volatile and crowded."],["Metered","Some free articles, then a paywall. A gentle on ramp."],["Subscription","Readers pay for depth. Steady and predictable."],["Hybrid","Premium reporting paywalled, breaking news open."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or for listing variants."},
+
+    {"type":"cards3","kicker":"// the toolkit","h2":"What to <em>deploy</em> where.","lead":"Six typical building blocks of a modern newsroom.","cards":[["doc","Story CMS","One desk for writing, editing and scheduling."],["calendar","Run sheet","Plan print pages and digital drops in one view."],["bars","Audience data","Live dashboards of reach, dwell and renewals."],["dollar","Paywall","Convert engaged readers into paying subscribers."],["globe","Distribution","Push to web, app, print and inbox at once."],["target","Personalization","Surface the right story to the right reader."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for a tool or capability overview."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three scenarios of <em>change</em>.","items":[["1","plateau","Steady state","Growth slows, so it pays to harden the basics."],["2","expo","Acceleration","Digital habits shift fast and reshape the front page."],["3","decline","Print sunset","Paper volumes fall and budgets follow the readers."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From pitch to <em>print</em>.","lead":"Five steps, each with a clear output.","steps":[["Pitch","an idea"],["Report","and verify"],["Edit","and headline"],["Lay out","page and web"],["Publish","every edition"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a title and a small caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"The deadline never moved, only the press did. Whoever turns a story around fastest still owns the morning.","by":"Sample quote to show the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to mind","h2":"Three rules of <em>publishing</em>.","lead":"Simple, but easy to forget under deadline.","bullets":[["One owner.","Every section has a named editor who answers for it."],["A measurable goal.","You know in advance how you will read success."],["A human signs off.","On sensitive stories a person always decides."]],"footnote":"// simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text grows automatically to fill the space."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Trust wins the <em>reader</em>, not noise.","lead":"A scoop without an owner and a metric ends up forgotten.","notes":"Statement slide: one large sentence centered on the page. Use it for the key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"The <em>90 day</em> plan.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"A front page in <em>30 seconds</em>.","lead":"We switch into the tool and lay out tomorrow's edition live.","footnote":"// placeholder slide for a demo or a break","notes":"Placeholder slide. Centered headline, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's go to <em>press</em> together.","lead":"Questions, contact and next steps.","meta":[["Contact","name@paper.com"],["Web","paper.com"],["Next step","Pilot in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and call to action."}
+  ]
+}

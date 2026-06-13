@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Electric Robotics sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · robotics and automation","h1":"Robots on the line<br><em>from motion to outcome</em>.","lead":"Demonstration of the template. Every line is sample (dummy) text and exists only to show the styles.","meta":[["Topic","Industrial robotics"],["Length","45 minutes"],["Audience","Operations and leadership"],["Date","2026"]],"notes":"Opening slide. This holds the event name, a one-line subtitle and the meta row at the bottom. Wrap one word in em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared goal on the floor.","members":[["AM","Alex Mercer","Head of automation"],["RK","Rina Kovac","Robotics engineer"],["DP","Diego Park","Maintenance lead"],["SO","Sara Olsen","Safety and compliance"],["TN","Tom Nash","Controls and IT"]],"notes":"Team slide. Uses colored initials instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// agenda for today","h2":"How this block <em>runs</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where we stand now","2 · What to deploy first","3 · A 90 day plan"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where we <em>stand</em> today.","lead":"Cell status, cycle data and the biggest bottlenecks.","notes":"Section divider between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"The robots are already <em>here</em>.","illus":"network","lead":"Arms, AGVs and vision cells run every shift. The value shows up only once they share one signal.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: big heading, strong illustration, short caption. Good for a punchline or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>decide</em>.","items":[["trend_down","-29 %","fewer unplanned cell stops after predictive tuning"],["clock","5 h","saved daily on manual robot teach and rework"],["target","+22 %","higher throughput per cell from path optimization"]],"bullets":["Measure impact, not activity: the effect on the line is what counts.","Start where you already have signal and feel the pain most.","A small pilot with one metric beats a grand plan with none."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a big number and a caption, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Adaptive automation <em>in brief</em>.","lead":"The cell does not wait for a jam, it predicts it.","bullets":[["Senses.","Force, position and vision from each robot."],["Learns.","What preceded past faults and misfeeds."],["Warns.","Before quality or uptime slip."],["Plans.","Service into the window that costs least."]],"illus":"gears","footnote":"// two column slide with illustration","notes":"Two column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Fixed, or <em>adaptive</em>.","lead":"Same robot cell, two approaches and two cost curves.","cards":[["Reactive","We fix the cell only once it stops. Costly and unpredictable."],["Scheduled","Service by the calendar. Better, but often too early."],["Predictive","Service by real condition. Lowest total cost."],["Hybrid","Critical cells predictive, the rest scheduled."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or listing variants."},
+
+    {"type":"cards3","kicker":"// building blocks","h2":"What to <em>deploy</em> where.","lead":"Six typical building blocks of a smart cell.","cards":[["cpu","Edge control","Robot data in real time, close to the source."],["activity","Live monitoring","Live view of cell state and deviations."],["alert","Anomaly detection","Flags odd motion before a person would."],["doc","Auto report","Raw data into a daily brief for leadership."],["shield","Safety","Signals stay inside your network, under control."],["users","Enablement","A team that understands and trusts the cells."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for a tool or capability overview."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three scenarios of <em>change</em>.","items":[["1","plateau","Stabilize","Gains slow down, it pays to finish the basics first."],["2","expo","Accelerate","Tools improve fast and reshape settled routines."],["3","selfimp","Leap","Automation takes on layout design, not just motion."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the path","h2":"From idea to <em>shift</em>.","lead":"Five steps, each with a clear output.","steps":[["Spot","the bottleneck"],["Pilot","small and measurable"],["Assess","impact and risk"],["Deploy","into the process"],["Scale","to more cells"]],"footnote":"// horizontal process diagram","notes":"Horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// the idea","h2":"","quote":"The winner is not the cell with the most sensors, but the team that turns signal into a decision the fastest.","by":"Sample quote to demonstrate the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// keep in mind","h2":"Three rules of <em>rollout</em>.","lead":"Simple, but easy to forget.","bullets":[["One owner.","Every cell has the name of a person who answers for it."],["A measurable goal.","You know in advance how success is judged."],["A human approves.","On critical steps a person always decides."]],"footnote":"// simple list with emphasis","notes":"Plain bullet slide with a strong lead word. Text scales automatically to fill the area."},
+
+    {"type":"statement","kicker":"// the takeaway","h1":"<em>Discipline</em> wins, not hype.","lead":"A pilot with no metric and no owner ends up in a drawer.","notes":"Statement slide: one big sentence centered on the page. Use it for the key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"A plan for <em>90 days</em>.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opens the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"A report from cell data in <em>30 seconds</em>.","lead":"We switch into the tool and build the daily brief live.","footnote":"// placeholder slide for a demo or break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let us build it <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","name@company.com"],["Web","company.com"],["Next step","Pilot in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and a call to action."}
+  ]
+}

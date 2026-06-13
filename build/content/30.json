@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Manifesto · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · politika a veřejná správa","h1":"Otevřená samospráva<br><em>od záměru k dopadu</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Veřejná správa"],["Délka","45 minut"],["Publikum","Zastupitelé a úřad"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný veřejný zájem.","members":[["MD","Marie Dvořáková","Vedoucí odboru"],["JV","Jiří Veselý","Rozpočet a finance"],["KN","Klára Němcová","Participace občanů"],["OŘ","Ondřej Říha","Digitalizace"],["VS","Věra Stará","Právní servis"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní jednání <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Stav a potřeby","2 · Co změnit hned","3 · Plán na rok"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Stav služeb, rozpočet a největší bolesti občanů.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Důvěra se <em>získává</em>.","illus":"people","lead":"Občan nečte usnesení, vnímá, jak rychle a srozumitelně mu úřad odpoví. Hodnota vzniká v každém kontaktu.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["clock","-41 %","kratší doba vyřízení žádosti po zavedení online formulářů"],["users","12 tis.","občanů, kteří loni využili elektronické podání"],["trend_up","+23 %","vyšší účast v posledním participativním rozpočtu"]],"bullets":["Měřte dopad na občana, ne počet vydaných razítek.","Začněte u agendy, která lidi nejvíc trápí a nejčastěji zaměstnává úřad.","Malá pilotní služba s jasnou metrikou poráží velkou strategii bez metriky."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Participativní rozpočet <em>v kostce</em>.","lead":"Občané nerozhodují místo zastupitelů, navrhují a vybírají.","bullets":[["Navrhne.","Kdokoli z obce podá nápad na zlepšení okolí."],["Posoudí.","Úřad ověří proveditelnost a náklady."],["Hlasuje.","Veřejnost vybere projekty k realizaci."],["Realizuje.","Vítězné záměry jdou do rozpočtu."],["Ukáže.","Obec doloží, co a za kolik vzniklo."]],"illus":"scale","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Rozhodovat za, nebo <em>s občany</em>.","lead":"Stejné téma, dva přístupy a dvě míry důvěry.","cards":[["Uzavřeně","Úřad rozhodne a oznámí. Rychlé, ale často naráží na odpor."],["Konzultačně","Veřejnost se vyjádří, rozhodne úřad. Lepší přijetí."],["Participativně","Občané spolurozhodují o části rozpočtu. Vyšší legitimita."],["Hybridně","Strategické věci úřad, konkrétní projekty s občany."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků otevřené samosprávy.","cards":[["doc","Online podání","Žádosti a formuláře z domova, bez fronty na úřadě."],["pie","Otevřený rozpočet","Srozumitelný přehled, kam jdou veřejné peníze."],["calendar","Veřejná jednání","Program i zápisy zastupitelstva dostupné předem."],["megaphone","Zapojení občanů","Ankety a připomínky k záměrům obce."],["lock","Ochrana údajů","Osobní data zpracována podle pravidel a bezpečně."],["compass","Srozumitelnost","Úřední jazyk přeložený do běžné řeči."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Setrvání","Zájem o veřejné dění se ustálí, vyplatí se udržet základní služby."],["2","expo","Oživení","Digitální nástroje zapojí i ty, kteří dosud mlčeli."],["3","decline","Odcizení","Bez komunikace klesá účast i důvěra v instituce."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od podnětu k <em>realizaci</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Sebrat","podněty občanů"],["Posoudit","náklady a dopad"],["Projednat","na zastupitelstvu"],["Rozhodnout","veřejně a doložitelně"],["Vyhodnotit","skutečný přínos"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Důvěru v instituce nebuduje hladký projev, ale doložitelné rozhodnutí, které lidé chápou.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>otevřenosti</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden gestor.","Každá služba má jméno úředníka, který za ni ručí."],["Srozumitelný cíl.","Občan předem ví, co se rozhoduje a proč."],["Doložitelnost.","Každé rozhodnutí jde dohledat a vysvětlit."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Rozhoduje <em>průhlednost</em>, ne hlasitost.","lead":"Záměr bez gestora a metriky skončí v zápise bez dopadu.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>rok</em>.","lead":"Co spustit tento měsíc, toto pololetí a tento rok.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Online formulář za <em>2 minuty</em>.","lead":"Přepneme do portálu a podáme ukázkovou žádost naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Spravujme to <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","podatelna@obec.cz"],["Web","obec.cz"],["Další krok","Veřejné slyšení za měsíc"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

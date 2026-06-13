@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Sunrise Wellness · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · wellness a zdraví","h1":"Zdraví na dosah<br><em>každý den</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Wellness a mobilní aplikace"],["Délka","40 minut"],["Publikum","Tým produktu a partneři"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný cíl: zdravější uživatel.","members":[["AN","Adéla Nová","Vedoucí produktu"],["MV","Martin Veselý","Datový analytik"],["KS","Klára Sojková","Behaviorální koučka"],["DP","David Pokorný","Mobilní vývoj"],["IR","Iva Reková","Bezpečnost a soukromí"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Co nabízí aplikace","3 · Plán na 90 dní"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Návyky, data a největší překážky zdravějšího života.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Zdraví se tvoří v <em>maličkostech</em>.","illus":"growth","lead":"Krok navíc, sklenice vody, hodina spánku. Aplikace tyto drobnosti spojí v měřitelný pokrok.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>motivují</em>.","items":[["activity","+27 %","více aktivních dní u uživatelů s denním cílem"],["heart","-12 bpm","nižší klidový tep po osmi týdnech programu"],["clock","42 min","delší spánek díky večerní připomínce"]],"bullets":["Měřte změnu chování, ne jen stažení aplikace.","Začněte u jednoho návyku, na který uživatel slyší nejvíc.","Malý denní cíl s jasnou metrikou poráží velké předsevzetí."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Cesta k návyku <em>v kostce</em>.","lead":"Aplikace nečeká na motivaci, buduje ji.","bullets":[["Sleduje.","Kroky, spánek a tep z chytrých hodinek."],["Učí se.","Kdy a proč uživatel nejčastěji odpadá."],["Připomíná.","Ve správnou chvíli a vlídným tónem."],["Odměňuje.","Drobný pokrok hned, ne až za měsíc."]],"illus":"brain","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Tvrdě, nebo <em>laskavě</em>.","lead":"Stejný cíl, dva přístupy a dvě míry udržení.","cards":[["Tvrdě","Přísné cíle a výčitky. Rychlý start, rychlý odchod."],["Plánovaně","Pevný rozvrh bez ohledu na den. Lepší, ale rigidní."],["Adaptivně","Cíl podle aktuální energie a kontextu uživatele."],["Komunitně","Vlastní tempo, ale podpora a sdílení s ostatními."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// funkce","h2":"Co aplikace <em>umí</em>.","lead":"Šest typických stavebních bloků zdravotní aplikace.","cards":[["activity","Sledování aktivity","Kroky, trasy a kalorie v reálném čase."],["heart","Měření tepu","Klidový i zátěžový tep z hodinek."],["calendar","Plán návyků","Denní úkoly přizpůsobené režimu."],["bars","Přehledy","Týdenní trendy spánku a pohybu."],["shield","Soukromí","Citlivá data šifrovaná a pod kontrolou uživatele."],["users","Komunita","Výzvy a podpora od lidí se stejným cílem."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Ustálení","Návyk se zaběhne, růst se zpomalí, vyplatí se péče o detail."],["2","expo","Zrychlení","Komunita a personalizace přitáhnou nové uživatele rychle."],["3","selfimp","Skok","Aplikace sama navrhne plán, ne jen měří výsledky."]],"illus":"target","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od stažení k <em>návyku</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Onboarding","cíl a tempo"],["První návyk","malý a denní"],["Zpětná vazba","pokrok hned"],["Komunita","podpora a výzvy"],["Udržení","návyk natrvalo"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Zdraví nezmění jedno velké rozhodnutí, ale sto malých opakovaných každý den.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>návrhu</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Méně je víc.","Jeden jasný cíl denně poráží deset rozptýlených."],["Vlídný tón.","Připomínka má motivovat, ne vyvolávat vinu."],["Soukromí první.","Zdravotní data zůstávají v rukou uživatele."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>stálost</em>, ne intenzita.","lead":"Aplikace bez vlídnosti a soukromí skončí odinstalovaná.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>90 dní</em>.","lead":"Co spustit tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Nastavení návyku za <em>30 sekund</em>.","lead":"Přepneme do aplikace a vytvoříme první denní cíl naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Začněme zdravěji <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@firma.cz"],["Web","firma.cz"],["Další krok","Pilot za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

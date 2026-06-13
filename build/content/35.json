@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Pop Kitchen sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · food delivery","h1":"Hot food, fast,<br><em>without the markup</em>.","lead":"Demo presentation of this template. All text is sample (dummy) copy and exists only to showcase the styles.","meta":[["Topic","Food delivery"],["Length","30 minutes"],["Audience","Investors and operators"],["Date","2026"]],"notes":"Opening slide. This is where the event name, a one-line subtitle and the bottom meta row go. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>walk</em> you through it.","lead":"Five roles, one shared mission.","members":[["AR","Ava Romero","Founder and CEO"],["DK","Dan Kim","Head of Operations"],["MO","Maya Owusu","Lead Engineer"],["LS","Leo Santos","Courier Lead"],["NP","Nina Patel","Growth and Brand"]],"notes":"Team slide. Uses initials in a colored circle instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this block <em>runs</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where we are today","2 · How the model works","3 · The next 90 days"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where we <em>are</em> today.","lead":"The market, our orders and the biggest bottlenecks.","notes":"Section divider between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"People want dinner <em>now</em>.","illus":"network","lead":"Cravings do not wait. The winner is whoever connects hungry people, local kitchens and couriers in the fewest minutes.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: large heading, bold illustration, short caption. Good for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>decide</em> it.","items":[["clock","23 min","average delivery time across the city this quarter"],["trend_up","+41 %","repeat orders within thirty days of a first order"],["dollar","18 %","lower fees for restaurants versus the big platforms"]],"bullets":["Measure impact, not activity: speed and repeat rate decide the business.","Start where demand is dense and couriers are already nearby.","A small zone with a clear metric beats a city-wide plan without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a large number and a label, supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"The order, <em>end to end</em>.","lead":"From a tap to a doorstep in four moves.","bullets":[["Order.","A customer taps once and pays in seconds."],["Route.","We match the closest free courier instantly."],["Cook.","The kitchen sees the ticket the moment it lands."],["Deliver.","Live tracking until the bag reaches the door."]],"illus":"gears","footnote":"// two-column slide with an illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two ways","h2":"Build it, or <em>borrow</em> it.","lead":"Same delivery, two very different cost curves.","cards":[["Big platforms","Huge reach, but 30 percent fees gut restaurant margins."],["Self delivery","Full control, yet hard to staff and scale on demand."],["Pop Kitchen","Shared courier pool with fees kept low and transparent."],["Hybrid","Own riders at peak, partner couriers for the long tail."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparisons or listing variants."},
+
+    {"type":"cards3","kicker":"// the toolkit","h2":"What powers <em>each order</em>.","lead":"Six building blocks behind a fast delivery.","cards":[["zap","Instant matching","Couriers assigned in under a second near the kitchen."],["activity","Live tracking","Customers watch the order move in real time."],["target","Smart zones","Demand-shaped delivery areas keep times tight."],["dollar","Fair pricing","Transparent fees that restaurants can actually plan around."],["shield","Safe handoff","Tamper-evident bags and contactless drop-off."],["heart","Loyalty","Repeat orders rewarded without spammy discounts."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for a tools or capabilities overview."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three growth <em>scenarios</em>.","items":[["1","linear","Steady","One new neighborhood a month with proven unit economics."],["2","expo","Breakout","A viral dish and dense zones compound orders fast."],["3","plateau","Plateau","Demand levels off, so we double down on retention and margin."]],"illus":"growth","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the playbook","h2":"From idea to <em>doorstep</em>.","lead":"Five steps, each with a clear output.","steps":[["Pick","a dense zone"],["Sign","local kitchens"],["Launch","a small pilot"],["Measure","time and repeat"],["Scale","to next zone"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// the thought","h2":"","quote":"Nobody remembers the app. They remember whether the food arrived hot and on time.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to keep in mind","h2":"Three rules of <em>launch</em>.","lead":"Simple, but easy to forget under pressure.","bullets":[["One owner.","Every zone has a named person accountable for it."],["A clear metric.","You know up front how success is measured."],["Riders first.","Happy couriers deliver faster and stay longer."]],"footnote":"// simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text scales up automatically to fill the space."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Speed wins, <em>trust</em> keeps.","lead":"A fast first delivery earns the second order.","notes":"Statement slide: one big sentence centered on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"The next <em>90 days</em>.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"Order to door in <em>under a minute</em>.","lead":"We switch to the app and place a real order live.","footnote":"// placeholder slide for a demo or a break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's bring it to your <em>street</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","hello@popkitchen.app"],["Web","popkitchen.app"],["Next step","Pilot zone in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and call to action."}
+  ]
+}

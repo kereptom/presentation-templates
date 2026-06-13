@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Midnight Rose · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · noční život a zábava","h1":"Noční scéna<br><em>od dveří k ránu</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Kluby a noční zábava"],["Délka","40 minut"],["Publikum","Provozovatelé a promotéři"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jedna noc bez chyby.","members":[["DK","David Klub","Provozní klubu"],["VN","Veronika Noční","Booking a program"],["MP","Marek Pult","Šéf baru"],["LS","Lucie Světlo","Promo a sociální sítě"],["RT","Radek Tichý","Bezpečnost a vstup"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda večera","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Co zlepšit hned","3 · Plán na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Návštěvnost, atmosféra a největší slabá místa.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Host si pamatuje <em>pocit</em>.","illus":"chat","lead":"Hudbu i drink zapomene do týdne. Vzpomínku na večer si nese dál a vrací se kvůli ní.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["users","+27 %","vyšší návratnost hostů po zavedení stálého programu"],["clock","11 min","kratší fronta u vstupu po novém systému"],["dollar","+19 %","vyšší útrata u baru ve špičkových hodinách"]],"bullets":["Sledujte zážitek, ne jen počet vstupenek u dveří.","Začněte u večerů, kde už máte stálé publikum.","Jeden dobře vyladěný večer poráží pět nahodilých akcí."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Skvělý večer <em>v kostce</em>.","lead":"Atmosféra nevzniká náhodou, dá se naplánovat.","bullets":[["Láká.","Jasným programem a lídrem večera."],["Vítá.","Plynulým vstupem bez dlouhé fronty."],["Drží.","Rytmem hudby přes celou noc."],["Vrací.","Pocitem, kvůli kterému přijdou znovu."]],"illus":"megaphone","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Nahodile, nebo <em>s plánem</em>.","lead":"Stejný prostor, dva přístupy a dvě křivky tržeb.","cards":[["Nahodile","Bookujeme, koho zrovna seženeme. Levné a nepředvídatelné."],["Podle kalendáře","Stálé večery podle dne v týdnu. Lepší, ale snadno zevšední."],["Podle publika","Program podle toho, kdo skutečně chodí. Nejvyšší návratnost."],["Hybridně","Páteř ze stálých večerů, do toho speciální akce."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// stavební kameny","h2":"Co kde <em>vyladit</em>.","lead":"Šest typických prvků dobře fungujícího klubu.","cards":[["calendar","Program","Jasná dramaturgie večerů na celý měsíc."],["megaphone","Promo","Pozvánky tam, kde vaše publikum opravdu je."],["zap","Vstup","Rychlé odbavení u dveří bez zácpy."],["heart","Atmosféra","Světlo, zvuk a personál, který drží náladu."],["shield","Bezpečnost","Klidná noc pro hosty i pro tým."],["activity","Data","Z čísel u baru rovnou plán na příští týden."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>sezóny</em>.","items":[["1","plateau","Ustálení","Návštěvnost se srovná, vyplatí se doladit základy."],["2","expo","Rozjezd","Pověst večera se šíří a publikum rychle roste."],["3","decline","Únava","Stálý program zevšední, je čas na nový koncept."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od nápadu k <em>vyprodáno</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Vymyslet","koncept večera"],["Obsadit","líbivý line-up"],["Vypromovat","cílené publikum"],["Odehrát","noc bez zádrhelů"],["Zopakovat","co fungovalo"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Lidé nepřijdou znovu kvůli tomu, co slyšeli, ale kvůli tomu, jak se u toho cítili.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>večera</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden hostitel.","Každý večer má člověka, který drží náladu i tým."],["Měřitelný cíl.","Předem víte, podle čeho poznáte úspěšnou noc."],["Bezpečí první.","U vstupu i na parketu rozhoduje klid hostů."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>atmosféra</em>, ne hlasitost.","lead":"Večer bez nálady a hostitele se nezachrání ani drahým DJ.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>sezónu</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Pozvánka na večer za <em>30 sekund</em>.","lead":"Přepneme do nástroje a vytvoříme promo na akci naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Vidíme se <em>na parketu</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@klub.cz"],["Web","klub.cz"],["Další krok","První večer za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

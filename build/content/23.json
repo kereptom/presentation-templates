@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Carbon Lime sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · cybersecurity","h1":"Defending what matters<br><em>before it breaks</em>.","lead":"This is a demonstration (sample) template. All text is dummy content and exists only to show off the styles.","meta":[["Topic","Cybersecurity"],["Length","45 minutes"],["Audience","Leadership and security"],["Date","2026"]],"notes":"Opening slide. Put the event title, a one-line subtitle and a meta row at the bottom here. Wrap one word in em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared goal.","members":[["AB","Alex Brenner","Head of Security"],["MK","Maya Kael","Threat Analyst"],["RD","Raj Devi","Incident Response"],["SL","Sara Lund","Compliance Lead"],["TO","Tomas Ott","Platform Engineer"]],"notes":"Team slide. Instead of photos it uses initials in a colored circle, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this block will <em>run</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where we stand today","2 · What to deploy now","3 · A 90-day plan"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where we <em>stand</em> today.","lead":"Our exposure, the data, and the biggest gaps.","notes":"Section divider between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"The perimeter is already <em>gone</em>.","illus":"shield","lead":"Identities, devices and cloud apps blur every old boundary. Trust now has to be earned at every request.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: large heading, a strong illustration, short caption. Good for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>decide</em>.","items":[["clock","207 days","average time to detect an intrusion left unmonitored"],["trend_down","-64%","fewer phishing clicks after targeted training"],["shield","98%","of breaches blocked by multi-factor authentication"]],"bullets":["Measure dwell time, not alert volume: speed of detection wins.","Start where the crown jewels and the real pain actually sit.","A small pilot with a clear metric beats a big plan without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a big number and a caption, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Zero trust <em>in a nutshell</em>.","lead":"Never assume, always verify.","bullets":[["Verify.","Every identity and device on each request."],["Limit.","Least privilege, only what the task needs."],["Segment.","Contain blast radius if one host falls."],["Watch.","Telemetry on everything, all the time."]],"illus":"network","footnote":"// two-column slide with an illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two postures","h2":"Reactive, or <em>proactive</em>.","lead":"Same threat, two approaches and two cost curves.","cards":[["Reactive","We respond once the breach is public. Costly and chaotic."],["Compliant","We pass the audit checklist. Better, but often only on paper."],["Proactive","We hunt and patch before exploitation. Lowest risk."],["Resilient","We assume breach and rehearse recovery until it is routine."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparisons or listing variants."},
+
+    {"type":"cards3","kicker":"// the toolkit","h2":"What to <em>deploy</em> where.","lead":"Six typical building blocks of a modern defense.","cards":[["lock","Identity","Strong MFA and single sign-on at the front door."],["activity","Monitoring","Live view of endpoints, logs and anomalies."],["alert","Detection","Flags unusual behavior before a human would."],["doc","Logging","Tamper-proof records for audits and forensics."],["shield","Endpoint","Devices hardened, isolated and always patched."],["users","Awareness","A team that spots and reports the lures."]],"footnote":"// a 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it is heading","h2":"Three threat <em>scenarios</em>.","items":[["1","linear","Steady pressure","Familiar attacks keep coming, basics still cover most of them."],["2","expo","Automated attacks","Tooling scales fast, exploits land within hours of disclosure."],["3","selfimp","Adaptive adversary","Attackers reason about defenses and rewrite their own playbook."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From alert to <em>recovery</em>.","lead":"Five steps, each with a clear output.","steps":[["Detect","the signal"],["Triage","scope and severity"],["Contain","stop the spread"],["Eradicate","remove the foothold"],["Recover","restore and learn"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"It is not the firm with the most tools that stays safe, but the one that responds the fastest.","by":"Sample quote to show the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// things to remember","h2":"Three rules of <em>response</em>.","lead":"Simple, but easy to forget under pressure.","bullets":[["One owner.","Every alert has a name attached and a clear handoff."],["Measurable goal.","You know up front how success is defined."],["Rehearse it.","Drill the playbook before the real incident hits."]],"footnote":"// a simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text scales automatically to fill the space."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Discipline wins, not <em>panic</em>.","lead":"A playbook nobody rehearsed fails on the day it matters.","notes":"Statement slide: one large sentence centered on the page. Use it for the key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"A <em>90-day</em> plan.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"Stop a phishing attack in <em>30 seconds</em>.","lead":"We switch into the console and quarantine a live threat together.","footnote":"// placeholder slide for a demo or a break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's secure it <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","name@firm.com"],["Web","firm.com"],["Next step","Pilot in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide styled like the title. Contact details and a call to action."}
+  ]
+}

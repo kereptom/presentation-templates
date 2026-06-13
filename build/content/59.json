@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Magenta Social · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · sociální sítě a influencer marketing","h1":"Influenceři<br><em>od dosahu k prodeji</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Sociální sítě"],["Délka","40 minut"],["Publikum","Marketing a vedení"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný cíl.","members":[["KS","Klára Svobodová","Head of Social"],["MD","Martin Dvořák","Influencer manažer"],["VN","Veronika Nováková","Obsahový stratég"],["RP","Radek Pokorný","Performance specialista"],["AB","Adéla Beránková","Analytik a reporting"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Jak vybírat tvůrce","3 · Plán na 90 dní"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Stav značky na sítích, publikum a největší slabá místa.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Lidé věří <em>lidem</em>.","illus":"megaphone","lead":"Reklamě klesá důvěra, doporučení od tvůrce ji drží. Hodnota vzniká až z opravdového vztahu s publikem.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["heart","6,1 %","průměrná míra zapojení u mikro tvůrců"],["dollar","4,8×","návratnost na investovanou korunu v dobré kampani"],["users","+27 %","růst sledujících značky za kvartál spoluprací"]],"bullets":["Měřte dopad, ne dosah: rozhoduje akce publika, ne počet zhlédnutí.","Mikro tvůrce s věrným publikem poráží celebritu bez vztahu.","Jedna upřímná spolupráce vydrží déle než deset placených bannerů."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Spolupráce s tvůrcem <em>v kostce</em>.","lead":"Dobrá kampaň nezačíná briefem, ale výběrem.","bullets":[["Vybíráme.","Tvůrce, jehož publikum je naše cílovka."],["Zadáváme.","Volný brief, který nechá hlas tvůrce znít."],["Měříme.","Kódy, odkazy a zmínky až k prodeji."],["Opakujeme.","S tím, co fungovalo, stavíme dlouhodobě."]],"illus":"people","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Jednorázově, nebo <em>dlouhodobě</em>.","lead":"Stejný rozpočet, dva přístupy a dvě křivky důvěry.","cards":[["Jednorázově","Jeden post a konec. Levné, ale rychle zapomenuté."],["Kampaňově","Série příspěvků k jednomu spuštění. Soustředěný náraz."],["Ambasadorsky","Tvůrce nosí značku dlouhodobě. Roste důvěra."],["Afiliačně","Odměna podle prodeje. Riziko sdílíte s tvůrcem."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// kanály","h2":"Co kde <em>funguje</em>.","lead":"Šest typických bloků sociálního a influencer mixu.","cards":[["zap","Krátká videa","Reels a TikTok pro rychlý zásah a dosah."],["users","Komunita","Skupiny a komentáře, kde vzniká vztah."],["doc","Recenze","Hlubší obsah, který přesvědčí váhavé."],["target","Cílená reklama","Posílení nejlepšího obsahu tvůrců."],["bars","Měření","Sledování dosahu, zapojení a prodeje."],["shield","Transparentnost","Jasné značení spolupráce a férový obsah."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Nasycení","Dosah placených postů stagnuje, vyplatí se vsadit na komunitu."],["2","expo","Zrychlení","Krátká videa rychle rostou a mění návyky publika."],["3","decline","Únava","Publikum přesycené reklamou, vyhrává jen autentický obsah."]],"illus":"chat","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od výběru k <em>prodeji</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Vybrat","správného tvůrce"],["Zadat","volný brief"],["Schválit","obsah a tón"],["Spustit","kampaň naživo"],["Vyhodnotit","dopad a prodej"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Nevyhrává ten, kdo má nejvíc sledujících, ale ten, komu publikum nejvíc věří.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>spolupráce</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Hodí se k vám.","Tvůrce, jehož hodnoty sedí se značkou."],["Volnost tvorby.","Nechte tvůrce mluvit jeho vlastním hlasem."],["Jasné značení.","Spolupráci vždy přiznejte, důvěra je křehká."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>důvěra</em>, ne dosah.","lead":"Kampaň bez autenticity a cíle skončí jako přeskočená reklama.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>90 dní</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Výběr tvůrce za <em>30 sekund</em>.","lead":"Přepneme do nástroje a najdeme vhodného tvůrce naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Jdeme do toho <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@firma.cz"],["Web","firma.cz"],["Další krok","Pilot za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

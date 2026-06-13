@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Rose Beauty sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · beauty and cosmetics","h1":"Rose Beauty<br><em>skin first</em>.","lead":"Demo (sample) presentation of this template. All copy is dummy and serves only to showcase the styles.","meta":[["Theme","Clean Beauty"],["Length","40 minutes"],["Audience","Brand and retail"],["Year","2026"]],"notes":"Opening slide. Put the brand or event name here, a one-line subtitle and a meta row at the bottom. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared obsession with skin.","members":[["MR","Mia Rose","Brand Director"],["LC","Liam Chen","Formulation Lead"],["SP","Sara Park","Retail and E-commerce"],["NK","Noah King","Creative Director"],["AV","Ava Vega","Customer Care"]],"notes":"Team slide. Uses colored initials instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this session will <em>flow</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where the brand stands","2 · The hero range","3 · The next 90 days"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where we <em>stand</em>.","lead":"The brand, the shelf and the moments that matter most.","notes":"Divider slide between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"Beauty is now a <em>ritual</em>.","illus":"flask","lead":"Customers no longer buy a single product, they buy a routine they trust morning and night. Value grows when the steps connect.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: large heading, bold illustration, short caption. Great for a key point or a chapter opener."},
+
+    {"type":"kpi","kicker":"// numbers that fit","h2":"Three numbers that <em>decide</em>.","items":[["trend_up","+27 %","repeat purchase after the routine bundle launched"],["heart","4.8","average rating across the hero serum line"],["users","62 %","of revenue from returning loyalty members"]],"bullets":["Measure loyalty, not just first orders: it shows real love for the product.","Start where the skin concern is clearest and the demand is strongest.","A small bundle with a clear promise beats a wide catalog without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a big number and a label, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"The skin routine <em>in short</em>.","lead":"Four simple steps anyone can keep up.","bullets":[["Cleanse.","Lifts away the day without stripping the skin barrier."],["Treat.","Targets the concern with an active that actually works."],["Hydrate.","Locks in moisture so results last through the night."],["Protect.","Shields against sun and pollution every morning."]],"illus":"layers","footnote":"// two-column slide with an illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales to fit."},
+
+    {"type":"cards2","kicker":"// two approaches","h2":"Quick fix, or <em>real care</em>.","lead":"Same skin, two strategies and two very different results.","cards":[["Quick fix","Mask the problem for a night. Cheap but never lasting."],["Trend chasing","Buy whatever is viral. Crowded shelf, no real plan."],["Routine care","Consistent steps matched to the skin. Slow but lasting."],["Hybrid","Hero actives daily, treats and masks as needed."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or listing variants."},
+
+    {"type":"cards3","kicker":"// the toolkit","h2":"What to put <em>where</em>.","lead":"Six typical building blocks of a clean beauty line.","cards":[["leaf","Clean actives","Proven ingredients, no needless filler or harsh additives."],["flask","Formulation","Stable textures that feel as good as they perform."],["shield","Safe testing","Dermatologist checks before anything reaches a face."],["doc","Honest labels","Full ingredient lists customers can actually read."],["globe","Sustainable pack","Refillable formats that cut waste on every reorder."],["heart","Customer care","A team that answers skin questions with real advice."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in the header of each card. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it's heading","h2":"Three growth <em>scenarios</em>.","items":[["1","plateau","Steady shelf","Growth slows, so it pays to deepen loyalty and basics."],["2","expo","Viral lift","A hero product catches on and reshapes the whole range."],["3","selfimp","Category jump","The brand moves from skincare into full daily rituals."]],"illus":"growth","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From idea to <em>shelf</em>.","lead":"Five steps, each with a clear output.","steps":[["Spot","the skin concern"],["Formulate","small and testable"],["Review","safety and feel"],["Launch","to loyal members"],["Scale","to wider retail"]],"footnote":"// horizontal process diagram","notes":"Horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"The brands that win are not the ones with the most products, but the ones their customers trust on their own skin.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left bar. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to keep in mind","h2":"Three rules of <em>launch</em>.","lead":"Simple, but easy to forget in the rush.","bullets":[["One owner.","Every product has a named person who stands behind it."],["A clear promise.","You know up front how customers will judge success."],["Skin comes first.","On anything risky, safety decides before the trend."]],"footnote":"// simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text scales up automatically to fill the space."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Trust wins, not <em>hype</em>.","lead":"A launch without a promise and an owner ends up forgotten.","notes":"Statement slide: one large sentence centered on the page. Use it for the key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"The next <em>90 days</em>.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"Build a routine in <em>30 seconds</em>.","lead":"We switch to the tool and create a personal skin routine live.","footnote":"// placeholder slide for a demo or break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's glow <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","hello@rosebeauty.co"],["Web","rosebeauty.co"],["Next step","Pilot in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and call to action."}
+  ]
+}

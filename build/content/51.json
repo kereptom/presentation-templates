@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Sunset Tourism · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · turistika a destinační marketing","h1":"Návštěvník<br><em>v centru pozornosti</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Destinační marketing"],["Délka","45 minut"],["Publikum","Vedení a partneři"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, pět pohledů na stejnou destinaci.","members":[["MK","Marie Kořínková","Vedoucí destinace"],["JV","Jakub Veselý","Marketing"],["KD","Klára Dvořáková","Sociální sítě"],["RN","Radek Novotný","Produkt a zážitky"],["SV","Simona Vlková","Data a partneři"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kdo k nám jezdí","2 · Co nabídnout hned","3 · Plán na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kdo k nám <em>jezdí</em>.","lead":"Profil návštěvníka, data a největší slabá místa.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Zážitek prodává <em>destinaci</em>.","illus":"megaphone","lead":"Návštěvník si nepamatuje brožuru, ale pocit. Hodnota vzniká až ve chvíli, kterou si odveze domů.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_up","+27 %","více přenocování v hlavní sezóně oproti loňsku"],["calendar","41 dní","průměrná doba mezi inspirací a rezervací pobytu"],["heart","4,6 / 5","spokojenost návštěvníků v posezónním dotazníku"]],"bullets":["Měřte zážitek, ne jen návštěvnost: rozhoduje to, zda se host vrátí.","Začněte tam, kde už hosty máte a kde je potenciál nejvyšší.","Malá kampaň s jasnou metrikou poráží velký plán bez metriky."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Cesta návštěvníka <em>v kostce</em>.","lead":"Od první inspirace až po doporučení známým.","bullets":[["Sní.","Hledá inspiraci na sítích a u přátel."],["Plánuje.","Porovnává termíny, ceny a dostupnost."],["Zažívá.","Tráví čas přímo v destinaci."],["Sdílí.","Doporučí dál, nebo varuje ostatní."]],"illus":"branch","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Sezónně, nebo <em>celoročně</em>.","lead":"Stejná destinace, dva přístupy a dvě křivky příjmů.","cards":[["Sezónně","Žijeme z léta a zbytek roku skomíráme. Nepředvídatelné."],["Plošně","Lákáme každého na všechno. Drahé a bez tváře."],["Cíleně","Oslovíme hosta, kterému opravdu sedíme. Vyšší věrnost."],["Celoročně","Stavíme důvody přijet i mimo sezónu. Stabilní příjmy."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků destinačního marketingu.","cards":[["compass","Tematické trasy","Hostovi ukážou cestu od místa k místu."],["megaphone","Kampaně","Cílené oslovení podle profilu návštěvníka."],["calendar","Eventy","Důvody přijet i mimo hlavní sezónu."],["users","Partneři","Penziony, průvodci a místní provozovatelé."],["activity","Měření","Živé přehledy návštěvnosti a zpětné vazby."],["leaf","Udržitelnost","Tlak na zdroje pod kontrolou a v rovnováze."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Nasycení","Růst se zastaví, vyplatí se zvýšit hodnotu na hosta."],["2","expo","Boom","Zájem prudce roste a tlačí na kapacitu i zdroje."],["3","decline","Útlum","Trend slábne, je potřeba destinaci znovu vymyslet."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od nápadu k <em>sezóně</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Vytipovat","cílového hosta"],["Připravit","produkt a zážitek"],["Otestovat","malou kampaní"],["Spustit","do sezóny"],["Vyhodnotit","a zopakovat"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Nevyhrává destinace s nejvíc atrakcemi, ale ta, na kterou se host nejraději vrací.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>kampaně</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden host.","Mluvte ke konkrétnímu člověku, ne ke všem najednou."],["Měřitelný cíl.","Předem víte, podle čeho poznáte úspěch."],["Místní hlas.","Příběh vypráví ten, kdo destinaci opravdu zná."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>příběh</em>, ne sleva.","lead":"Kampaň bez metriky a vlastníka skončí v šuplíku.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>sezónu</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Trasa návštěvníka za <em>30 sekund</em>.","lead":"Přepneme do nástroje a sestavíme tematickou trasu naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Jdeme do toho <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@destinace.cz"],["Web","destinace.cz"],["Další krok","Kampaň za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

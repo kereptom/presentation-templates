@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Coral HR · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · nábor a HR","h1":"Nábor, který<br><em>dává smysl</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Nábor a HR"],["Délka","40 minut"],["Publikum","Vedení a HR tým"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný cíl: lepší nábor.","members":[["MK","Marta Kolářová","HR ředitelka"],["DV","David Vašek","Recruiter"],["ZP","Zuzana Pešková","People analytik"],["OŠ","Ondřej Šimek","Hiring manager"],["KB","Klára Beránková","Employer branding"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Jak nábor zrychlit","3 · Plán na 90 dní"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Stav náboru, čísla a největší úzká místa.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"O kandidáty dnes <em>soutěžíme</em>.","illus":"people","lead":"Dobrý člověk má často víc nabídek najednou. Vyhrává ten, kdo je rychlý, lidský a férový.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["clock","-41 %","kratší doba obsazení pozice po zjednodušení procesu"],["users","3,2x","více kvalitních kandidátů z doporučení od zaměstnanců"],["heart","+22 %","vyšší podíl přijatých nabídek díky lepší komunikaci"]],"bullets":["Měřte čas a zkušenost kandidáta, ne počet odeslaných e-mailů.","Začněte tam, kde nábor nejvíc vázne a kde to nejvíc bolí.","Jeden dobře obsazený tým poráží deset rozjednaných pohovorů."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Dobrý nábor <em>v kostce</em>.","lead":"Proces nečeká na životopisy, aktivně oslovuje.","bullets":[["Definuje.","Co pozice opravdu potřebuje, ne seznam přání."],["Oslovuje.","Cíleně lidi, kteří pasují na roli i tým."],["Provází.","Kandidáta jasně a rychle celým procesem."],["Rozhoduje.","Podle dat a férových kritérií, ne podle dojmu."]],"illus":"branch","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Reaktivně, nebo <em>plánovaně</em>.","lead":"Stejná pozice, dva přístupy a dvě různé doby obsazení.","cards":[["Reaktivně","Hledáme, až když někdo odejde. Drahé a ve spěchu."],["Plánovaně","Pipeline budujeme průběžně. Klidnější a levnější."],["Z doporučení","Lidi přivádí naši lidé. Rychlé a důvěryhodné."],["Hybridně","Klíčové role plánovaně, zbytek podle potřeby."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků moderního náboru.","cards":[["target","Profil pozice","Jasné zadání, na čem se hiring manager shodne."],["globe","Inzerce","Nabídka tam, kde vaši kandidáti opravdu jsou."],["users","Doporučení","Program, který motivuje tým přivádět lidi."],["calendar","Plánování pohovorů","Termíny bez zbytečného přehazování e-mailů."],["doc","Scorecard","Strukturované hodnocení místo dojmů."],["heart","Onboarding","První dny, po kterých chce člověk zůstat."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Stabilizace","Růst týmu se zpomalí, vyplatí se dotáhnout kulturu."],["2","expo","Růst","Firma rychle nabírá a nábor musí držet tempo."],["3","decline","Útlum","Nábor se přibrzdí, klíčové je udržet lidi, které máme."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od potřeby k <em>nástupu</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Zadat","profil role"],["Oslovit","správné lidi"],["Pohovor","strukturovaně"],["Nabídnout","rychle a férově"],["Onboard","do týmu"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Nenajímáme životopisy, najímáme lidi. A lidé si pamatují, jak se k nim při náboru chovalo.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>náboru</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden vlastník.","Každá pozice má člověka, který nábor táhne."],["Rychlá zpětná vazba.","Kandidát ví, jak je na tom, do pár dní."],["Férová kritéria.","Rozhoduje schopnost, ne sympatie na první pohled."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>rychlost</em> s respektem.","lead":"Pomalý a chaotický nábor odradí i toho nejlepšího kandidáta.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>90 dní</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Scorecard pohovoru za <em>2 minuty</em>.","lead":"Přepneme do nástroje a vyplníme hodnocení kandidáta naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Najímejme <em>lépe</em> společně.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","nabor@firma.cz"],["Web","firma.cz/kariera"],["Další krok","Pilot za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

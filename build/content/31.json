@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Gallery sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · art and museums","h1":"The living museum<br><em>from objects to encounters</em>.","lead":"Demonstration deck for this template. All text is sample (dummy) content and exists only to show the styles.","meta":[["Theme","Art and museums"],["Length","45 minutes"],["Audience","Curators and leadership"],["Year","2026"]],"notes":"Opening slide. Put the event title, a one-line subtitle and a meta row at the bottom. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared collection.","members":[["MR","Maria Reyes","Head Curator"],["DC","David Chen","Conservator"],["AO","Amara Okafor","Education Lead"],["LF","Luca Ferrari","Digital Archivist"],["SN","Sofia Novak","Visitor Experience"]],"notes":"Team slide. It uses initials in a colored circle instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this session will <em>run</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where the collection stands","2 · What to put on view","3 · A plan for 90 days"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where the collection <em>stands</em>.","lead":"The state of the holdings, records and biggest gaps.","notes":"Divider slide between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"A museum is a <em>conversation</em>.","illus":"chat","lead":"Objects only matter when people connect with them. Meaning lives in the encounter, not the display case.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: large heading, a bold illustration, a short caption. Good for a point or a chapter opener."},
+
+    {"type":"kpi","kicker":"// numbers that fit","h2":"Three numbers that <em>matter</em>.","items":[["users","+27 %","more first-time visitors after the new entrance route"],["clock","6 min","longer average dwell time in front of key works"],["pie","41 %","of the collection now catalogued with full provenance"]],"bullets":["Measure connection, not footfall: attention beats attendance.","Start with the works you can already tell a story about.","One well-told gallery beats ten rooms of unlabeled objects."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a big number and a label, supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"A new acquisition <em>in brief</em>.","lead":"An object becomes part of the story step by step.","bullets":[["Receive.","Condition checked and photographed on arrival."],["Research.","Provenance, history and meaning traced."],["Conserve.","Stabilised and prepared for display."],["Display.","Placed where its story lands best."]],"illus":"flask","footnote":"// two-column slide with an illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two ways to show","h2":"Chronological, or <em>thematic</em>.","lead":"The same works, two ways to hang them.","cards":[["Chronological","Walk through time. Clear, but can feel like a list."],["Thematic","Group by idea. Surprising connections, harder to navigate."],["Monographic","One artist in depth. Rich, but narrow in scope."],["Dialogue","Old and new face to face. Fresh, needs strong framing."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or listing options."},
+
+    {"type":"cards3","kicker":"// the toolkit","h2":"What to put <em>where</em>.","lead":"Six common building blocks of a modern gallery.","cards":[["doc","Wall labels","Short, plain text that earns its place beside the work."],["activity","Audio guide","A voice that adds context without crowding the eye."],["users","Guided tours","A person who reads the room and adapts the story."],["globe","Digital archive","The collection online, open beyond opening hours."],["shield","Conservation","Light, climate and care that keep works alive."],["heart","Accessibility","Routes and formats that welcome every visitor."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three scenarios for <em>attendance</em>.","items":[["1","plateau","Steady","Numbers level off, so the focus shifts to depth and loyalty."],["2","expo","Surge","A landmark exhibition pulls in crowds and new audiences fast."],["3","decline","Drift","Without renewal, regulars fade and the rooms grow quiet."]],"illus":"growth","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From idea to <em>opening night</em>.","lead":"Five steps, each with a clear output.","steps":[["Concept","the central theme"],["Select","works that fit"],["Design","the gallery flow"],["Install","hang and light"],["Open","welcome visitors"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"A museum is not about the past: it is about choosing what we carry into the future.","by":"Sample quote to demonstrate the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to keep in mind","h2":"Three rules of <em>display</em>.","lead":"Simple, but easy to forget.","bullets":[["One story.","Each room answers a single clear question."],["Room to breathe.","Empty wall is part of the design, not waste."],["The visitor decides.","Let people find their own path through the work."]],"footnote":"// simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text auto-scales to fill the space."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Curation is <em>editing</em>, not hoarding.","lead":"A gallery without a question becomes a warehouse.","notes":"Statement slide: one large sentence centered on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"A plan for <em>90 days</em>.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live walkthrough","h1":"A gallery tour in <em>30 seconds</em>.","lead":"We switch to the floor plan and trace the new visitor route live.","footnote":"// placeholder slide for a demo or a break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's open it <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","name@museum.org"],["Web","museum.org"],["Next step","Pilot gallery in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and a call to action."}
+  ]
+}

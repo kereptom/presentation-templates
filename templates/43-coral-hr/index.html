@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Šablona: Coral HR · ukázková prezentace</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ff6b5e'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&family=JetBrains+Mono:wght@400..600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --c-1:#ff6b5e; --c-2:#ff9188; --c-3:#cc564b;
+  --accent:var(--c-1); --accent-soft:#ffe6e2; --accent-line:#ffcec8;
+  --paper:#fff8f6; --paper-soft:#f7f0ee;
+  --ink:#201513; --ink-2:#514745; --ink-3:#8b8280;
+  --rule:#e2dad8; --rule-soft:#f2eae8;
+  --divider-bg:linear-gradient(140deg,#ff9188 0%,#ff6b5e 55%,#cc564b 100%); --divider-ink:#ffffff;
+  --r:1.4;
+  --display:"Manrope", system-ui, sans-serif; --serif:"Source Serif 4", Georgia, serif; --mono:"JetBrains Mono", ui-monospace, monospace;
+}
+*{box-sizing:border-box; -webkit-font-smoothing:antialiased}
+html{margin:0; padding:0; background:#0b0b0d; height:100%; overflow:hidden}
+body{margin:0; padding:0; background:#0b0b0d; color:var(--ink); font-family:var(--serif); height:100vh; overflow-y:auto; overflow-x:hidden; display:flex; flex-direction:column}
+body > .stage, body > .notes, body > .controls{flex:0 0 auto}
+.stage{position:relative; background:var(--paper); overflow:hidden; aspect-ratio:16/9; max-height:calc(100vh - 170px); margin:18px auto 0; width:min(96vw, calc((100vh - 170px) * 16/9)); border-radius:8px; box-shadow:0 18px 60px rgba(0,0,0,0.4)}
+.slides-host{position:absolute; top:0; left:0; width:1280px; height:720px; transform-origin:top left; transform:scale(var(--scale,1)); container-type:size; container-name:stage}
+.slide{position:absolute; inset:0; padding:4.6% 7% 8.6%; display:none; flex-direction:column; justify-content:center; gap:2%; font-family:var(--serif)}
+.slide.active{display:flex}
+.slide h1{font-family:var(--display); font-weight:700; font-size:calc(5.29cqw*var(--fs,1)); letter-spacing:-0.02em; line-height:1.02; margin:0 0 1cqw}
+.slide h2{font-family:var(--display); font-weight:600; font-size:calc(3.45cqw*var(--fs,1)); letter-spacing:-0.015em; line-height:1.1; margin:0 0 1.2cqw}
+.slide h3{font-family:var(--display); font-weight:500; font-size:calc(1.95cqw*var(--fs,1)); color:var(--ink-2); margin:0 0 0.8cqw}
+.slide p,.slide li{font-size:calc(1.78cqw*var(--fs,1)); line-height:1.5; color:var(--ink-2); margin:0 0 0.6cqw}
+.slide ul,.slide ol{margin:0.6cqw 0 0; padding-left:1.2em}
+.slide li{margin:0 0 0.6cqw}
+.slide em{font-style:normal; background:linear-gradient(135deg,var(--c-2),var(--c-1) 55%,var(--c-3)); -webkit-background-clip:text; background-clip:text; color:transparent; padding-right:0.08em; margin-right:-0.08em}
+.slide code{font-family:var(--mono); font-size:0.9em; background:var(--paper-soft); padding:0.1em 0.35em; border-radius:0.3em}
+.slide .kicker{font-family:var(--mono); font-size:1.21cqw; color:var(--ink-3); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1.1cqw}
+.slide .kicker::before{content:""; display:inline-block; width:1.4cqw; height:0.16cqw; background:linear-gradient(90deg,var(--c-2),var(--c-1)); vertical-align:middle; margin-right:0.8cqw}
+.slide .footnote{font-family:var(--mono); font-size:1.12cqw; color:var(--ink-3); position:absolute; left:7%; right:7%; bottom:3.2%; margin:0}
+.slide .lead{font-family:var(--serif); font-style:italic; font-size:calc(2.24cqw*var(--fs,1)); color:var(--ink-2); max-width:80%}
+.slide .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:3%; margin-top:1.1cqw}
+.slide .grid-3{display:grid; grid-template-columns:1fr 1fr 1fr; gap:2.5%; margin-top:1.1cqw}
+.slide .card{padding:1.4cqw 1.6cqw; border:1px solid var(--rule); border-radius:0.8cqw; background:var(--paper-soft)}
+.slide .card strong{font-family:var(--display); font-weight:600; display:flex; align-items:center; margin-bottom:0.4cqw; font-size:calc(1.78cqw*var(--fs,1)); color:var(--ink)}
+.slide .card span{font-size:calc(1.49cqw*var(--fs,1)); color:var(--ink-2); line-height:1.45}
+.slide .card-ic{width:1.5em; height:1.5em; flex:none; margin-right:0.5em; stroke:var(--c-1); fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round}
+.slide .scn-list{display:flex; flex-direction:column; gap:1.35cqw}
+.slide .scn-card{display:flex; align-items:center; gap:1.7cqw; padding:1.5cqw 1.9cqw; border:1px solid var(--rule); border-left:0.45cqw solid var(--c-1); border-radius:0.9cqw; background:var(--paper-soft)}
+.slide .scn-num{flex:none; width:3.1cqw; height:3.1cqw; border-radius:0.75cqw; background:linear-gradient(135deg,var(--c-2),var(--c-1) 60%,var(--c-3)); color:#fff; font-family:var(--display); font-weight:700; font-size:1.85cqw; display:flex; align-items:center; justify-content:center; line-height:1}
+.slide .scn-spark{flex:none; width:8.5cqw; height:4cqw; overflow:visible}
+.slide .scn-spark .ax{stroke:var(--rule); stroke-width:1.4}
+.slide .scn-spark .ln{fill:none; stroke:var(--c-1); stroke-width:4; stroke-linecap:round; stroke-linejoin:round}
+.slide .scn-spark .dot{fill:var(--c-1)}
+.slide .scn-spark .asy{stroke:var(--c-1); stroke-width:1.6; stroke-dasharray:2.6 2.6; opacity:0.4}
+.slide .scn-txt{display:flex; flex-direction:column; gap:0.15cqw}
+.slide .scn-txt strong{font-family:var(--display); font-weight:600; font-size:calc(2.2cqw*var(--fs,1)); color:var(--ink)}
+.slide .scn-txt span{font-size:calc(1.72cqw*var(--fs,1)); color:var(--ink-2); line-height:1.4}
+.slide .kpi-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1.6cqw; margin-top:2.4cqw}
+.slide .kpi{display:flex; flex-direction:column; align-items:center; text-align:center; gap:1cqw; padding:2.4cqw 1cqw 2cqw; border:1px solid var(--rule); border-radius:1cqw; background:var(--paper-soft)}
+.slide .kpi svg{width:3.6cqw; height:3.6cqw; stroke:var(--c-1); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round}
+.slide .kpi-num{font-family:var(--display); font-weight:700; font-size:4cqw; color:var(--c-1); line-height:1}
+.slide .kpi-lbl{font-size:1.28cqw; color:var(--ink-3); line-height:1.3}
+.slide .quote{font-family:var(--serif); font-style:italic; font-size:calc(2.7cqw*var(--fs,1)); color:var(--ink); padding-left:1.6cqw; border-left:4px solid var(--accent); margin:1.4cqw 0; max-width:84%; line-height:1.35}
+.slide .tag{display:inline-block; font-family:var(--mono); font-size:calc(1.09cqw*var(--fs,1)); padding:0.24cqw 0.6cqw; border-radius:999px; background:var(--accent-soft); color:var(--accent); margin-right:0.5cqw}
+.slide.title-slide{justify-content:flex-start; padding-top:7.5%}
+.slide.title-slide .lead{max-width:60%}
+.slide.title-slide h1{max-width:66%; font-size:calc(7.36cqw*var(--fs,1)); line-height:0.98}
+.slide.title-slide .meta{margin-top:auto; display:grid; grid-template-columns:repeat(4,1fr); gap:1.1cqw; padding-top:1.4cqw; border-top:1px solid var(--rule)}
+.slide.title-slide .meta strong{font-family:var(--mono); font-size:calc(1.09cqw*var(--fs,1)); color:var(--ink-3); text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:0.24cqw; font-weight:500}
+.slide.title-slide .meta span{font-family:var(--display); font-size:calc(1.55cqw*var(--fs,1)); color:var(--ink); font-weight:500}
+.slide.section-divider{background:var(--divider-bg); color:var(--divider-ink); text-align:center; align-items:center}
+.slide.section-divider .kicker{color:var(--divider-ink); opacity:0.8}
+.slide.section-divider .kicker::before{background:var(--divider-ink); opacity:0.6}
+.slide.section-divider h1{color:var(--divider-ink); font-size:calc(7.36cqw*var(--fs,1)); max-width:88%}
+.slide.section-divider h1 em{background:none; -webkit-text-fill-color:var(--divider-ink); color:var(--divider-ink); font-style:italic}
+.slide.section-divider .lead{color:var(--divider-ink); opacity:0.92; font-style:italic; font-size:calc(2.95cqw*var(--fs,1)); max-width:80%; margin-left:auto; margin-right:auto}
+.slide .illust-col{display:flex; align-items:center; justify-content:center; align-self:center}
+.slide .illust-col .ill{width:auto; height:auto; max-width:30cqw; max-height:42cqh}
+.slide .lector-grid{display:grid; grid-template-columns:repeat(5, 1fr); gap:1.6cqw; margin-top:2.2cqw}
+.slide .lector{display:flex; flex-direction:column; align-items:center; text-align:center; gap:0.8cqw}
+.slide .lector-photo{width:11cqw; height:11cqw; border-radius:50%; overflow:hidden; display:flex; align-items:center; justify-content:center; min-height:0; background:var(--accent-soft); border:2px solid var(--accent-line)}
+.slide .lector-initials{position:relative; background:linear-gradient(135deg, var(--c-2), var(--c-1) 60%, var(--c-3))}
+.slide .lector-initials::after{content:attr(data-initials); font-family:var(--display); font-weight:700; font-size:calc(3.6cqw*var(--fs,1)); color:#fff; letter-spacing:-0.02em}
+.slide .lector-name{font-family:var(--display); font-weight:600; font-size:calc(1.55cqw*var(--fs,1)); line-height:1.15; color:var(--ink)}
+.slide .lector-title{font-family:var(--mono); font-size:calc(1.05cqw*var(--fs,1)); color:var(--ink-3); text-transform:uppercase; letter-spacing:0.04em; line-height:1.3}
+.slide.placeholder-slide{justify-content:center; align-items:center; text-align:center}
+.slide.placeholder-slide h1{font-size:calc(5.06cqw*var(--fs,1))}
+.slide.placeholder-slide .kicker{margin-bottom:1.6cqw}
+.slide.placeholder-slide .lead{margin:0 auto; text-align:center; max-width:70%}
+.slide.placeholder-slide .footnote{position:absolute; left:7%; right:7%; bottom:5.2%; margin:0; text-align:center}
+.slide.bk{justify-content:flex-start}
+.slide.bk h1{font-size:calc(4.6cqw*var(--fs,1)); margin:0 0 0.6cqw}
+.slide.bk .bk-img{flex:1 1 auto; min-height:0; display:flex; align-items:center; justify-content:center; margin:0.5cqw 0}
+.slide.bk .bk-img .ill{max-height:38cqh; max-width:54%}
+.slide.bk .lead{max-width:none; font-size:1.98cqw; margin:0; line-height:1.4}
+.agenda-flow{display:grid; grid-template-columns:repeat(3,1fr); gap:1.4cqw; align-items:stretch; margin-top:2.6cqw}
+.af-b{background:var(--paper-soft); border:1px solid var(--accent-line); border-radius:1cqw; padding:1.5cqw 1.2cqw; font-family:var(--display); font-weight:600; font-size:1.85cqw; text-align:center; line-height:1.2; color:var(--ink); display:flex; align-items:center; justify-content:center}
+.flow{display:flex; flex-wrap:nowrap; align-items:center; justify-content:center; gap:0.7cqw; margin:2cqw 0}
+.flow-b{flex:1 1 0; min-width:0; background:var(--paper-soft); border:1px solid var(--accent-line); border-radius:1cqw; padding:1cqw 0.8cqw; font-family:var(--display); font-weight:600; font-size:calc(1.42cqw*var(--fs,1)); text-align:center; line-height:1.2; color:var(--ink)}
+.flow-b small{display:block; margin-top:0.25cqw; font-family:var(--mono); font-weight:400; font-size:0.78em; color:var(--ink-3)}
+.flow-a{flex:0 0 auto; font-family:var(--display); font-weight:700; font-size:calc(1.9cqw*var(--fs,1)); color:var(--accent)}
+.slide .notes-data{display:none}
+.notes{background:#15131a; color:#d7d2cb; padding:14px 24px; font-family:var(--serif); font-size:14.5px; line-height:1.5; max-height:150px; overflow-y:auto; border-top:1px solid #2a2630}
+.notes .label{font-family:var(--mono); font-size:10.5px; color:var(--c-2); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:6px}
+.notes p{margin:0 0 6px}
+.notes:empty,.notes.hidden{display:none}
+.controls{background:#0e0e10; padding:10px 24px; display:flex; align-items:center; gap:12px; font-family:var(--mono); color:#cbcbd3; font-size:12px; border-top:1px solid #2a2630; flex-wrap:wrap}
+.controls button,.controls a.home-link{font-family:var(--mono); font-size:12px; padding:6px 12px; border-radius:6px; border:1px solid #2a2630; background:#181520; color:#cbcbd3; cursor:pointer; text-decoration:none}
+.controls button:hover,.controls a.home-link:hover{background:#221d2b; border-color:var(--c-1)}
+.controls .counter{margin-left:auto; font-weight:500}
+.controls .hint{color:#6b6b73; font-size:11px}
+.progress{position:absolute; left:0; top:0; height:3px; background:linear-gradient(90deg,var(--c-2),var(--c-1)); transition:width 0.3s; z-index:10}
+.slide.statement{justify-content:center; align-items:center; text-align:center}
+.slide.statement h1{font-size:calc(5.2cqw*var(--fs,1)); max-width:90%}
+.slide.statement .lead{margin:1cqw auto 0; max-width:74%; font-size:calc(2.5cqw*var(--fs,1))}
+.slide .card,.slide .kpi,.slide .scn-card,.slide .flow-b,.af-b{border-radius:calc(0.95cqw*var(--r,1))}
+.slide .scn-num{border-radius:calc(0.7cqw*var(--r,1))}
+body.cs-outline .slide .card,body.cs-outline .slide .kpi,body.cs-outline .slide .scn-card,body.cs-outline .slide .flow-b,body.cs-outline .af-b{background:transparent}
+body.cs-flat .slide .card,body.cs-flat .slide .kpi,body.cs-flat .slide .scn-card,body.cs-flat .slide .flow-b,body.cs-flat .af-b{border-color:transparent}
+body.em-solid .slide em{background:none;-webkit-text-fill-color:var(--c-1);color:var(--c-1)}
+@media (max-width:640px){ .controls{gap:6px; padding:8px 12px; font-size:11px} .controls .hint{display:none} }
+</style>
+</head>
+<body class="">
+<div class="stage">
+  <div class="progress" id="progress"></div>
+  <div class="slides-host" id="slidesHost">
+    <section class="slide active title-slide"><div class="kicker">// ukázková šablona · nábor a HR</div><h1>Nábor, který<br><em>dává smysl</em>.</h1><p class="lead">Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.</p><div class="meta"><div><strong>Téma</strong><span>Nábor a HR</span></div><div><strong>Délka</strong><span>40 minut</span></div><div><strong>Publikum</strong><span>Vedení a HR tým</span></div><div><strong>Datum</strong><span>2026</span></div></div><aside class="notes-data">Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu.</aside></section>
+    <section class="slide active"><div class="kicker">// váš tým</div><h2>Kdo vás dnes <em>provede</em>.</h2><p class="lead">Pět rolí, jeden společný cíl: lepší nábor.</p><div class="lector-grid"><div class="lector"><div class="lector-photo lector-initials" data-initials="MK"></div><div class="lector-name">Marta Kolářová</div><div class="lector-title">HR ředitelka</div></div><div class="lector"><div class="lector-photo lector-initials" data-initials="DV"></div><div class="lector-name">David Vašek</div><div class="lector-title">Recruiter</div></div><div class="lector"><div class="lector-photo lector-initials" data-initials="ZP"></div><div class="lector-name">Zuzana Pešková</div><div class="lector-title">People analytik</div></div><div class="lector"><div class="lector-photo lector-initials" data-initials="OŠ"></div><div class="lector-name">Ondřej Šimek</div><div class="lector-title">Hiring manager</div></div><div class="lector"><div class="lector-photo lector-initials" data-initials="KB"></div><div class="lector-name">Klára Beránková</div><div class="lector-title">Employer branding</div></div></div><aside class="notes-data">Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky.</aside></section>
+    <section class="slide"><div class="kicker">// agenda dne</div><h2>Jak dnešní blok <em>poběží</em>.</h2><p class="lead">Tři části, mezi nimi prostor na otázky.</p><div class="agenda-flow"><div class="af-b">1 · Kde dnes stojíme</div><div class="af-b">2 · Jak nábor zrychlit</div><div class="af-b">3 · Plán na 90 dní</div></div><aside class="notes-data">Agenda jako tři velké dlaždice. Vhodné na začátek bloku.</aside></section>
+    <section class="slide section-divider"><div class="kicker">// blok 1</div><h1>Kde dnes <em>stojíme</em>.</h1><p class="lead">Stav náboru, čísla a největší úzká místa.</p><aside class="notes-data">Předělový slide mezi bloky. Velký nadpis na barevném gradientu.</aside></section>
+    <section class="slide bk"><div class="kicker">// velká myšlenka</div><h1>O kandidáty dnes <em>soutěžíme</em>.</h1><div class="bk-img"><svg class="ill" viewBox="0 0 240 200" fill="none" stroke="var(--c-1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="80" cy="74" r="22"/><path d="M44 150a36 36 0 0 1 72 0"/><circle cx="158" cy="84" r="18"/><path d="M128 150a30 30 0 0 1 60 0"/></svg></div><p class="lead">Dobrý člověk má často víc nabídek najednou. Vyhrává ten, kdo je rychlý, lidský a férový.</p><p class="footnote">// ilustrační slide se zvětšeným obrázkem</p><aside class="notes-data">Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu.</aside></section>
+    <section class="slide"><div class="kicker">// čísla, která sedí</div><h2>Tři čísla, která <em>rozhodují</em>.</h2><div class="kpi-grid"><div class="kpi"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div class="kpi-num">-41 %</div><div class="kpi-lbl">kratší doba obsazení pozice po zjednodušení procesu</div></div><div class="kpi"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9"/><path d="M16 3.1A4 4 0 0 1 16 11"/></svg><div class="kpi-num">3,2x</div><div class="kpi-lbl">více kvalitních kandidátů z doporučení od zaměstnanců</div></div><div class="kpi"><svg viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.3 3-5.5A4.5 4.5 0 0 0 12 5 4.5 4.5 0 0 0 2 8.5c0 2.2 1.5 4 3 5.5l7 7z"/></svg><div class="kpi-num">+22 %</div><div class="kpi-lbl">vyšší podíl přijatých nabídek díky lepší komunikaci</div></div></div><ul style="line-height:1.5; margin-top:0.6cqw"><li style="font-size:calc(2.1cqw*var(--fs,1))">Měřte čas a zkušenost kandidáta, ne počet odeslaných e-mailů.</li><li style="font-size:calc(2.1cqw*var(--fs,1))">Začněte tam, kde nábor nejvíc vázne a kde to nejvíc bolí.</li><li style="font-size:calc(2.1cqw*var(--fs,1))">Jeden dobře obsazený tým poráží deset rozjednaných pohovorů.</li></ul><p class="footnote">// zdroj: ukázková data</p><aside class="notes-data">KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky.</aside></section>
+    <section class="slide"><div class="kicker">// jak to funguje</div><h2>Dobrý nábor <em>v kostce</em>.</h2><p class="lead">Proces nečeká na životopisy, aktivně oslovuje.</p><div class="grid-2" style="grid-template-columns:1fr 0.6fr; align-items:center"><div><ul style="line-height:1.65; font-size:calc(2.32cqw*var(--fs,1))"><li><strong>Definuje.</strong> Co pozice opravdu potřebuje, ne seznam přání.</li><li><strong>Oslovuje.</strong> Cíleně lidi, kteří pasují na roli i tým.</li><li><strong>Provází.</strong> Kandidáta jasně a rychle celým procesem.</li><li><strong>Rozhoduje.</strong> Podle dat a férových kritérií, ne podle dojmu.</li></ul></div><div class="illust-col"><svg class="ill" viewBox="0 0 240 200" fill="none" stroke="var(--c-1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M40 100h60"/><path d="M100 100 180 45M168 40l16 4-4 16" stroke-width="6"/><path d="M100 100 180 155M180 139l4 16-16 4" stroke-width="6"/><circle cx="40" cy="100" r="10"/></svg></div></div><p class="footnote">// dvousloupcový slide s ilustrací</p><aside class="notes-data">Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší.</aside></section>
+    <section class="slide"><div class="kicker">// dvě cesty</div><h2>Reaktivně, nebo <em>plánovaně</em>.</h2><p class="lead">Stejná pozice, dva přístupy a dvě různé doby obsazení.</p><div class="grid-2"><div class="card"><strong>Reaktivně</strong><span>Hledáme, až když někdo odejde. Drahé a ve spěchu.</span></div><div class="card"><strong>Plánovaně</strong><span>Pipeline budujeme průběžně. Klidnější a levnější.</span></div><div class="card"><strong>Z doporučení</strong><span>Lidi přivádí naši lidé. Rychlé a důvěryhodné.</span></div><div class="card"><strong>Hybridně</strong><span>Klíčové role plánovaně, zbytek podle potřeby.</span></div></div><p class="footnote">// čtyři karty ve dvou sloupcích</p><aside class="notes-data">Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant.</aside></section>
+    <section class="slide"><div class="kicker">// nástroje</div><h2>Co kde <em>nasadit</em>.</h2><p class="lead">Šest typických stavebních bloků moderního náboru.</p><div class="grid-3"><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>Profil pozice</strong><span>Jasné zadání, na čem se hiring manager shodne.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg>Inzerce</strong><span>Nabídka tam, kde vaši kandidáti opravdu jsou.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9"/><path d="M16 3.1A4 4 0 0 1 16 11"/></svg>Doporučení</strong><span>Program, který motivuje tým přivádět lidi.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Plánování pohovorů</strong><span>Termíny bez zbytečného přehazování e-mailů.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h6"/></svg>Scorecard</strong><span>Strukturované hodnocení místo dojmů.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.3 3-5.5A4.5 4.5 0 0 0 12 5 4.5 4.5 0 0 0 2 8.5c0 2.2 1.5 4 3 5.5l7 7z"/></svg>Onboarding</strong><span>První dny, po kterých chce člověk zůstat.</span></div></div><p class="footnote">// mřížka 3x2 s ikonami</p><aside class="notes-data">Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností.</aside></section>
+    <section class="slide"><div class="kicker">// kam to míří</div><h2>Tři scénáře <em>vývoje</em>.</h2><div class="grid-2" style="grid-template-columns:1.34fr 0.66fr; align-items:center"><div class="scn-list"><div class="scn-card"><div class="scn-num">1</div><svg class="scn-spark" viewBox="0 0 100 50" preserveAspectRatio="none" aria-hidden="true"><line class="ax" x1="2" y1="47" x2="98" y2="47"/><path class="ln" d="M3,44 C18,44 27,13 47,12 C67,11 85,12 97,12"/><circle class="dot" cx="97" cy="12" r="3.4"/></svg><div class="scn-txt"><strong>Stabilizace</strong><span>Růst týmu se zpomalí, vyplatí se dotáhnout kulturu.</span></div></div><div class="scn-card"><div class="scn-num">2</div><svg class="scn-spark" viewBox="0 0 100 50" preserveAspectRatio="none" aria-hidden="true"><line class="ax" x1="2" y1="47" x2="98" y2="47"/><path class="ln" d="M3,47 C45,46 66,43 80,33 C88,27 94,16 97,4"/><circle class="dot" cx="97" cy="4" r="3.4"/></svg><div class="scn-txt"><strong>Růst</strong><span>Firma rychle nabírá a nábor musí držet tempo.</span></div></div><div class="scn-card"><div class="scn-num">3</div><svg class="scn-spark" viewBox="0 0 100 50" preserveAspectRatio="none" aria-hidden="true"><line class="ax" x1="2" y1="47" x2="98" y2="47"/><path class="ln" d="M3,8 C30,8 45,30 60,34 C75,38 88,40 97,42"/><circle class="dot" cx="97" cy="42" r="3.4"/></svg><div class="scn-txt"><strong>Útlum</strong><span>Nábor se přibrzdí, klíčové je udržet lidi, které máme.</span></div></div></div><div class="illust-col"><svg class="ill" viewBox="0 0 240 200" fill="none" stroke="var(--c-1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M30 170h180M30 170V40"/><rect x="55" y="120" width="26" height="50"/><rect x="100" y="92" width="26" height="78"/><rect x="145" y="60" width="26" height="110"/><path d="M50 110 95 80l30 18 60-50"/><path d="M165 48h22v22" stroke-width="5"/></svg></div></div><p class="footnote">// číslované scénáře s mini grafy</p><aside class="notes-data">Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti.</aside></section>
+    <section class="slide"><div class="kicker">// postup</div><h2>Od potřeby k <em>nástupu</em>.</h2><p class="lead">Pět kroků, každý s jasným výstupem.</p><div class="flow"><div class="flow-b">Zadat<small>profil role</small></div><div class="flow-a">&rarr;</div><div class="flow-b">Oslovit<small>správné lidi</small></div><div class="flow-a">&rarr;</div><div class="flow-b">Pohovor<small>strukturovaně</small></div><div class="flow-a">&rarr;</div><div class="flow-b">Nabídnout<small>rychle a férově</small></div><div class="flow-a">&rarr;</div><div class="flow-b">Onboard<small>do týmu</small></div></div><p class="footnote">// vodorovný procesní diagram</p><aside class="notes-data">Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek.</aside></section>
+    <section class="slide"><div class="kicker">// myšlenka</div><h2></h2><div class="quote">Nenajímáme životopisy, najímáme lidi. A lidé si pamatují, jak se k nim při náboru chovalo.</div><p class="lead" style="font-style:normal; font-size:calc(1.7cqw*var(--fs,1))">Ukázkový citát pro předvedení stylu</p><aside class="notes-data">Citátový slide s výraznou levou linkou. Atribuci nechte malou.</aside></section>
+    <section class="slide"><div class="kicker">// na co myslet</div><h2>Tři pravidla <em>náboru</em>.</h2><p class="lead">Jednoduchá, ale snadno se na ně zapomíná.</p><ul style="line-height:1.6; font-size:calc(2.3cqw*var(--fs,1)); max-width:86%"><li><strong>Jeden vlastník.</strong> Každá pozice má člověka, který nábor táhne.</li><li><strong>Rychlá zpětná vazba.</strong> Kandidát ví, jak je na tom, do pár dní.</li><li><strong>Férová kritéria.</strong> Rozhoduje schopnost, ne sympatie na první pohled.</li></ul><p class="footnote">// jednoduchý seznam s důrazem</p><aside class="notes-data">Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu.</aside></section>
+    <section class="slide statement"><div class="kicker">// pointa bloku</div><h1>Vyhrává <em>rychlost</em> s respektem.</h1><p class="lead">Pomalý a chaotický nábor odradí i toho nejlepšího kandidáta.</p><aside class="notes-data">Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení.</aside></section>
+    <section class="slide section-divider"><div class="kicker">// blok 2</div><h1>Plán na <em>90 dní</em>.</h1><p class="lead">Co udělat tento týden, tento měsíc a tento kvartál.</p><aside class="notes-data">Druhý předěl, otevírá praktickou část.</aside></section>
+    <section class="slide placeholder-slide"><div class="kicker">// živá ukázka</div><h1>Scorecard pohovoru za <em>2 minuty</em>.</h1><p class="lead">Přepneme do nástroje a vyplníme hodnocení kandidáta naživo.</p><p class="footnote">// placeholder slide pro demo nebo přestávku</p><aside class="notes-data">Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky.</aside></section>
+    <section class="slide active title-slide"><div class="kicker">// děkujeme</div><h1>Najímejme <em>lépe</em> společně.</h1><p class="lead">Otázky, kontakt a další kroky.</p><div class="meta"><div><strong>Kontakt</strong><span>nabor@firma.cz</span></div><div><strong>Web</strong><span>firma.cz/kariera</span></div><div><strong>Další krok</strong><span>Pilot za 2 týdny</span></div><div><strong>Materiály</strong><span>ke stažení</span></div></div><aside class="notes-data">Závěrečný slide ve stylu titulního. Kontakt a výzva k akci.</aside></section>
+  </div>
+</div>
+<div class="notes" id="notes"></div>
+<div class="controls">
+  <button id="first">&laquo;</button>
+  <button id="prev">&lsaquo; Zpet</button>
+  <button id="next">Dal &rsaquo;</button>
+  <button id="last">&raquo;</button>
+  <button id="fs">Fullscreen (F)</button>
+  <button id="toggleNotes">Skryt poznamky</button>
+  <a class="home-link" href="../../index.html">Galerie sablon</a>
+  <span class="hint">sipky / mezernik &middot; N poznamky &middot; F cela obrazovka &middot; cislo+Enter skok</span>
+  <span class="counter"><span id="cur">1</span> / <span id="total">0</span></span>
+</div>
+<script>
+const slides = document.querySelectorAll('.slide');
+const notesEl = document.getElementById('notes');
+const cur = document.getElementById('cur');
+const total = document.getElementById('total');
+const progress = document.getElementById('progress');
+total.textContent = slides.length;
+let idx = 0, gotoBuffer = '';
+function showSlide(n){
+  idx = Math.max(0, Math.min(slides.length - 1, n));
+  slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+  cur.textContent = idx + 1;
+  progress.style.width = ((idx + 1) / slides.length * 100) + '%';
+  const nd = slides[idx].querySelector('.notes-data');
+  notesEl.innerHTML = (nd && nd.textContent.trim() && !notesEl.classList.contains('hidden'))
+    ? '<div class="label">// poznamka recnika</div><p>' + nd.innerHTML + '</p>' : '';
+  if(notesEl.classList.contains('hidden')) notesEl.innerHTML='';
+  history.replaceState(null,'','#'+(idx+1));
+  fitActive();
+}
+const next=()=>showSlide(idx+1), prev=()=>showSlide(idx-1);
+document.getElementById('next').onclick=next;
+document.getElementById('prev').onclick=prev;
+document.getElementById('first').onclick=()=>showSlide(0);
+document.getElementById('last').onclick=()=>showSlide(slides.length-1);
+document.getElementById('fs').onclick=()=>{ if(!document.fullscreenElement) document.documentElement.requestFullscreen?.(); else document.exitFullscreen?.(); };
+document.addEventListener('fullscreenchange',()=>setTimeout(fitActive,80));
+document.getElementById('toggleNotes').onclick=()=>{
+  notesEl.classList.toggle('hidden');
+  document.getElementById('toggleNotes').textContent = notesEl.classList.contains('hidden') ? 'Poznamky' : 'Skryt poznamky';
+  showSlide(idx);
+};
+const stageEl=document.querySelector('.stage');
+const hostEl=document.getElementById('slidesHost');
+function fitStage(){ if(stageEl&&hostEl) hostEl.style.setProperty('--scale',(stageEl.clientWidth/1280)||1); }
+function fitSlide(slide){
+  if(!slide) return;
+  slide.style.setProperty('--fs','1');
+  const cl=slide.classList;
+  if(cl.contains('title-slide')||cl.contains('section-divider')||cl.contains('placeholder-slide')||cl.contains('bk')||cl.contains('statement')
+     || slide.querySelector('.stat-row, .agenda-flow, .lector-grid')) return;
+  const isTwocol=!!slide.querySelector('.illust-col');
+  const isFlow=!!slide.querySelector('.flow');
+  const capFs=isTwocol?1.45:isFlow?1.5:1.9;
+  const savedT=hostEl?hostEl.style.transform:''; if(hostEl) hostEl.style.transform='none';
+  const cs=getComputedStyle(slide);
+  const availH=slide.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
+  const availW=slide.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+  const prevJ=slide.style.justifyContent; slide.style.justifyContent='flex-start';
+  const fns=[].slice.call(slide.querySelectorAll('.footnote')); fns.forEach(f=>f.style.marginTop='0');
+  const measure=()=>{ let t=Infinity,b=-Infinity,l=Infinity,r=-Infinity;
+    for(const c of slide.children){ if(c.classList.contains('notes-data')||c.classList.contains('footnote'))continue;
+      const q=c.getBoundingClientRect(); if(q.height<1)continue; t=Math.min(t,q.top);b=Math.max(b,q.bottom);l=Math.min(l,q.left);r=Math.max(r,q.right);}
+    return {h:b-t,w:r-l}; };
+  const fits=(m)=>{ slide.style.setProperty('--fs',m); const z=measure(); return z.h<=availH*0.95 && z.w<=availW+1; };
+  let best=1;
+  if(fits(capFs)) best=capFs;
+  else if(fits(1)){ let lo=1,hi=capFs; for(let i=0;i<12;i++){const m=(lo+hi)/2; if(fits(m)){best=m;lo=m;}else hi=m;} }
+  else { let lo=0.6,hi=1; best=0.6; for(let i=0;i<12;i++){const m=(lo+hi)/2; if(fits(m)){best=m;lo=m;}else hi=m;} }
+  slide.style.setProperty('--fs',best.toFixed(3));
+  slide.style.justifyContent=prevJ; fns.forEach(f=>f.style.marginTop='');
+  if(hostEl) hostEl.style.transform=savedT;
+}
+function fitActive(){ requestAnimationFrame(()=>{ fitStage(); fitSlide(slides[idx]); }); }
+window.addEventListener('load', fitActive);
+window.addEventListener('resize', fitActive);
+fitStage();
+document.addEventListener('keydown', e => {
+  if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA') return;
+  if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){ next(); e.preventDefault(); }
+  else if(e.key==='ArrowLeft'||e.key==='PageUp'){ prev(); e.preventDefault(); }
+  else if(e.key==='Home'){ showSlide(0); e.preventDefault(); }
+  else if(e.key==='End'){ showSlide(slides.length-1); e.preventDefault(); }
+  else if(e.key==='f'||e.key==='F'){ document.getElementById('fs').click(); }
+  else if(e.key==='n'||e.key==='N'){ document.getElementById('toggleNotes').click(); }
+  else if(e.key>='0'&&e.key<='9'){ gotoBuffer+=e.key; }
+  else if(e.key==='Enter'&&gotoBuffer){ showSlide(parseInt(gotoBuffer)-1); gotoBuffer=''; }
+  else if(e.key==='Escape'){ gotoBuffer=''; }
+});
+showSlide((parseInt(location.hash.replace('#',''))||1)-1);
+</script>
+</body>
+</html>

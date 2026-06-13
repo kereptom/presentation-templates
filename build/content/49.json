@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Lavender Mind · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · duševní zdraví a terapie","h1":"Duševní zdraví<br><em>není luxus</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Duševní zdraví"],["Délka","45 minut"],["Publikum","Klienti a pečující"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>doprovodí</em>.","lead":"Pět rolí, jeden bezpečný prostor.","members":[["MK","Markéta Klímová","Klinická psycholožka"],["DV","David Veselý","Psychoterapeut"],["AN","Anna Nová","Psychiatrička"],["JP","Jakub Pospíšil","Krizový intervent"],["TŠ","Tereza Šťastná","Peer konzultantka"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní setkání <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na ztišení.","blocks":["1 · Jak rozumět sobě","2 · Co pomáhá v péči","3 · Cesta k podpoře"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Jak rozumět <em>sobě</em>.","lead":"Emoce, signály těla a první varovné příznaky.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Pocity nejsou <em>nepřítel</em>.","illus":"brain","lead":"Úzkost i smutek nesou informaci. Hodnota vzniká, když je dokážeme pojmenovat a vyslechnout.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která mluví","h2":"Tři čísla, která <em>spojují</em>.","items":[["users","1 ze 4","lidí zažije během života potíže s duševním zdravím"],["clock","49 dní","průměrná čekací doba na první konzultaci"],["heart","+62 %","klientů hlásí úlevu už po několika sezeních"]],"bullets":["Mluvit o tom nahlas je první krok, ne slabost.","Pomoc vyhledejte dřív, než krize udeří naplno.","Malá pravidelná péče poráží jednorázové hrdinství."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Terapie <em>v kostce</em>.","lead":"Není to rada zvenčí, je to společná práce.","bullets":[["Naslouchá.","Vašemu příběhu bez hodnocení a spěchu."],["Mapuje.","Vzorce, které se opakují a brzdí vás."],["Trénuje.","Konkrétní dovednosti pro náročné chvíle."],["Doprovází.","Tempem, které unesete vy, ne terapeut."]],"illus":"chat","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Vyhýbat se, nebo <em>čelit</em>.","lead":"Stejná tíseň, dva přístupy a dvě různé úlevy.","cards":[["Vyhýbáním","Nepříjemné odložíme. Krátká úleva, dlouhý stín."],["Potlačováním","Tváříme se, že nic není. Tělo si to pamatuje."],["Sdílením","Pojmenujeme to s druhým. Tíha se rozdělí."],["Zpracováním","Projdeme tím s oporou. Nejtrvalejší úleva."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>pomáhá</em>.","lead":"Šest typických opor v péči o duševní zdraví.","cards":[["activity","Pohyb","Pravidelná aktivita tlumí úzkost i napětí."],["clock","Spánek","Rytmus dne je základ duševní rovnováhy."],["users","Vztahy","Blízcí lidé jsou ochranný štít proti stresu."],["compass","Terapie","Bezpečné vedení tam, kde sami uvázneme."],["leaf","Všímavost","Návrat do přítomnosti místo kolotoče myšlenek."],["shield","Hranice","Umět říct ne chrání vaši energii i zdraví."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>cesty</em>.","items":[["1","plateau","Zklidnění","Akutní tíseň poleví a vrací se každodenní stabilita."],["2","selfimp","Růst","Z krize vzniká hlubší porozumění sobě i druhým."],["3","decline","Návrat vln","Bez péče se obtíže vrací, opora dělá rozdíl."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od prvního kroku k <em>úlevě</em>.","lead":"Pět kroků, každý s jasným pocitem.","steps":[["Všimnout si","co se mění"],["Pojmenovat","co cítím"],["Oslovit","člověka i odborníka"],["Pracovat","krok po kroku"],["Pečovat","i když je líp"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Není odvahy v tom nikdy se nebát, ale v tom požádat o pomoc, když je nám nejhůř.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>péče</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Bez srovnávání.","Vaše tempo je vaše, ne cizí měřítko."],["Bez studu.","Hledat pomoc je projev síly, ne selhání."],["Bez čekání.","Malý krok dnes je lepší než dokonalý zítra."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"O sebe se <em>pečuje</em>, ne čeká.","lead":"Duševní zdraví roste z malých kroků, ne z jednoho velkého rozhodnutí.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Cesta k <em>podpoře</em>.","lead":"Co udělat dnes, tento týden a kam se obrátit.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Dechové cvičení za <em>60 sekund</em>.","lead":"Vyzkoušíme si spolu jednoduché ztišení naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Nejste v tom <em>sami</em>.","lead":"Otázky, kontakt a kam se obrátit.","meta":[["Kontakt","poradna@centrum.cz"],["Web","dusevnizdravi.cz"],["Linka","116 123 nonstop"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

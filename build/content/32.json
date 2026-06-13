@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Almanac · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · zemědělství a precizní farmaření","h1":"Precizní pole<br><em>od půdy k výnosu</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Precizní farmaření"],["Délka","45 minut"],["Publikum","Agronomové a vedení"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, pět pohledů na stejné pole.","members":[["MV","Marek Vondra","Hlavní agronom"],["KD","Kateřina Dvořáková","Data a satelity"],["JŠ","Jiří Šťastný","Mechanizace"],["AN","Alena Nová","Půdoznalství"],["RB","Radek Beneš","IT a senzory"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes hospodaříme","2 · Co nasadit hned","3 · Plán na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>hospodaříme</em>.","lead":"Stav půdy, dat a největší ztráty na poli.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Každý hektar je <em>jiný</em>.","illus":"growth","lead":"Půda, vláha i výnos se mění metr po metru. Plošné hnojení tuto rozmanitost ignoruje.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_down","-21 %","nižší spotřeba hnojiv díky variabilní aplikaci"],["leaf","+14 %","vyšší výnos na nejslabších částech pozemků"],["dollar","-9 %","nižší náklady na pohonné hmoty po optimalizaci jízd"]],"bullets":["Měřte dopad na výnos a vstupy, ne počet projetých hektarů.","Začněte na pozemcích, kde je rozdíl půdy největší.","Malý pokus s jasnou metrikou poráží celofaremní změnu bez měření."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Variabilní aplikace <em>v kostce</em>.","lead":"Stroj dávkuje podle místa, ne podle průměru.","bullets":[["Mapuje.","Výnos, vláhu a živiny v rámci pozemku."],["Počítá.","Optimální dávku pro každou zónu zvlášť."],["Aplikuje.","Hnojivo i osivo přesně tam, kde se vyplatí."],["Vyhodnocuje.","Skutečný výnos proti plánu po sklizni."]],"illus":"gears","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Plošně, nebo <em>cíleně</em>.","lead":"Stejný pozemek, dva přístupy a dvě nákladové křivky.","cards":[["Plošně","Stejná dávka na celé pole. Jednoduché, ale plýtvavé."],["Podle bloků","Dávka podle velkých částí pozemku. Lepší, stále hrubé."],["Variabilně","Dávka podle zón a měření. Nejnižší ztráty vstupů."],["Hybridně","Kritické živiny variabilně, zbytek plošně."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků precizního farmaření.","cards":[["globe","Satelitní snímky","Stav porostu a vláhy z družic v sezóně."],["activity","Půdní senzory","Vlhkost a teplota přímo v poli, v reálném čase."],["target","Navigace strojů","Jízdy bez překryvů a vynechaných pásů."],["doc","Výnosové mapy","Z kombajnu rovnou podklad pro příští sezónu."],["cpu","Dron a kamera","Detekce plevele a chorob z výšky."],["users","Zaškolení","Tým, který datům rozumí a věří jim."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Stabilizace","Zlepšování výnosů se zpomalí, vyplatí se dotáhnout základy půdy."],["2","expo","Zrychlení","Senzory a data rychle mění zaběhnuté postupy hospodaření."],["3","selfimp","Skok","Stroje přebírají i rozhodování o dávkách, ne jen jejich provedení."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od mapy k <em>výnosu</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Zmapovat","zóny pozemku"],["Pilot","jeden blok"],["Vyhodnotit","výnos a vstupy"],["Nasadit","na celý pozemek"],["Škálovat","na další pole"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Nevyhrává ten, kdo má nejvíc hektarů, ale ten, kdo nejlépe rozumí každému z nich.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>nasazení</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden vlastník.","Každé pole má jméno člověka, který za data ručí."],["Měřitelný cíl.","Předem víte, podle čeho poznáte úspěch sezóny."],["Agronom rozhoduje.","U klíčových zásahů má poslední slovo člověk."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>poznání půdy</em>, ne víc hnojiva.","lead":"Pokus bez měření a vlastníka skončí v šuplíku.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>sezónu</em>.","lead":"Co udělat tento týden, tento měsíc a do sklizně.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Výnosová mapa za <em>30 sekund</em>.","lead":"Přepneme do nástroje a sestavíme mapu pozemku naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Jdeme do toho <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@farma.cz"],["Web","farma.cz"],["Další krok","Pilot na jaře"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

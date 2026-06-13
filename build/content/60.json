@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Pine Forestry sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · forestry and timber","h1":"Healthy forests,<br><em>durable timber</em>.","lead":"Demonstration deck for this template. All text is sample (dummy) content and exists only to showcase the styles.","meta":[["Topic","Sustainable forestry"],["Length","45 minutes"],["Audience","Owners and operations"],["Year","2026"]],"notes":"Opening slide. Put the event name here, a one-line subtitle and a meta row at the bottom. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared view of the forest.","members":[["RW","Robert Wood","Head forester"],["MO","Maria Oak","Inventory analyst"],["JP","James Pine","Harvest planning"],["SF","Sara Fern","Mill quality"],["TB","Tom Birch","Safety and compliance"]],"notes":"Team slide. Uses initials in a colored circle instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this block <em>runs</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where the forest stands","2 · What to do this season","3 · A plan for 90 days"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where the forest <em>stands</em>.","lead":"Stand condition, inventory data and the biggest bottlenecks.","notes":"Section divider between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"The data is already in the <em>woods</em>.","illus":"growth","lead":"Satellites, drones and field crews collect more than anyone can read. Value appears only when it is connected.","footnote":"// illustration slide with an enlarged image","notes":"Hero slide: large heading, bold illustration, short caption. Good for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>decide</em>.","items":[["trend_up","+24 %","higher yield per hectare after thinning the right stands"],["clock","6 h","saved weekly on manual cruise reports"],["leaf","-31 %","less wood lost to pests with early detection"]],"bullets":["Measure impact, not effort: what matters is the effect on the stand.","Start where you already have data and where the loss hurts most.","A small pilot with one clear metric beats a big plan with none."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a large number and a label, supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Stand monitoring <em>in short</em>.","lead":"The model does not wait for the loss, it forecasts it.","bullets":[["Collects.","Canopy, moisture and growth from key stands."],["Learns.","What preceded past pest and fire events."],["Warns.","Before damage shows up in the harvest."],["Plans.","Thinning into the window that costs least."]],"illus":"branch","footnote":"// two-column slide with an illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Clear-cut, or <em>selective</em>.","lead":"Same stand, two approaches and two cost curves.","cards":[["Clear-cut","Harvest everything at once. Cheap per log, hard on the soil."],["Calendar thin","Thin on a fixed schedule. Better, but often too early."],["Selective","Harvest by actual stand condition. Lowest long-run cost."],["Mixed","Critical stands selectively, the rest on schedule."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or listing variants."},
+
+    {"type":"cards3","kicker":"// tools","h2":"What to deploy <em>where</em>.","lead":"Six typical building blocks of modern forestry.","cards":[["globe","Remote sensing","Satellite and drone imagery of every stand over time."],["activity","Growth monitoring","Live view of canopy health and deviations."],["alert","Pest detection","Flags unusual decline earlier than a field crew can."],["doc","Auto cruise report","Turns field data straight into a daily stand summary."],["shield","Chain of custody","Logs stay traceable from stump to mill, under control."],["users","Crew training","A team that understands the tools and trusts them."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three growth <em>scenarios</em>.","items":[["1","plateau","Steady state","Growth slows, so it pays to finish the basics first."],["2","expo","Acceleration","Tools improve fast and reshape established harvest routines."],["3","selfimp","Leap","Automation starts planning the cut, not just measuring it."]],"illus":"growth","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From seedling to <em>sawmill</em>.","lead":"Five steps, each with a clear output.","steps":[["Survey","the stand"],["Pilot","small and measurable"],["Assess","impact and risk"],["Harvest","into the process"],["Scale","to more stands"]],"footnote":"// horizontal process diagram","notes":"Horizontal flow of steps with arrows. Each box has a title and a short caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"The winner is not the one with the most timber, but the one who reads the forest soonest.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to keep in mind","h2":"Three rules of <em>harvest</em>.","lead":"Simple, but easy to forget in the field.","bullets":[["One owner.","Every stand has the name of a person who answers for it."],["Measurable goal.","You know in advance how you will judge success."],["A person signs off.","On critical cuts a human always decides."]],"footnote":"// simple list with emphasis","notes":"A plain bulleted slide with a strong lead word. Text scales automatically to fill the area."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Discipline wins, <em>not enthusiasm</em>.","lead":"A pilot with no metric and no owner ends up in a drawer.","notes":"Statement slide: one large sentence centered on the page. Use it for the key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"A plan for <em>90 days</em>.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"A cruise report in <em>30 seconds</em>.","lead":"We switch to the tool and build a daily stand summary live.","footnote":"// placeholder slide for a demo or break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let us grow it <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","name@firm.com"],["Web","firm.com"],["Next step","Pilot in 2 weeks"],["Materials","for download"]],"notes":"Closing slide in the style of the title. Contact and call to action."}
+  ]
+}

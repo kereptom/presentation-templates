@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Ocean Lines sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · maritime shipping and ports","h1":"Smarter ports<br><em>from quay to cargo</em>.","lead":"Demo presentation of the template. All text is sample (dummy) content and only exists to show off the styles.","meta":[["Topic","Port logistics"],["Length","45 minutes"],["Audience","Operations and leadership"],["Date","2026"]],"notes":"Opening slide. This is where the event name, a one-line subtitle and the bottom meta row belong. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, five views on the same harbor.","members":[["MH","Mara Holt","Port operations lead"],["EV","Elena Vos","Data analyst"],["PR","Pavel Reed","Berth planning"],["LS","Liam Shore","Customs and trade"],["TA","Tomas Aldo","IT and security"]],"notes":"Team slide. Instead of photos it uses initials in a colored circle, so it needs no images."},
+
+    {"type":"agenda","kicker":"// agenda for the day","h2":"How today's block <em>runs</em>.","lead":"Three parts, with room for questions in between.","blocks":["1 · Where we stand today","2 · What to deploy now","3 · The 90 day plan"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where we <em>stand</em> today.","lead":"Terminal throughput, vessel data and the biggest bottlenecks.","notes":"Divider slide between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"The data is already <em>at the dock</em>.","illus":"network","lead":"AIS feeds, crane sensors and terminal systems collect more than anyone can read. Value appears only when they connect.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: large heading, a striking illustration, a short caption. Good for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that fit","h2":"Three numbers that <em>decide</em>.","items":[["trend_down","-27 %","fewer vessel waiting hours after smart berth scheduling"],["clock","5 h","saved daily on manual yard reporting"],["target","+21 %","higher crane moves per hour after optimization"]],"bullets":["Measure impact, not activity: what matters is the effect on the quay.","Start where you already have data and where the pain is sharpest.","A small pilot with a clear metric beats a big plan without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a big number and a caption, supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Berth scheduling <em>in a nutshell</em>.","lead":"The model does not wait for congestion, it forecasts it.","bullets":[["Collects.","Vessel ETAs, tide windows and crane availability."],["Learns.","What preceded past berth conflicts and delays."],["Warns.","Before the queue builds at the harbor mouth."],["Plans.","Berth slots into the window with least idle time."]],"illus":"gears","footnote":"// two column slide with an illustration","notes":"Two column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself up."},
+
+    {"type":"cards2","kicker":"// two routes","h2":"Reactive, or <em>predictive</em>.","lead":"Same terminal, two approaches and two cost curves.","cards":[["Reactive","We react once vessels are already stacked up. Costly and unpredictable."],["Scheduled","Berths by a fixed timetable. Better, but often idle too early."],["Predictive","Berths by real demand and tides. Lowest total cost."],["Hybrid","Critical liners predictive, the rest scheduled."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or listing options."},
+
+    {"type":"cards3","kicker":"// tools","h2":"What to <em>deploy</em> where.","lead":"Six typical building blocks of a smart port.","cards":[["cpu","Edge capture","Crane and gate data in real time, close to the source."],["activity","Monitoring","Live views of terminal flow and deviations."],["alert","Anomaly detection","Flags unusual vessel or yard behavior before staff do."],["doc","Auto report","From data straight to a daily brief for leadership."],["shield","Security","Data stays inside your network and under control."],["users","Training","A crew that understands the tools and trusts them."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three scenarios for <em>traffic</em>.","items":[["1","plateau","Stabilization","Growth slows, so it pays to finish the basics first."],["2","expo","Acceleration","Trade volumes rise fast and reshape established routines."],["3","selfimp","Leap","Automation starts to plan moves, not just compute them."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From idea to <em>operation</em>.","lead":"Five steps, each with a clear output.","steps":[["Spot","the bottleneck"],["Pilot","small and measurable"],["Evaluate","impact and risk"],["Deploy","into the process"],["Scale","to more berths"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// the thought","h2":"","quote":"It is not the port with the most data that wins, but the one that turns it into a decision the fastest.","by":"Sample quote to show the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to keep in mind","h2":"Three rules of <em>rollout</em>.","lead":"Simple, but easy to forget.","bullets":[["One owner.","Every tool has the name of a person who stands behind it."],["A measurable goal.","You know in advance how you will tell it worked."],["A human approves.","On critical moves a person always makes the call."]],"footnote":"// simple list with emphasis","notes":"A plain slide with bullets and a strong lead word. Text scales up automatically to fill the area."},
+
+    {"type":"statement","kicker":"// the block's point","h1":"Discipline <em>wins</em>, not enthusiasm.","lead":"A pilot with no metric and no owner ends up in a drawer.","notes":"Statement slide: one large sentence centered on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"The <em>90 day</em> plan.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"A report from data in <em>30 seconds</em>.","lead":"We switch into the tool and build a daily terminal brief live.","footnote":"// placeholder slide for a demo or break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's set <em>sail</em> together.","lead":"Questions, contact and next steps.","meta":[["Contact","name@company.com"],["Web","company.com"],["Next step","Pilot in 2 weeks"],["Materials","for download"]],"notes":"Closing slide in the style of the title. Contact and a call to action."}
+  ]
+}

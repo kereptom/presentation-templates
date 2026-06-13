@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Blueprint · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · strojní a stavební inženýrství","h1":"Od výkresu<br><em>ke konstrukci</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Inženýrský návrh"],["Délka","50 minut"],["Publikum","Projektanti a stavbyvedoucí"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět profesí, jeden společný projekt.","members":[["MČ","Martin Černý","Hlavní konstruktér"],["Vded","Veronika Dědková","Statik"],["RŠ","Radek Šimek","Stavbyvedoucí"],["ABe","Anna Beránková","BIM koordinátor"],["JVl","Jakub Vlach","Technolog a bezpečnost"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Od zadání k modelu","2 · Návrh a posouzení","3 · Cesta na stavbu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Od zadání <em>k modelu</em>.","lead":"Vstupy, předpoklady a největší rizika návrhu.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Model je dnes <em>jediný zdroj pravdy</em>.","illus":"layers","lead":"Geometrie, materiály i zatížení žijí v jednom modelu. Chyba v zadání se jinak množí napříč všemi výkresy.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_down","-24 %","méně kolizí na stavbě díky koordinaci v modelu"],["clock","6 h","ušetřených týdně na ruční tvorbě výkazů výměr"],["target","1,8×","vyšší přesnost odhadu spotřeby materiálu"]],"bullets":["Posuzujte únosnost i použitelnost: bezpečné neznamená automaticky vyhovující.","Začněte u kritických prvků, kde má chyba největší dopad na náklady.","Jeden ověřený detail je cennější než deset nedotažených variant."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Statický posudek <em>v kostce</em>.","lead":"Konstrukce neselže náhodou, selže tam, kde jsme ji podcenili.","bullets":[["Zatěžuje.","Vlastní tíhou, užitným zatížením, větrem a sněhem."],["Modeluje.","Pruty, desky a spoje v reálné tuhosti."],["Posuzuje.","Mezní stav únosnosti i použitelnosti."],["Dimenzuje.","Průřezy a výztuž na nejméně příznivou kombinaci."]],"illus":"gears","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dva přístupy","h2":"Ocel, nebo <em>železobeton</em>.","lead":"Stejné rozpětí, dvě konstrukční filozofie a dvě nákladové křivky.","cards":[["Ocel","Rychlá montáž a malá hmotnost. Náročnější na požární ochranu."],["Železobeton","Levný materiál a tuhost. Pomalejší a těžší konstrukce."],["Spřažené","Beton na tlak, ocel na tah. Vyvážený kompromis."],["Dřevo","Lehké a obnovitelné. Vyžaduje pečlivé detaily proti vlhkosti."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických bloků moderního inženýrského návrhu.","cards":[["cpu","Parametrický model","Geometrie řízená pravidly, ne ručním překreslováním."],["grid","FEM analýza","Rozložení napětí a deformací v celé konstrukci."],["alert","Kontrola kolizí","Najde střety profesí dřív, než vzniknou na stavbě."],["doc","Výkazy výměr","Z modelu rovnou podklad pro rozpočet."],["shield","Posudky norem","Automatická kontrola podle platných Eurokódů."],["compass","Vytyčení","Souřadnice z modelu přímo pro geodeta na stavbě."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Ustálení","Návrhové postupy dozrály, prostor je v detailech a koordinaci."],["2","expo","Zrychlení","Generativní návrh nabízí varianty, které by člověk nestihl."],["3","selfimp","Skok","Model se sám optimalizuje na náklady i emise materiálu."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od nápadu k <em>realizaci</em>.","lead":"Pět fází, každá s jasným výstupem.","steps":[["Zadání","a vstupní data"],["Studie","variant a koncept"],["Návrh","posouzení a dimenze"],["Dokumentace","pro provedení stavby"],["Realizace","a kontrola na stavbě"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Dobrý inženýr nepočítá, jestli to vydrží, ale ví, kde to selže jako první.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>návrhu</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jasné předpoklady.","Každý výpočet stojí na zatíženích, která jdou dohledat."],["Ověřený model.","Výsledek z programu vždy hrubě prověříte ručně."],["Inženýr schvaluje.","U nosných prvků nese odpovědnost vždy člověk."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Rozhoduje <em>detail</em>, ne hrubý výpočet.","lead":"Konstrukce nejčastěji selhává ve spoji, ne v průřezu.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Cesta na <em>stavbu</em>.","lead":"Co vyřešit před výkopem, v hrubé stavbě a při dokončení.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Výkaz výměr z modelu za <em>60 sekund</em>.","lead":"Přepneme do nástroje a vygenerujeme podklad pro rozpočet naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Postavíme to <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@firma.cz"],["Web","firma.cz"],["Další krok","Studie do 3 týdnů"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

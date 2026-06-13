@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Steel Logistics sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · logistics and supply chain","h1":"Supply chains<br><em>that see ahead</em>.","lead":"Demo (sample) template presentation. All text is dummy and exists only to showcase the styles.","meta":[["Topic","Supply chain"],["Length","45 minutes"],["Audience","Ops and planning"],["Date","2026"]],"notes":"Opening slide. Put the event name, a one-line subtitle and a meta row at the bottom here. Highlight one word with em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, five views on the same goal.","members":[["AM","Anna Meyer","Head of Operations"],["DK","David Klein","Demand Planner"],["RS","Rita Soto","Warehouse Lead"],["LP","Liam Park","Transport Manager"],["NV","Nora Vidal","Data and Systems"]],"notes":"Team slide. Uses initials in a colored circle instead of photos, so it needs no images."},
+
+    {"type":"agenda","kicker":"// agenda for today","h2":"How this block will <em>run</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where we stand","2 · What to fix now","3 · Plan for 90 days"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where we <em>stand</em>.","lead":"Current flows, data and the biggest bottlenecks.","notes":"Section divider between blocks. Large heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// big idea","h1":"The signals are already <em>here</em>.","illus":"network","lead":"Orders, telematics and warehouse scans capture more than anyone can read. Value appears only when they connect.","footnote":"// illustrative slide with enlarged image","notes":"Hero slide: large heading, bold illustration, short caption. Good for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>decide</em>.","items":[["trend_down","-27 %","fewer late deliveries after route optimization"],["clock","5 h","saved daily on manual stock reconciliation"],["target","+21 %","higher on-time-in-full across key lanes"]],"bullets":["Measure impact, not activity: what matters is the effect on flow.","Start where you already have data and feel the pain most.","A small pilot with a clear metric beats a big plan without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a large number and a caption, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Demand forecasting <em>in brief</em>.","lead":"The model does not wait for a stockout, it predicts it.","bullets":[["Collects.","Orders, lead times and seasonality across SKUs."],["Learns.","What preceded past shortages and surpluses."],["Warns.","Before a shelf runs empty or a yard overflows."],["Plans.","Replenishment into the window that costs least."]],"illus":"gears","footnote":"// two-column slide with illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Reactive, or <em>proactive</em>.","lead":"Same network, two approaches and two cost curves.","cards":[["Reactive","We expedite only when a line goes empty. Costly and unpredictable."],["Scheduled","Replenish on a fixed calendar. Better, but often too early."],["Predictive","Replenish on real demand signals. Lowest total cost."],["Hybrid","Critical SKUs predictive, the rest scheduled."]],"footnote":"// four cards in two columns","notes":"A 2x2 card grid. Good for comparisons or listing variants."},
+
+    {"type":"cards3","kicker":"// tools","h2":"What to deploy <em>where</em>.","lead":"Six typical building blocks of a smart supply chain.","cards":[["cpu","Edge capture","Scans and telematics in real time, close to the source."],["activity","Live tracking","Live view of shipment status and exceptions."],["alert","Anomaly alerts","Flags unusual delays before a person notices."],["doc","Auto reports","From raw data straight to a daily ops briefing."],["shield","Resilience","Data and routing stay under your control."],["users","Enablement","A team that understands the tools and trusts them."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three scenarios of <em>change</em>.","items":[["1","plateau","Stabilization","Gains slow down, it pays to finish the basics."],["2","expo","Acceleration","Tools improve fast and reshape routine planning."],["3","selfimp","Leap","Automation also designs the routing, not just the math."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the path","h2":"From idea to <em>operation</em>.","lead":"Five steps, each with a clear output.","steps":[["Spot","the bottleneck"],["Pilot","small and measurable"],["Assess","impact and risk"],["Deploy","into the process"],["Scale","to more lanes"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// the idea","h2":"","quote":"The winner is not the one with the most data, but the one who turns it into a decision the fastest.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// things to keep in mind","h2":"Three rules of <em>rollout</em>.","lead":"Simple, but easy to forget.","bullets":[["One owner.","Every tool has the name of a person who stands behind it."],["A measurable goal.","You know in advance how you will tell it worked."],["A human approves.","On critical steps a person always decides."]],"footnote":"// simple list with emphasis","notes":"A plain bullet slide with a strong lead word. Text scales automatically to fill the area."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Discipline wins, not <em>enthusiasm</em>.","lead":"A pilot with no metric and no owner ends up in a drawer.","notes":"Statement slide: one large sentence centered on the page. Use it for the key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"Plan for <em>90 days</em>.","lead":"What to do this week, this month and this quarter.","notes":"Second divider, opens the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"A report from data in <em>30 seconds</em>.","lead":"We switch into the tool and build a daily briefing live.","footnote":"// placeholder slide for a demo or break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let us do this <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","name@company.com"],["Web","company.com"],["Next step","Pilot in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and a call to action."}
+  ]
+}

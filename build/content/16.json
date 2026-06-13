@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Amber Stay · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · hotelnictví a pohostinství","h1":"Pohostinství<br><em>od rezervace k zážitku</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Hotelový provoz"],["Délka","45 minut"],["Publikum","Vedení a recepce"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, jeden společný host.","members":[["MP","Marek Pohorský","Ředitel hotelu"],["KV","Klára Veselá","Vedoucí recepce"],["JR","Jakub Říha","Šéfkuchař"],["AD","Anna Dvořáková","Housekeeping"],["OB","Ondřej Beneš","Revenue a IT"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Co zlepšit hned","3 · Plán na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Obsazenost, hosté a největší úzká místa provozu.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"O hostu už víme <em>dost</em>.","illus":"people","lead":"Rezervační systém, recepce i restaurace sbírají víc, než kdokoli stihne projít. Hodnota vzniká až propojením.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_up","+12 %","vyšší obsazenost po úpravě cenotvorby"],["clock","3 h","ušetřené denně na ruční administrativě recepce"],["heart","4,7","průměrné hodnocení hostů z pěti hvězd"]],"bullets":["Měřte zážitek hosta, ne jen počet nocí: rozhoduje, zda se vrátí.","Začněte tam, kde host čeká nejdéle a kde to nejvíc bolí.","Malá změna s jasnou metrikou poráží velký plán bez metriky."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Dynamické ceny <em>v kostce</em>.","lead":"Cena nečeká na prázdné pokoje, předbíhá poptávku.","bullets":[["Sleduje.","Poptávku, akce ve městě a chování konkurence."],["Učí se.","Co fungovalo v minulých sezónách."],["Doporučí.","Cenu na zítřek i na příští měsíc."],["Hlídá.","Aby sleva nesnížila celkový výnos."]],"illus":"growth","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Statická, nebo <em>dynamická</em>.","lead":"Stejný pokoj, dva přístupy a dvě výnosové křivky.","cards":[["Statická cena","Jedna sazba po celou sezónu. Jednoduché, ale necitlivé."],["Sezónní cena","Ceník podle kalendáře. Lepší, ale často pozdě."],["Dynamická cena","Cena podle skutečné poptávky. Nejvyšší výnos."],["Hybridní model","Špičky dynamicky, klidné období podle ceníku."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků moderního hotelu.","cards":[["calendar","Online rezervace","Pokoje a stoly bookovatelné kdykoli, bez fronty."],["dollar","Revenue management","Ceny řízené poptávkou a obsazeností."],["users","CRM hostů","Historie a preference na jednom místě."],["doc","Auto check-in","Příjezd bez papírování a čekání na recepci."],["leaf","Úspory v provozu","Spotřeba energie a prádla pod kontrolou."],["heart","Zpětná vazba","Hodnocení hostů rovnou do reportu pro vedení."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>sezóny</em>.","items":[["1","plateau","Stabilní rok","Poptávka kopíruje loňsko, vyplatí se dotáhnout základy."],["2","expo","Silná sezóna","Zájem rychle roste, kapacita se stává úzkým místem."],["3","decline","Slabší období","Poptávka klesá, rozhoduje cena a věrní hosté."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od poptávky k <em>návratu hosta</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Oslovit","správného hosta"],["Rezervovat","bez tření"],["Přivítat","rychlý check-in"],["Obsloužit","nad očekávání"],["Vrátit","věrný host"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Host si nepamatuje cenu pokoje, pamatuje si, jak se u vás cítil.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>pohostinnosti</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden vlastník.","Každý okamžik hosta má člověka, který za něj ručí."],["Měřitelný cíl.","Předem víte, podle čeho poznáte spokojenost."],["Člověk vítá.","U klíčových chvil rozhoduje vždy lidský přístup."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>pohostinnost</em>, ne sleva.","lead":"Levný pokoj bez péče se neprodá podruhé.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>sezónu</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Cenovka na zítřek za <em>30 sekund</em>.","lead":"Přepneme do nástroje a nastavíme ceny pokojů naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Vítejte u nás <em>nastálo</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","recepce@amberstay.cz"],["Web","amberstay.cz"],["Další krok","Pilot za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

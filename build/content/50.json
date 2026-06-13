@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Graphite Auto sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · automotive industry","h1":"The Software-Defined<br><em>Vehicle</em>.","lead":"This is a demo (sample) template. All copy is placeholder (dummy) text and exists only to show the styles.","meta":[["Topic","Automotive shift"],["Length","45 minutes"],["Audience","Leadership and engineering"],["Date","2026"]],"notes":"Opening slide. Put the event title here, a one-line subtitle, and a meta row at the bottom. Wrap one word in em for the accent color."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared road ahead.","members":[["AM","Alex Morgan","Head of Platform"],["RC","Rosa Chen","Powertrain Lead"],["DK","David Kane","Software Architect"],["NP","Nina Patel","Quality and Safety"],["TO","Theo Olsen","Supply and Sourcing"]],"notes":"Team slide. Instead of photos it uses initials in a colored circle, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this block will <em>run</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Where the market stands","2 · What to ship now","3 · The 90 day roadmap"],"notes":"Agenda as three large tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where the market <em>stands</em>.","lead":"Demand, drivetrains, and the biggest bottlenecks.","notes":"Divider slide between blocks. Big heading on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"The car is now a <em>platform</em>.","illus":"chip","lead":"Steel and rubber still matter, but value now lives in software, sensors, and the network behind them.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: big heading, bold illustration, short caption. Good for a key point or a chapter opener."},
+
+    {"type":"kpi","kicker":"// numbers that fit","h2":"Three numbers that <em>decide</em>.","items":[["trend_up","+41 %","share of EV models planned across the lineup by 2028"],["clock","6 wk","cut from the recall-to-fix cycle with over-the-air updates"],["dollar","-19 %","lower warranty cost after predictive diagnostics"]],"bullets":["Measure impact on the road, not lines of spec written.","Start where the data and the customer pain already overlap.","A small pilot with a clear metric beats a big plan without one."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a big number, and a label, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Over-the-air updates <em>in short</em>.","lead":"The fleet improves without a single visit to the shop.","bullets":[["Collects.","Telemetry from drivetrain, brakes, and battery."],["Learns.","Which patterns came before past failures."],["Pushes.","A signed update to the right vehicles overnight."],["Confirms.","That every car installed it safely."]],"illus":"network","footnote":"// two-column slide with an illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Build it, or <em>partner</em> for it.","lead":"Same software platform, two routes and two cost curves.","cards":[["Outsource","Buy the stack whole. Fast to start, hard to differentiate."],["In-house","Own every layer. Costly, but yours to shape."],["Co-develop","Share a platform with a partner. Balanced risk."],["Hybrid","Core in-house, edge features from suppliers."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparisons or listing variants."},
+
+    {"type":"cards3","kicker":"// building blocks","h2":"What to put <em>where</em>.","lead":"Six typical building blocks of a connected vehicle.","cards":[["cpu","Edge compute","Decisions made in the car, close to the sensor."],["activity","Fleet telemetry","Live view of every vehicle on the road."],["alert","Anomaly alerts","Flags odd behavior before the driver feels it."],["zap","OTA delivery","Signed updates pushed to the whole fleet."],["shield","Cyber safety","Each car authenticated and the link encrypted."],["users","Driver trust","People who understand the systems and rely on them."]],"footnote":"// a 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three scenarios for the <em>drivetrain</em>.","items":[["1","plateau","Plateau","Battery gains slow, so the win shifts to software and cost."],["2","expo","Acceleration","Autonomy features improve fast and reshape the cabin."],["3","selfimp","Leap","The car designs its own driving policy, not just runs it."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the path","h2":"From idea to the <em>road</em>.","lead":"Five steps, each with a clear output.","steps":[["Scope","one bottleneck"],["Prototype","small and testable"],["Validate","impact and risk"],["Ship","into the fleet"],["Scale","to more models"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a title and a small caption."},
+
+    {"type":"quote","kicker":"// the thought","h2":"","quote":"The winner is not the carmaker with the most sensors, but the one that turns their signal into a fix the fastest.","by":"Sample quote to show the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// things to keep in mind","h2":"Three rules of <em>rollout</em>.","lead":"Simple, but easy to forget under deadline.","bullets":[["One owner.","Every feature carries the name of a person who answers for it."],["A measurable goal.","You know up front how success will be judged."],["A human approves.","On safety-critical steps a person always decides."]],"footnote":"// a simple list with emphasis","notes":"A plain slide with bullets and a strong lead word. Text scales up automatically to fill the space."},
+
+    {"type":"statement","kicker":"// the block's point","h1":"<em>Discipline</em> wins, not novelty.","lead":"A pilot without a metric and an owner ends up in a drawer.","notes":"Statement slide: one big sentence centered on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"The <em>90 day</em> roadmap.","lead":"What to do this week, this month, and this quarter.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"A fleet report in <em>30 seconds</em>.","lead":"We switch into the tool and build a daily overview live.","footnote":"// placeholder slide for a demo or a break","notes":"Placeholder slide. Centered heading, ideal for a live demo, a break, or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's drive this <em>together</em>.","lead":"Questions, contact, and next steps.","meta":[["Contact","name@company.com"],["Web","company.com"],["Next step","Pilot in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide styled like the title. Contact and a call to action."}
+  ]
+}

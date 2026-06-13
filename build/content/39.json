@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Pastel Mint · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · papírnictví a design","h1":"Krásný papír<br><em>pro každý nápad</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Papírnictví a design"],["Délka","40 minut"],["Publikum","Tvůrci a obchod"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, pět pohledů na stejný regál.","members":[["KM","Klára Malířová","Vedoucí prodejny"],["OV","Ondřej Veselý","Nákup sortimentu"],["AŠ","Adéla Štětcová","Grafický design"],["RP","Radek Pero","E-shop a logistika"],["BL","Bára Linková","Péče o zákazníky"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Co dnes prodáváme","2 · Co přidat do regálu","3 · Plán na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Co dnes <em>prodáváme</em>.","lead":"Sortiment, zákazníci a největší příležitosti.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Papír stále <em>vypráví</em>.","illus":"doc","lead":"V době obrazovek roste touha psát rukou, kreslit a dotýkat se materiálu. Hodnota je v zážitku.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_up","+27 %","vyšší prodej deníků a zápisníků za poslední rok"],["users","3 200","stálých zákazníků věrnostního programu"],["target","+14 %","vyšší marže u prémiových psacích potřeb"]],"bullets":["Sledujte, co se vrací: rozhoduje opakovaný nákup, ne jednorázový.","Začněte u sortimentu, který už lidé hledají a v regálu chybí.","Malá kolekce s jasným příběhem prodá víc než přeplněný regál."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Dobrá kolekce <em>v kostce</em>.","lead":"Regál nezačíná zbožím, ale zákazníkem.","bullets":[["Naslouchá.","Co tvůrci a studenti opravdu hledají."],["Vybírá.","Materiály, které vydrží a hezky se píší."],["Skládá.","Sady, které dávají smysl pohromadě."],["Vypráví.","Příběh značky i původu papíru."]],"illus":"layers","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Levně, nebo <em>kvalitně</em>.","lead":"Stejná police, dva přístupy a dvě skupiny zákazníků.","cards":[["Nejlevněji","Sázíme na cenu. Vysoký obrat, nízká marže a věrnost."],["Značkově","Prémiové kolekce. Vyšší marže, ale pomalejší obrat."],["Kurátorsky","Pečlivý výběr napříč cenami. Vyvážený regál."],["Sezónně","Krátké kolekce k svátkům a začátku školního roku."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// sortiment","h2":"Co kam <em>zařadit</em>.","lead":"Šest typických stavebních bloků papírnictví.","cards":[["doc","Papíry a bloky","Zápisníky, skicáky a dopisní papír."],["compass","Psací potřeby","Pera, fixy a tužky pro každou ruku."],["leaf","Eko sortiment","Recyklovaný papír a obnovitelné materiály."],["heart","Dárkové sady","Hotová balení připravená k darování."],["grid","Organizace","Diáře, plánovače a kalendáře."],["zap","Kreativní sady","Akvarely, ražba a ruční písmo."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>sezóny</em>.","items":[["1","plateau","Klidná sezóna","Poptávka se ustálí, vyplatí se doladit stálý sortiment."],["2","expo","Návrat k papíru","Zájem o ruční psaní rychle roste a táhne celý regál."],["3","selfimp","Vlastní kolekce","Vyvineme vlastní řadu deníků s jasným rukopisem."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od nápadu k <em>regálu</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Vybrat","téma kolekce"],["Otestovat","malou sérii"],["Vyhodnotit","prodej a ohlasy"],["Zařadit","do regálu"],["Rozšířit","do e-shopu"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Nevyhrává ten, kdo má nejvíc zboží, ale ten, kdo za zákazníka vybere to pravé.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>regálu</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jasný příběh.","Každá kolekce má důvod, proč je pohromadě."],["Místo na dotek.","Zákazník si zboží může vyzkoušet a osahat."],["Stálá kvalita.","To, co prodáme, se musí dobře psát a vydržet."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>výběr</em>, ne objem.","lead":"Přeplněný regál bez příběhu zákazníka jen unaví.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>sezónu</em>.","lead":"Co udělat tento týden, tento měsíc a před školou.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Dárková sada za <em>2 minuty</em>.","lead":"Přejdeme k pultu a sestavíme dárkové balení naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Tvoříme dál <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@papirnictvi.cz"],["Web","papirnictvi.cz"],["Další krok","Nová kolekce za 3 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

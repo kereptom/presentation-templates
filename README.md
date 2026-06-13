@@ -1,6 +1,6 @@
 # Prezentační šablony
 
-Knihovna **12 prezentačních šablon** postavených na jednom sdíleném HTML enginu.
+Knihovna **62 prezentačních šablon** postavených na jednom sdíleném HTML enginu.
 Engine pochází z reálných decků a je očištěný od obsahu: zůstaly jen styly,
 komponenty a logika. Každá šablona je **samostatný HTML soubor** (veškerý CSS i
 JS uvnitř), takže ji stačí zkopírovat a otevřít v prohlížeči. Žádný build krok
@@ -38,7 +38,7 @@ ani závislosti za běhu.
 ├── README.md                  # tento soubor
 ├── GUIDE.md                   # referenční průvodce všemi typy slidů
 ├── templates/
-│   └── NN-slug/index.html     # 12 hotových, samostatných šablon
+│   └── NN-slug/index.html     # 62 hotových, samostatných šablon
 ├── gallery/shots/             # náhledy do galerie (PNG)
 └── build/
     ├── build.py               # generátor: téma + obsah -> samostatný HTML

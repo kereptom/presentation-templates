@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Template: Carbon Lime sample deck</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%239bd62a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&family=JetBrains+Mono:wght@400..600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --c-1:#9bd62a; --c-2:#b5e161; --c-3:#7cab22;
+  --accent:var(--c-1); --accent-soft:#24310f; --accent-line:#486317;
+  --paper:#0c0f0a; --paper-soft:#1c1f19;
+  --ink:#eef3e6; --ink-2:#bcc1b6; --ink-3:#82867c;
+  --rule:#292d27; --rule-soft:#1a1d17;
+  --divider-bg:linear-gradient(140deg,#b5e161 0%,#9bd62a 55%,#7cab22 100%); --divider-ink:#ffffff;
+  --r:0.4;
+  --display:"Space Grotesk", system-ui, sans-serif; --serif:"Source Serif 4", Georgia, serif; --mono:"JetBrains Mono", ui-monospace, monospace;
+}
+*{box-sizing:border-box; -webkit-font-smoothing:antialiased}
+html{margin:0; padding:0; background:#0b0b0d; height:100%; overflow:hidden}
+body{margin:0; padding:0; background:#0b0b0d; color:var(--ink); font-family:var(--serif); height:100vh; overflow-y:auto; overflow-x:hidden; display:flex; flex-direction:column}
+body > .stage, body > .notes, body > .controls{flex:0 0 auto}
+.stage{position:relative; background:var(--paper); overflow:hidden; aspect-ratio:16/9; max-height:calc(100vh - 170px); margin:18px auto 0; width:min(96vw, calc((100vh - 170px) * 16/9)); border-radius:8px; box-shadow:0 18px 60px rgba(0,0,0,0.4)}
+.slides-host{position:absolute; top:0; left:0; width:1280px; height:720px; transform-origin:top left; transform:scale(var(--scale,1)); container-type:size; container-name:stage}
+.slide{position:absolute; inset:0; padding:4.6% 7% 8.6%; display:none; flex-direction:column; justify-content:center; gap:2%; font-family:var(--serif)}
+.slide.active{display:flex}
+.slide h1{font-family:var(--display); font-weight:700; font-size:calc(5.29cqw*var(--fs,1)); letter-spacing:-0.02em; line-height:1.02; margin:0 0 1cqw}
+.slide h2{font-family:var(--display); font-weight:600; font-size:calc(3.45cqw*var(--fs,1)); letter-spacing:-0.015em; line-height:1.1; margin:0 0 1.2cqw}
+.slide h3{font-family:var(--display); font-weight:500; font-size:calc(1.95cqw*var(--fs,1)); color:var(--ink-2); margin:0 0 0.8cqw}
+.slide p,.slide li{font-size:calc(1.78cqw*var(--fs,1)); line-height:1.5; color:var(--ink-2); margin:0 0 0.6cqw}
+.slide ul,.slide ol{margin:0.6cqw 0 0; padding-left:1.2em}
+.slide li{margin:0 0 0.6cqw}
+.slide em{font-style:normal; background:linear-gradient(135deg,var(--c-2),var(--c-1) 55%,var(--c-3)); -webkit-background-clip:text; background-clip:text; color:transparent; padding-right:0.08em; margin-right:-0.08em}
+.slide code{font-family:var(--mono); font-size:0.9em; background:var(--paper-soft); padding:0.1em 0.35em; border-radius:0.3em}
+.slide .kicker{font-family:var(--mono); font-size:1.21cqw; color:var(--ink-3); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1.1cqw}
+.slide .kicker::before{content:""; display:inline-block; width:1.4cqw; height:0.16cqw; background:linear-gradient(90deg,var(--c-2),var(--c-1)); vertical-align:middle; margin-right:0.8cqw}
+.slide .footnote{font-family:var(--mono); font-size:1.12cqw; color:var(--ink-3); position:absolute; left:7%; right:7%; bottom:3.2%; margin:0}
+.slide .lead{font-family:var(--serif); font-style:italic; font-size:calc(2.24cqw*var(--fs,1)); color:var(--ink-2); max-width:80%}
+.slide .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:3%; margin-top:1.1cqw}
+.slide .grid-3{display:grid; grid-template-columns:1fr 1fr 1fr; gap:2.5%; margin-top:1.1cqw}
+.slide .card{padding:1.4cqw 1.6cqw; border:1px solid var(--rule); border-radius:0.8cqw; background:var(--paper-soft)}
+.slide .card strong{font-family:var(--display); font-weight:600; display:flex; align-items:center; margin-bottom:0.4cqw; font-size:calc(1.78cqw*var(--fs,1)); color:var(--ink)}
+.slide .card span{font-size:calc(1.49cqw*var(--fs,1)); color:var(--ink-2); line-height:1.45}
+.slide .card-ic{width:1.5em; height:1.5em; flex:none; margin-right:0.5em; stroke:var(--c-1); fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round}
+.slide .scn-list{display:flex; flex-direction:column; gap:1.35cqw}
+.slide .scn-card{display:flex; align-items:center; gap:1.7cqw; padding:1.5cqw 1.9cqw; border:1px solid var(--rule); border-left:0.45cqw solid var(--c-1); border-radius:0.9cqw; background:var(--paper-soft)}
+.slide .scn-num{flex:none; width:3.1cqw; height:3.1cqw; border-radius:0.75cqw; background:linear-gradient(135deg,var(--c-2),var(--c-1) 60%,var(--c-3)); color:#fff; font-family:var(--display); font-weight:700; font-size:1.85cqw; display:flex; align-items:center; justify-content:center; line-height:1}
+.slide .scn-spark{flex:none; width:8.5cqw; height:4cqw; overflow:visible}
+.slide .scn-spark .ax{stroke:var(--rule); stroke-width:1.4}
+.slide .scn-spark .ln{fill:none; stroke:var(--c-1); stroke-width:4; stroke-linecap:round; stroke-linejoin:round}
+.slide .scn-spark .dot{fill:var(--c-1)}
+.slide .scn-spark .asy{stroke:var(--c-1); stroke-width:1.6; stroke-dasharray:2.6 2.6; opacity:0.4}
+.slide .scn-txt{display:flex; flex-direction:column; gap:0.15cqw}
+.slide .scn-txt strong{font-family:var(--display); font-weight:600; font-size:calc(2.2cqw*var(--fs,1)); color:var(--ink)}
+.slide .scn-txt span{font-size:calc(1.72cqw*var(--fs,1)); color:var(--ink-2); line-height:1.4}
+.slide .kpi-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1.6cqw; margin-top:2.4cqw}
+.slide .kpi{display:flex; flex-direction:column; align-items:center; text-align:center; gap:1cqw; padding:2.4cqw 1cqw 2cqw; border:1px solid var(--rule); border-radius:1cqw; background:var(--paper-soft)}
+.slide .kpi svg{width:3.6cqw; height:3.6cqw; stroke:var(--c-1); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round}
+.slide .kpi-num{font-family:var(--display); font-weight:700; font-size:4cqw; color:var(--c-1); line-height:1}
+.slide .kpi-lbl{font-size:1.28cqw; color:var(--ink-3); line-height:1.3}
+.slide .quote{font-family:var(--serif); font-style:italic; font-size:calc(2.7cqw*var(--fs,1)); color:var(--ink); padding-left:1.6cqw; border-left:4px solid var(--accent); margin:1.4cqw 0; max-width:84%; line-height:1.35}
+.slide .tag{display:inline-block; font-family:var(--mono); font-size:calc(1.09cqw*var(--fs,1)); padding:0.24cqw 0.6cqw; border-radius:999px; background:var(--accent-soft); color:var(--accent); margin-right:0.5cqw}
+.slide.title-slide{justify-content:flex-start; padding-top:7.5%}
+.slide.title-slide .lead{max-width:60%}
+.slide.title-slide h1{max-width:66%; font-size:calc(7.36cqw*var(--fs,1)); line-height:0.98}
+.slide.title-slide .meta{margin-top:auto; display:grid; grid-template-columns:repeat(4,1fr); gap:1.1cqw; padding-top:1.4cqw; border-top:1px solid var(--rule)}
+.slide.title-slide .meta strong{font-family:var(--mono); font-size:calc(1.09cqw*var(--fs,1)); color:var(--ink-3); text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:0.24cqw; font-weight:500}
+.slide.title-slide .meta span{font-family:var(--display); font-size:calc(1.55cqw*var(--fs,1)); color:var(--ink); font-weight:500}
+.slide.section-divider{background:var(--divider-bg); color:var(--divider-ink); text-align:center; align-items:center}
+.slide.section-divider .kicker{color:var(--divider-ink); opacity:0.8}
+.slide.section-divider .kicker::before{background:var(--divider-ink); opacity:0.6}
+.slide.section-divider h1{color:var(--divider-ink); font-size:calc(7.36cqw*var(--fs,1)); max-width:88%}
+.slide.section-divider h1 em{background:none; -webkit-text-fill-color:var(--divider-ink); color:var(--divider-ink); font-style:italic}
+.slide.section-divider .lead{color:var(--divider-ink); opacity:0.92; font-style:italic; font-size:calc(2.95cqw*var(--fs,1)); max-width:80%; margin-left:auto; margin-right:auto}
+.slide .illust-col{display:flex; align-items:center; justify-content:center; align-self:center}
+.slide .illust-col .ill{width:auto; height:auto; max-width:30cqw; max-height:42cqh}
+.slide .lector-grid{display:grid; grid-template-columns:repeat(5, 1fr); gap:1.6cqw; margin-top:2.2cqw}
+.slide .lector{display:flex; flex-direction:column; align-items:center; text-align:center; gap:0.8cqw}
+.slide .lector-photo{width:11cqw; height:11cqw; border-radius:50%; overflow:hidden; display:flex; align-items:center; justify-content:center; min-height:0; background:var(--accent-soft); border:2px solid var(--accent-line)}
+.slide .lector-initials{position:relative; background:linear-gradient(135deg, var(--c-2), var(--c-1) 60%, var(--c-3))}
+.slide .lector-initials::after{content:attr(data-initials); font-family:var(--display); font-weight:700; font-size:calc(3.6cqw*var(--fs,1)); color:#fff; letter-spacing:-0.02em}
+.slide .lector-name{font-family:var(--display); font-weight:600; font-size:calc(1.55cqw*var(--fs,1)); line-height:1.15; color:var(--ink)}
+.slide .lector-title{font-family:var(--mono); font-size:calc(1.05cqw*var(--fs,1)); color:var(--ink-3); text-transform:uppercase; letter-spacing:0.04em; line-height:1.3}
+.slide.placeholder-slide{justify-content:center; align-items:center; text-align:center}
+.slide.placeholder-slide h1{font-size:calc(5.06cqw*var(--fs,1))}
+.slide.placeholder-slide .kicker{margin-bottom:1.6cqw}
+.slide.placeholder-slide .lead{margin:0 auto; text-align:center; max-width:70%}
+.slide.placeholder-slide .footnote{position:absolute; left:7%; right:7%; bottom:5.2%; margin:0; text-align:center}
+.slide.bk{justify-content:flex-start}
+.slide.bk h1{font-size:calc(4.6cqw*var(--fs,1)); margin:0 0 0.6cqw}
+.slide.bk .bk-img{flex:1 1 auto; min-height:0; display:flex; align-items:center; justify-content:center; margin:0.5cqw 0}
+.slide.bk .bk-img .ill{max-height:38cqh; max-width:54%}
+.slide.bk .lead{max-width:none; font-size:1.98cqw; margin:0; line-height:1.4}
+.agenda-flow{display:grid; grid-template-columns:repeat(3,1fr); gap:1.4cqw; align-items:stretch; margin-top:2.6cqw}
+.af-b{background:var(--paper-soft); border:1px solid var(--accent-line); border-radius:1cqw; padding:1.5cqw 1.2cqw; font-family:var(--display); font-weight:600; font-size:1.85cqw; text-align:center; line-height:1.2; color:var(--ink); display:flex; align-items:center; justify-content:center}
+.flow{display:flex; flex-wrap:nowrap; align-items:center; justify-content:center; gap:0.7cqw; margin:2cqw 0}
+.flow-b{flex:1 1 0; min-width:0; background:var(--paper-soft); border:1px solid var(--accent-line); border-radius:1cqw; padding:1cqw 0.8cqw; font-family:var(--display); font-weight:600; font-size:calc(1.42cqw*var(--fs,1)); text-align:center; line-height:1.2; color:var(--ink)}
+.flow-b small{display:block; margin-top:0.25cqw; font-family:var(--mono); font-weight:400; font-size:0.78em; color:var(--ink-3)}
+.flow-a{flex:0 0 auto; font-family:var(--display); font-weight:700; font-size:calc(1.9cqw*var(--fs,1)); color:var(--accent)}
+.slide .notes-data{display:none}
+.notes{background:#15131a; color:#d7d2cb; padding:14px 24px; font-family:var(--serif); font-size:14.5px; line-height:1.5; max-height:150px; overflow-y:auto; border-top:1px solid #2a2630}
+.notes .label{font-family:var(--mono); font-size:10.5px; color:var(--c-2); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:6px}
+.notes p{margin:0 0 6px}
+.notes:empty,.notes.hidden{display:none}
+.controls{background:#0e0e10; padding:10px 24px; display:flex; align-items:center; gap:12px; font-family:var(--mono); color:#cbcbd3; font-size:12px; border-top:1px solid #2a2630; flex-wrap:wrap}
+.controls button,.controls a.home-link{font-family:var(--mono); font-size:12px; padding:6px 12px; border-radius:6px; border:1px solid #2a2630; background:#181520; color:#cbcbd3; cursor:pointer; text-decoration:none}
+.controls button:hover,.controls a.home-link:hover{background:#221d2b; border-color:var(--c-1)}
+.controls .counter{margin-left:auto; font-weight:500}
+.controls .hint{color:#6b6b73; font-size:11px}
+.progress{position:absolute; left:0; top:0; height:3px; background:linear-gradient(90deg,var(--c-2),var(--c-1)); transition:width 0.3s; z-index:10}
+.slide.statement{justify-content:center; align-items:center; text-align:center}
+.slide.statement h1{font-size:calc(5.2cqw*var(--fs,1)); max-width:90%}
+.slide.statement .lead{margin:1cqw auto 0; max-width:74%; font-size:calc(2.5cqw*var(--fs,1))}
+.slide .card,.slide .kpi,.slide .scn-card,.slide .flow-b,.af-b{border-radius:calc(0.95cqw*var(--r,1))}
+.slide .scn-num{border-radius:calc(0.7cqw*var(--r,1))}
+body.cs-outline .slide .card,body.cs-outline .slide .kpi,body.cs-outline .slide .scn-card,body.cs-outline .slide .flow-b,body.cs-outline .af-b{background:transparent}
+body.cs-flat .slide .card,body.cs-flat .slide .kpi,body.cs-flat .slide .scn-card,body.cs-flat .slide .flow-b,body.cs-flat .af-b{border-color:transparent}
+body.em-solid .slide em{background:none;-webkit-text-fill-color:var(--c-1);color:var(--c-1)}
+@media (max-width:640px){ .controls{gap:6px; padding:8px 12px; font-size:11px} .controls .hint{display:none} }
+</style>
+</head>
+<body class="em-solid">
+<div class="stage">
+  <div class="progress" id="progress"></div>
+  <div class="slides-host" id="slidesHost">
+    <section class="slide active title-slide"><div class="kicker">// sample template · cybersecurity</div><h1>Defending what matters<br><em>before it breaks</em>.</h1><p class="lead">This is a demonstration (sample) template. All text is dummy content and exists only to show off the styles.</p><div class="meta"><div><strong>Topic</strong><span>Cybersecurity</span></div><div><strong>Length</strong><span>45 minutes</span></div><div><strong>Audience</strong><span>Leadership and security</span></div><div><strong>Date</strong><span>2026</span></div></div><aside class="notes-data">Opening slide. Put the event title, a one-line subtitle and a meta row at the bottom here. Wrap one word in em for the accent color.</aside></section>
+    <section class="slide active"><div class="kicker">// your team</div><h2>Who will <em>guide</em> you today.</h2><p class="lead">Five roles, one shared goal.</p><div class="lector-grid"><div class="lector"><div class="lector-photo lector-initials" data-initials="AB"></div><div class="lector-name">Alex Brenner</div><div class="lector-title">Head of Security</div></div><div class="lector"><div class="lector-photo lector-initials" data-initials="MK"></div><div class="lector-name">Maya Kael</div><div class="lector-title">Threat Analyst</div></div><div class="lector"><div class="lector-photo lector-initials" data-initials="RD"></div><div class="lector-name">Raj Devi</div><div class="lector-title">Incident Response</div></div><div class="lector"><div class="lector-photo lector-initials" data-initials="SL"></div><div class="lector-name">Sara Lund</div><div class="lector-title">Compliance Lead</div></div><div class="lector"><div class="lector-photo lector-initials" data-initials="TO"></div><div class="lector-name">Tomas Ott</div><div class="lector-title">Platform Engineer</div></div></div><aside class="notes-data">Team slide. Instead of photos it uses initials in a colored circle, so it needs no images.</aside></section>
+    <section class="slide"><div class="kicker">// today's agenda</div><h2>How this block will <em>run</em>.</h2><p class="lead">Three parts, with room for questions between them.</p><div class="agenda-flow"><div class="af-b">1 · Where we stand today</div><div class="af-b">2 · What to deploy now</div><div class="af-b">3 · A 90-day plan</div></div><aside class="notes-data">Agenda as three large tiles. Good at the start of a block.</aside></section>
+    <section class="slide section-divider"><div class="kicker">// block 1</div><h1>Where we <em>stand</em> today.</h1><p class="lead">Our exposure, the data, and the biggest gaps.</p><aside class="notes-data">Section divider between blocks. Large heading on a colored gradient.</aside></section>
+    <section class="slide bk"><div class="kicker">// the big idea</div><h1>The perimeter is already <em>gone</em>.</h1><div class="bk-img"><svg class="ill" viewBox="0 0 240 200" fill="none" stroke="var(--c-1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M120 30 50 56v52c0 44 70 74 70 74s70-30 70-74V56z"/><path d="m92 104 20 20 40-44"/></svg></div><p class="lead">Identities, devices and cloud apps blur every old boundary. Trust now has to be earned at every request.</p><p class="footnote">// illustrative slide with an enlarged image</p><aside class="notes-data">Hero slide: large heading, a strong illustration, short caption. Good for a key point or a chapter.</aside></section>
+    <section class="slide"><div class="kicker">// numbers that hold</div><h2>Three numbers that <em>decide</em>.</h2><div class="kpi-grid"><div class="kpi"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div class="kpi-num">207 days</div><div class="kpi-lbl">average time to detect an intrusion left unmonitored</div></div><div class="kpi"><svg viewBox="0 0 24 24"><path d="M16 17h6v-6"/><path d="m22 17-8.5-8.5-5 5L2 7"/></svg><div class="kpi-num">-64%</div><div class="kpi-lbl">fewer phishing clicks after targeted training</div></div><div class="kpi"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg><div class="kpi-num">98%</div><div class="kpi-lbl">of breaches blocked by multi-factor authentication</div></div></div><ul style="line-height:1.5; margin-top:0.6cqw"><li style="font-size:calc(2.1cqw*var(--fs,1))">Measure dwell time, not alert volume: speed of detection wins.</li><li style="font-size:calc(2.1cqw*var(--fs,1))">Start where the crown jewels and the real pain actually sit.</li><li style="font-size:calc(2.1cqw*var(--fs,1))">A small pilot with a clear metric beats a big plan without one.</li></ul><p class="footnote">// source: sample data</p><aside class="notes-data">KPI dashboard: three cards with an icon, a big number and a caption, with supporting bullets below.</aside></section>
+    <section class="slide"><div class="kicker">// how it works</div><h2>Zero trust <em>in a nutshell</em>.</h2><p class="lead">Never assume, always verify.</p><div class="grid-2" style="grid-template-columns:1fr 0.6fr; align-items:center"><div><ul style="line-height:1.65; font-size:calc(2.32cqw*var(--fs,1))"><li><strong>Verify.</strong> Every identity and device on each request.</li><li><strong>Limit.</strong> Least privilege, only what the task needs.</li><li><strong>Segment.</strong> Contain blast radius if one host falls.</li><li><strong>Watch.</strong> Telemetry on everything, all the time.</li></ul></div><div class="illust-col"><svg class="ill" viewBox="0 0 240 200" fill="none" stroke="var(--c-1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="120" cy="100" r="20"/><circle cx="40" cy="50" r="13"/><circle cx="200" cy="55" r="13"/><circle cx="50" cy="160" r="13"/><circle cx="195" cy="155" r="13"/><path d="M104 88 53 60M136 90 188 62M106 114 60 150M134 113 182 145"/></svg></div></div><p class="footnote">// two-column slide with an illustration</p><aside class="notes-data">Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself.</aside></section>
+    <section class="slide"><div class="kicker">// two postures</div><h2>Reactive, or <em>proactive</em>.</h2><p class="lead">Same threat, two approaches and two cost curves.</p><div class="grid-2"><div class="card"><strong>Reactive</strong><span>We respond once the breach is public. Costly and chaotic.</span></div><div class="card"><strong>Compliant</strong><span>We pass the audit checklist. Better, but often only on paper.</span></div><div class="card"><strong>Proactive</strong><span>We hunt and patch before exploitation. Lowest risk.</span></div><div class="card"><strong>Resilient</strong><span>We assume breach and rehearse recovery until it is routine.</span></div></div><p class="footnote">// four cards in two columns</p><aside class="notes-data">A 2x2 grid of cards. Good for comparisons or listing variants.</aside></section>
+    <section class="slide"><div class="kicker">// the toolkit</div><h2>What to <em>deploy</em> where.</h2><p class="lead">Six typical building blocks of a modern defense.</p><div class="grid-3"><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Identity</strong><span>Strong MFA and single sign-on at the front door.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>Monitoring</strong><span>Live view of endpoints, logs and anomalies.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>Detection</strong><span>Flags unusual behavior before a human would.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h6"/></svg>Logging</strong><span>Tamper-proof records for audits and forensics.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>Endpoint</strong><span>Devices hardened, isolated and always patched.</span></div><div class="card"><strong><svg class="card-ic" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9"/><path d="M16 3.1A4 4 0 0 1 16 11"/></svg>Awareness</strong><span>A team that spots and reports the lures.</span></div></div><p class="footnote">// a 3x2 grid with icons</p><aside class="notes-data">A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities.</aside></section>
+    <section class="slide"><div class="kicker">// where it is heading</div><h2>Three threat <em>scenarios</em>.</h2><div class="grid-2" style="grid-template-columns:1.34fr 0.66fr; align-items:center"><div class="scn-list"><div class="scn-card"><div class="scn-num">1</div><svg class="scn-spark" viewBox="0 0 100 50" preserveAspectRatio="none" aria-hidden="true"><line class="ax" x1="2" y1="47" x2="98" y2="47"/><path class="ln" d="M3,44 L97,8"/><circle class="dot" cx="97" cy="8" r="3.4"/></svg><div class="scn-txt"><strong>Steady pressure</strong><span>Familiar attacks keep coming, basics still cover most of them.</span></div></div><div class="scn-card"><div class="scn-num">2</div><svg class="scn-spark" viewBox="0 0 100 50" preserveAspectRatio="none" aria-hidden="true"><line class="ax" x1="2" y1="47" x2="98" y2="47"/><path class="ln" d="M3,47 C45,46 66,43 80,33 C88,27 94,16 97,4"/><circle class="dot" cx="97" cy="4" r="3.4"/></svg><div class="scn-txt"><strong>Automated attacks</strong><span>Tooling scales fast, exploits land within hours of disclosure.</span></div></div><div class="scn-card"><div class="scn-num">3</div><svg class="scn-spark" viewBox="0 0 100 50" preserveAspectRatio="none" aria-hidden="true"><line class="ax" x1="2" y1="47" x2="98" y2="47"/><line class="asy" x1="89.5" y1="3" x2="89.5" y2="46"/><path class="ln" d="M3,44 L63,42 C78,41 85,39 88,30 C89.3,23 89.5,13 89.5,3"/><circle class="dot" cx="89.5" cy="3" r="3.4"/></svg><div class="scn-txt"><strong>Adaptive adversary</strong><span>Attackers reason about defenses and rewrite their own playbook.</span></div></div></div><div class="illust-col"><svg class="ill" viewBox="0 0 240 200" fill="none" stroke="var(--c-1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M40 100h60"/><path d="M100 100 180 45M168 40l16 4-4 16" stroke-width="6"/><path d="M100 100 180 155M180 139l4 16-16 4" stroke-width="6"/><circle cx="40" cy="100" r="10"/></svg></div></div><p class="footnote">// numbered scenarios with mini charts</p><aside class="notes-data">Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures.</aside></section>
+    <section class="slide"><div class="kicker">// the process</div><h2>From alert to <em>recovery</em>.</h2><p class="lead">Five steps, each with a clear output.</p><div class="flow"><div class="flow-b">Detect<small>the signal</small></div><div class="flow-a">&rarr;</div><div class="flow-b">Triage<small>scope and severity</small></div><div class="flow-a">&rarr;</div><div class="flow-b">Contain<small>stop the spread</small></div><div class="flow-a">&rarr;</div><div class="flow-b">Eradicate<small>remove the foothold</small></div><div class="flow-a">&rarr;</div><div class="flow-b">Recover<small>restore and learn</small></div></div><p class="footnote">// horizontal process diagram</p><aside class="notes-data">A horizontal flow of steps with arrows. Each box has a heading and a small caption.</aside></section>
+    <section class="slide"><div class="kicker">// a thought</div><h2></h2><div class="quote">It is not the firm with the most tools that stays safe, but the one that responds the fastest.</div><p class="lead" style="font-style:normal; font-size:calc(1.7cqw*var(--fs,1))">Sample quote to show the style</p><aside class="notes-data">Quote slide with a bold left rule. Keep the attribution small.</aside></section>
+    <section class="slide"><div class="kicker">// things to remember</div><h2>Three rules of <em>response</em>.</h2><p class="lead">Simple, but easy to forget under pressure.</p><ul style="line-height:1.6; font-size:calc(2.3cqw*var(--fs,1)); max-width:86%"><li><strong>One owner.</strong> Every alert has a name attached and a clear handoff.</li><li><strong>Measurable goal.</strong> You know up front how success is defined.</li><li><strong>Rehearse it.</strong> Drill the playbook before the real incident hits.</li></ul><p class="footnote">// a simple list with emphasis</p><aside class="notes-data">A plain bullet slide with a strong lead word. Text scales automatically to fill the space.</aside></section>
+    <section class="slide statement"><div class="kicker">// the point of the block</div><h1>Discipline wins, not <em>panic</em>.</h1><p class="lead">A playbook nobody rehearsed fails on the day it matters.</p><aside class="notes-data">Statement slide: one large sentence centered on the page. Use it for the key message.</aside></section>
+    <section class="slide section-divider"><div class="kicker">// block 2</div><h1>A <em>90-day</em> plan.</h1><p class="lead">What to do this week, this month and this quarter.</p><aside class="notes-data">Second divider, opening the practical part.</aside></section>
+    <section class="slide placeholder-slide"><div class="kicker">// live demo</div><h1>Stop a phishing attack in <em>30 seconds</em>.</h1><p class="lead">We switch into the console and quarantine a live threat together.</p><p class="footnote">// placeholder slide for a demo or a break</p><aside class="notes-data">Placeholder slide. Centered heading, ideal for a live demo, a break or questions.</aside></section>
+    <section class="slide active title-slide"><div class="kicker">// thank you</div><h1>Let's secure it <em>together</em>.</h1><p class="lead">Questions, contact and next steps.</p><div class="meta"><div><strong>Contact</strong><span>name@firm.com</span></div><div><strong>Web</strong><span>firm.com</span></div><div><strong>Next step</strong><span>Pilot in 2 weeks</span></div><div><strong>Materials</strong><span>available to download</span></div></div><aside class="notes-data">Closing slide styled like the title. Contact details and a call to action.</aside></section>
+  </div>
+</div>
+<div class="notes" id="notes"></div>
+<div class="controls">
+  <button id="first">&laquo;</button>
+  <button id="prev">&lsaquo; Zpet</button>
+  <button id="next">Dal &rsaquo;</button>
+  <button id="last">&raquo;</button>
+  <button id="fs">Fullscreen (F)</button>
+  <button id="toggleNotes">Skryt poznamky</button>
+  <a class="home-link" href="../../index.html">Galerie sablon</a>
+  <span class="hint">sipky / mezernik &middot; N poznamky &middot; F cela obrazovka &middot; cislo+Enter skok</span>
+  <span class="counter"><span id="cur">1</span> / <span id="total">0</span></span>
+</div>
+<script>
+const slides = document.querySelectorAll('.slide');
+const notesEl = document.getElementById('notes');
+const cur = document.getElementById('cur');
+const total = document.getElementById('total');
+const progress = document.getElementById('progress');
+total.textContent = slides.length;
+let idx = 0, gotoBuffer = '';
+function showSlide(n){
+  idx = Math.max(0, Math.min(slides.length - 1, n));
+  slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+  cur.textContent = idx + 1;
+  progress.style.width = ((idx + 1) / slides.length * 100) + '%';
+  const nd = slides[idx].querySelector('.notes-data');
+  notesEl.innerHTML = (nd && nd.textContent.trim() && !notesEl.classList.contains('hidden'))
+    ? '<div class="label">// poznamka recnika</div><p>' + nd.innerHTML + '</p>' : '';
+  if(notesEl.classList.contains('hidden')) notesEl.innerHTML='';
+  history.replaceState(null,'','#'+(idx+1));
+  fitActive();
+}
+const next=()=>showSlide(idx+1), prev=()=>showSlide(idx-1);
+document.getElementById('next').onclick=next;
+document.getElementById('prev').onclick=prev;
+document.getElementById('first').onclick=()=>showSlide(0);
+document.getElementById('last').onclick=()=>showSlide(slides.length-1);
+document.getElementById('fs').onclick=()=>{ if(!document.fullscreenElement) document.documentElement.requestFullscreen?.(); else document.exitFullscreen?.(); };
+document.addEventListener('fullscreenchange',()=>setTimeout(fitActive,80));
+document.getElementById('toggleNotes').onclick=()=>{
+  notesEl.classList.toggle('hidden');
+  document.getElementById('toggleNotes').textContent = notesEl.classList.contains('hidden') ? 'Poznamky' : 'Skryt poznamky';
+  showSlide(idx);
+};
+const stageEl=document.querySelector('.stage');
+const hostEl=document.getElementById('slidesHost');
+function fitStage(){ if(stageEl&&hostEl) hostEl.style.setProperty('--scale',(stageEl.clientWidth/1280)||1); }
+function fitSlide(slide){
+  if(!slide) return;
+  slide.style.setProperty('--fs','1');
+  const cl=slide.classList;
+  if(cl.contains('title-slide')||cl.contains('section-divider')||cl.contains('placeholder-slide')||cl.contains('bk')||cl.contains('statement')
+     || slide.querySelector('.stat-row, .agenda-flow, .lector-grid')) return;
+  const isTwocol=!!slide.querySelector('.illust-col');
+  const isFlow=!!slide.querySelector('.flow');
+  const capFs=isTwocol?1.45:isFlow?1.5:1.9;
+  const savedT=hostEl?hostEl.style.transform:''; if(hostEl) hostEl.style.transform='none';
+  const cs=getComputedStyle(slide);
+  const availH=slide.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
+  const availW=slide.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+  const prevJ=slide.style.justifyContent; slide.style.justifyContent='flex-start';
+  const fns=[].slice.call(slide.querySelectorAll('.footnote')); fns.forEach(f=>f.style.marginTop='0');
+  const measure=()=>{ let t=Infinity,b=-Infinity,l=Infinity,r=-Infinity;
+    for(const c of slide.children){ if(c.classList.contains('notes-data')||c.classList.contains('footnote'))continue;
+      const q=c.getBoundingClientRect(); if(q.height<1)continue; t=Math.min(t,q.top);b=Math.max(b,q.bottom);l=Math.min(l,q.left);r=Math.max(r,q.right);}
+    return {h:b-t,w:r-l}; };
+  const fits=(m)=>{ slide.style.setProperty('--fs',m); const z=measure(); return z.h<=availH*0.95 && z.w<=availW+1; };
+  let best=1;
+  if(fits(capFs)) best=capFs;
+  else if(fits(1)){ let lo=1,hi=capFs; for(let i=0;i<12;i++){const m=(lo+hi)/2; if(fits(m)){best=m;lo=m;}else hi=m;} }
+  else { let lo=0.6,hi=1; best=0.6; for(let i=0;i<12;i++){const m=(lo+hi)/2; if(fits(m)){best=m;lo=m;}else hi=m;} }
+  slide.style.setProperty('--fs',best.toFixed(3));
+  slide.style.justifyContent=prevJ; fns.forEach(f=>f.style.marginTop='');
+  if(hostEl) hostEl.style.transform=savedT;
+}
+function fitActive(){ requestAnimationFrame(()=>{ fitStage(); fitSlide(slides[idx]); }); }
+window.addEventListener('load', fitActive);
+window.addEventListener('resize', fitActive);
+fitStage();
+document.addEventListener('keydown', e => {
+  if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA') return;
+  if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){ next(); e.preventDefault(); }
+  else if(e.key==='ArrowLeft'||e.key==='PageUp'){ prev(); e.preventDefault(); }
+  else if(e.key==='Home'){ showSlide(0); e.preventDefault(); }
+  else if(e.key==='End'){ showSlide(slides.length-1); e.preventDefault(); }
+  else if(e.key==='f'||e.key==='F'){ document.getElementById('fs').click(); }
+  else if(e.key==='n'||e.key==='N'){ document.getElementById('toggleNotes').click(); }
+  else if(e.key>='0'&&e.key<='9'){ gotoBuffer+=e.key; }
+  else if(e.key==='Enter'&&gotoBuffer){ showSlide(parseInt(gotoBuffer)-1); gotoBuffer=''; }
+  else if(e.key==='Escape'){ gotoBuffer=''; }
+});
+showSlide((parseInt(location.hash.replace('#',''))||1)-1);
+</script>
+</body>
+</html>

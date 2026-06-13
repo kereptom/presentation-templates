@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Sand Estate · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · reality a development","h1":"Developerský projekt<br><em>od pozemku k předání</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Rezidenční výstavba"],["Délka","40 minut"],["Publikum","Investoři a vedení"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo projekt <em>vede</em>.","lead":"Pět rolí, jeden společný harmonogram.","members":[["MV","Martin Veselý","Projektový ředitel"],["KD","Klára Dvořáková","Akvizice pozemků"],["RP","Radek Pokorný","Stavbyvedoucí"],["ZN","Zuzana Němcová","Prodej a marketing"],["OS","Ondřej Srnka","Finance a rozpočet"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde je projekt teď","2 · Co řešíme do kolaudace","3 · Plán prodeje"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde projekt <em>stojí</em>.","lead":"Pozemek, povolení a stav výstavby.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Lokalita rozhoduje <em>nejvíc</em>.","illus":"network","lead":"Dispozice i cena se dají doladit. Adresu, dopravní dostupnost a okolí už nikdy ne.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["users","72 %","bytů rezervováno ještě před dokončením hrubé stavby"],["calendar","18 měsíců","od zahájení výkopů ke kolaudaci"],["trend_up","+9 %","růst ceny za m² oproti původnímu plánu"]],"bullets":["Sledujte tempo prodeje, ne jen počet dokončených bytů.","Začněte tam, kde je poptávka prokázaná, ne jen tušená.","Malá etapa s jasným rozpočtem poráží velký plán bez rezervy."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Etapová výstavba <em>v kostce</em>.","lead":"Stavíme po blocích, ne celé sídliště najednou.","bullets":[["Rozdělíme.","Projekt na menší samostatné etapy."],["Ověříme.","Poptávku prodejem první etapy."],["Financujeme.","Další etapu z tržeb té předchozí."],["Snižujeme.","Riziko nedokončeného celku."]],"illus":"layers","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Prodat, nebo <em>pronajímat</em>.","lead":"Stejný dům, dva modely a dvě křivky výnosu.","cards":[["Prodej","Rychlý návrat kapitálu, ale jednorázový výnos."],["Nájem","Stabilní příjem v čase, pomalejší návratnost."],["Kombinace","Část bytů prodat, část držet pro cash flow."],["Předprodej","Rezervace předem snižují riziko financování."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// fáze projektu","h2":"Z čeho se to <em>skládá</em>.","lead":"Šest typických kroků developerského projektu.","cards":[["compass","Akvizice","Výběr a koupě pozemku ve správné lokalitě."],["doc","Povolení","Územní rozhodnutí a stavební povolení."],["grid","Projekt","Architektonický návrh a dispozice bytů."],["zap","Výstavba","Realizace od výkopů po finální úpravy."],["dollar","Financování","Bankovní úvěr a kapitál investorů."],["heart","Prodej","Marketing, prohlídky a předání klientům."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>trhu</em>.","items":[["1","plateau","Stabilizace","Ceny se srovnají, rozhoduje kvalita a lokalita."],["2","expo","Růst","Poptávka roste rychleji než nabídka nových bytů."],["3","decline","Ochlazení","Vyšší sazby zpomalí prodej, vyplatí se rezerva."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od pozemku k <em>předání</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Koupit","pozemek"],["Povolit","stavbu"],["Postavit","hrubou stavbu"],["Dokončit","a zkolaudovat"],["Předat","klientům"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Nevydělává se na prodeji, vydělává se na nákupu. Cena pozemku rozhodne dřív, než kopne bagr.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>rozpočtu</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Rezerva.","Vždy počítejte s deseti procenty navíc na nečekané."],["Jeden harmonogram.","Stavba i prodej běží podle stejného plánu."],["Kontrola staveniště.","Každý týden srovnejte plán se skutečností."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Rozhoduje <em>příprava</em>, ne tempo.","lead":"Stavba bez rezervy a bez prodejů skončí v problémech.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán <em>prodeje</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Virtuální prohlídka bytu <em>naživo</em>.","lead":"Přepneme do konfigurátoru a projdeme vzorový byt společně.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Postavíme to <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","prodej@sandestate.cz"],["Web","sandestate.cz"],["Další krok","Prohlídka za 1 týden"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Berry Retail · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · maloobchod a e-commerce","h1":"Obchod bez hranic<br><em>od pultu k e-shopu</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Omnichannel obchod"],["Délka","45 minut"],["Publikum","Vedení a marketing"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, pět pohledů na stejného zákazníka.","members":[["KS","Klára Svobodová","Vedoucí prodejen"],["MV","Marek Veselý","E-commerce manažer"],["AD","Anna Dvořáková","Marketing a CRM"],["RB","Radek Beneš","Logistika a sklad"],["JN","Jana Nová","Data a analytika"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde dnes stojíme","2 · Co zlepšit hned","3 · Plán na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde dnes <em>stojíme</em>.","lead":"Prodejny, e-shop a cesta zákazníka mezi nimi.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Zákazník už dávno <em>nepřemýšlí</em> v kanálech.","illus":"people","lead":"Vybírá na mobilu, zkouší v prodejně a kupuje doma na gauči. Hodnotu vytváří plynulý přechod mezi nimi.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_up","+24 %","vyšší konverze po sjednocení skladu prodejen a e-shopu"],["dollar","+19 %","vyšší průměrná útrata u věrnostních zákazníků"],["trend_down","-31 %","méně vrácených zásilek po lepším popisu produktů"]],"bullets":["Měřte hodnotu zákazníka v čase, ne jen jednotlivý nákup.","Začněte tam, kde zákazník nejvíc tápe nebo odchází.","Malý test s jasnou metrikou poráží velkou kampaň bez metriky."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Jednotný sklad <em>v kostce</em>.","lead":"Jedna zásoba vidět napříč všemi kanály.","bullets":[["Eviduje.","Stav zboží na prodejnách i v centrálním skladu."],["Sdílí.","Dostupnost online v reálném čase."],["Nabízí.","Vyzvednutí na prodejně nebo dovoz domů."],["Optimalizuje.","Odbavení z místa, které je zákazníkovi nejblíž."]],"illus":"layers","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Sleva, nebo <em>vztah</em>.","lead":"Stejný zákazník, dva přístupy a dvě křivky marže.","cards":[["Jen sleva","Lákáme cenou. Rychlý obrat, ale tenká marže."],["Věrnost","Odměňujeme opakování. Dražší start, stabilní výnos."],["Personalizace","Nabízíme, co dává smysl. Vyšší konverze i spokojenost."],["Komunita","Budujeme vztah ke značce. Nejvyšší doživotní hodnota."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků moderního obchodu.","cards":[["grid","Jednotný katalog","Jedna verze produktu pro všechny kanály."],["users","CRM a segmenty","Zákazníci roztříděni podle chování a hodnoty."],["target","Personalizace","Nabídka šitá na míru každému návštěvníkovi."],["bars","Analytika prodeje","Živé přehledy tržeb, marže a obrátky."],["zap","Rychlé doručení","Odbavení z nejbližší prodejny či skladu."],["heart","Věrnostní program","Odměny, které zákazníky vrací zpět."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Nasycení","Růst trhu se zpomalí, vyplatí se pečovat o stálé zákazníky."],["2","expo","Rozjezd","Online prodej rychle roste a mění zaběhnuté zvyky."],["3","decline","Tlak na cenu","Konkurence stlačuje marže, rozhoduje odlišení a služba."]],"illus":"growth","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od návštěvy k <em>opakování</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Přilákat","správné publikum"],["Provést","plynulým nákupem"],["Doručit","rychle a spolehlivě"],["Pečovat","o poprodejní zážitek"],["Vrátit","zákazníka zpět"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Nevyhrává ten, kdo prodá jednou nejlevněji, ale ten, ke komu se zákazník rád vrací.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>obchodu</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jedna pravda o skladu.","Stejný stav zboží vidí prodejna i e-shop."],["Jeden profil zákazníka.","Online i offline nákupy se potkají na jednom místě."],["Měřitelný cíl.","Předem víte, podle čeho poznáte úspěch kampaně."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>zážitek</em>, ne jen cena.","lead":"Akce přiláká jednou, dobrá služba přivede zpět.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>sezónu</em>.","lead":"Co udělat tento týden, tento měsíc a před vánoční špičkou.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Cesta zákazníka za <em>30 sekund</em>.","lead":"Přepneme do nástroje a projdeme nákup od mobilu po prodejnu naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Jdeme do toho <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@firma.cz"],["Web","firma.cz"],["Další krok","Pilot za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

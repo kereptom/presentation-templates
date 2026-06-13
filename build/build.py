@@ -101,6 +101,122 @@ THEMES = [
    divider="linear-gradient(120deg,#7b2ff7 0%,#b32fe0 50%,#f12daa 100%)", dark=False),
 ]
 
+# ---- font library (safe Google Fonts axis specs) -------------------------
+FONTS = {
+ "inter_tight":("Inter+Tight:wght@400..700",'"Inter Tight", system-ui, sans-serif'),
+ "inter":("Inter:wght@400..700",'"Inter", system-ui, sans-serif'),
+ "space_grotesk":("Space+Grotesk:wght@400..700",'"Space Grotesk", system-ui, sans-serif'),
+ "sora":("Sora:wght@400..700",'"Sora", system-ui, sans-serif'),
+ "archivo":("Archivo:wght@400..700",'"Archivo", system-ui, sans-serif'),
+ "manrope":("Manrope:wght@400..700",'"Manrope", system-ui, sans-serif'),
+ "jakarta":("Plus+Jakarta+Sans:wght@400..700",'"Plus Jakarta Sans", system-ui, sans-serif'),
+ "outfit":("Outfit:wght@400..700",'"Outfit", system-ui, sans-serif'),
+ "hanken":("Hanken+Grotesk:wght@400..700",'"Hanken Grotesk", system-ui, sans-serif'),
+ "figtree":("Figtree:wght@400..700",'"Figtree", system-ui, sans-serif'),
+ "albert":("Albert+Sans:wght@400..700",'"Albert Sans", system-ui, sans-serif'),
+ "epilogue":("Epilogue:wght@400..700",'"Epilogue", system-ui, sans-serif'),
+ "red_hat":("Red+Hat+Display:wght@400..700",'"Red Hat Display", system-ui, sans-serif'),
+ "libre_franklin":("Libre+Franklin:wght@400..700",'"Libre Franklin", system-ui, sans-serif'),
+ "schibsted":("Schibsted+Grotesk:wght@400..700",'"Schibsted Grotesk", system-ui, sans-serif'),
+ "bricolage":("Bricolage+Grotesque:wght@400..700",'"Bricolage Grotesque", system-ui, sans-serif'),
+ "quicksand":("Quicksand:wght@400..700",'"Quicksand", system-ui, sans-serif'),
+ "unbounded":("Unbounded:wght@400..700",'"Unbounded", system-ui, sans-serif'),
+ "fraunces":("Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400",'"Fraunces", Georgia, serif'),
+ "playfair":("Playfair+Display:ital,wght@0,400..800;1,400..600",'"Playfair Display", Georgia, serif'),
+ "source_serif":("Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400",'"Source Serif 4", Georgia, serif'),
+ "newsreader":("Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400",'"Newsreader", Georgia, serif'),
+ "lora":("Lora:ital,wght@0,400..700;1,400..600",'"Lora", Georgia, serif'),
+ "bodoni":("Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400",'"Bodoni Moda", Georgia, serif'),
+ "jetbrains":("JetBrains+Mono:wght@400..600",'"JetBrains Mono", ui-monospace, monospace'),
+ "plex_mono":("IBM+Plex+Mono:wght@400;500;600",'"IBM Plex Mono", ui-monospace, monospace'),
+ "space_mono":("Space+Mono:wght@400;700",'"Space Mono", ui-monospace, monospace'),
+ "fira_code":("Fira+Code:wght@400..600",'"Fira Code", ui-monospace, monospace'),
+ "dm_mono":("DM+Mono:wght@400;500",'"DM Mono", ui-monospace, monospace'),
+}
+
+def _hex2rgb(h):
+    h = h.lstrip("#"); return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+def _rgb2hex(t):
+    return "#%02x%02x%02x" % tuple(max(0, min(255, int(round(v)))) for v in t)
+def mix(a, b, t):
+    ra, rb = _hex2rgb(a), _hex2rgb(b)
+    return _rgb2hex(tuple(ra[i] * t + rb[i] * (1 - t) for i in range(3)))
+
+def mk(slug, name, subj, lang, disp, body, mono, c1, *, c2=None, c3=None,
+       paper="#ffffff", ink="#15151b", dark=False, radius=1.0, bodyclass="",
+       divider=None, divink="#ffffff"):
+    if c2 is None: c2 = mix(c1, "#ffffff", 0.74)
+    if c3 is None: c3 = mix(c1, "#000000", 0.80)
+    df, bf, mf = FONTS[disp], FONTS[body], FONTS[mono]
+    frags = []
+    for fr in (df[0], bf[0], mf[0]):
+        if fr not in frags: frags.append(fr)
+    font = "&family=".join(frags)
+    papersoft = mix(paper, ink, 0.965 if not dark else 0.93)
+    soft = mix(c1, paper, 0.13 if not dark else 0.17)
+    line = mix(c1, paper, 0.30 if not dark else 0.42)
+    ink2 = mix(ink, paper, 0.78); ink3 = mix(ink, paper, 0.52)
+    rule = mix(ink, paper, 0.13); rulesoft = mix(ink, paper, 0.06)
+    if divider is None:
+        divider = f"linear-gradient(140deg,{c2} 0%,{c1} 55%,{c3} 100%)"
+    return dict(slug=slug, name=name, subject=subj, lang=lang, font=font,
+        display=df[1], serif=bf[1], mono=mf[1], c1=c1, c2=c2, c3=c3, soft=soft, line=line,
+        paper=paper, papersoft=papersoft, ink=ink, ink2=ink2, ink3=ink3, rule=rule, rulesoft=rulesoft,
+        divider=divider, divider_ink=divink, dark=dark, radius=radius, bodyclass=bodyclass)
+
+THEMES += [
+ mk("13-slate-consulting","Slate Consulting","Strategie a poradenství","cs","inter_tight","source_serif","jetbrains","#3b5bdb"),
+ mk("14-forest-outdoor","Forest Outdoor","Outdoorová značka","cs","hanken","lora","jetbrains","#2f7d4f",paper="#f7faf7",ink="#16201a",radius=1.3),
+ mk("15-rose-beauty","Rose Beauty","Kosmetika a péče","en","jakarta","newsreader","dm_mono","#d6446e",paper="#fdf7f9",ink="#20141a",radius=1.5),
+ mk("16-amber-stay","Amber Stay","Hotelnictví","cs","outfit","source_serif","jetbrains","#c8862a",paper="#fffdf8",ink="#211a10",radius=1.2),
+ mk("17-crimson-sport","Crimson Sport","Sport a fitness","en","archivo","source_serif","space_mono","#d62828",ink="#15110f",radius=0.5,bodyclass="em-solid"),
+ mk("18-teal-data","Teal Data","Data a analytika","cs","space_grotesk","source_serif","jetbrains","#0e8f9e",paper="#f5fbfc",ink="#0d1b1f"),
+ mk("19-violet-audio","Violet Audio","Hudba a zvuk","en","sora","source_serif","fira_code","#6d4aff",paper="#faf8ff",ink="#16121f",radius=1.2),
+ mk("20-sand-estate","Sand Estate","Reality","cs","manrope","lora","jetbrains","#a8763f",paper="#faf7f1",ink="#1d1812",radius=0.8),
+ mk("21-sky-travel","Sky Travel","Cestování a letectví","en","figtree","source_serif","jetbrains","#2a8fd6",paper="#f6fbff",ink="#0f1922",radius=1.4),
+ mk("22-plum-atelier","Plum Atelier","Móda","cs","epilogue","playfair","dm_mono","#7d2e5f",paper="#fdf7fb",ink="#1c121a",bodyclass="em-solid"),
+ mk("23-carbon-lime","Carbon Lime","Kyberbezpečnost","en","space_grotesk","source_serif","jetbrains","#9bd62a",paper="#0c0f0a",ink="#eef3e6",dark=True,radius=0.4,bodyclass="em-solid"),
+ mk("24-deep-space","Deep Space","Letectví a kosmonautika","cs","sora","source_serif","jetbrains","#5b8def",paper="#080b14",ink="#e7ecf6",dark=True),
+ mk("25-noir-gold","Noir Gold","Luxusní zboží","en","jakarta","bodoni","jetbrains","#c9a24a",paper="#0d0c0a",ink="#f1ece0",dark=True,radius=0.6),
+ mk("26-midnight-rose","Midnight Rose","Noční život","cs","outfit","source_serif","space_mono","#ff4f8b",paper="#0e0a0e",ink="#f3e9ef",dark=True,radius=1.5),
+ mk("27-terminal-green","Terminal Green","Vývojářské nástroje","en","space_grotesk","source_serif","jetbrains","#36d399",paper="#0a0e0c",ink="#e6f2ec",dark=True,radius=0.3,bodyclass="em-solid"),
+ mk("28-obsidian-blue","Obsidian Blue","Fintech","cs","inter_tight","source_serif","plex_mono","#4f8bff",paper="#0a0e16",ink="#e8edf5",dark=True,radius=0.8),
+ mk("29-broadsheet","Broadsheet","Vydavatelství","en","playfair","newsreader","jetbrains","#b32417",paper="#fbfaf6",ink="#1a1813",radius=0.3,bodyclass="em-solid"),
+ mk("30-manifesto","Manifesto","Politika a veřejná správa","cs","fraunces","source_serif","jetbrains","#b5371f",paper="#fbf8f3",ink="#1c1712",radius=0.4),
+ mk("31-gallery","Gallery","Umění a muzea","en","bodoni","lora","jetbrains","#9a3412",paper="#fdfcfa",ink="#17151a",radius=0.25,bodyclass="em-solid"),
+ mk("32-almanac","Almanac","Zemědělství","cs","bricolage","lora","jetbrains","#6f8f1f",paper="#f9faf2",ink="#1b1d12"),
+ mk("33-bubblegum","Bubblegum","Děti a hračky","en","quicksand","source_serif","dm_mono","#ff5ca8",paper="#fff8fc",ink="#281826",radius=2.2),
+ mk("34-sunrise-wellness","Sunrise Wellness","Wellness aplikace","cs","quicksand","source_serif","jetbrains","#ff8a3d",paper="#fffaf4",ink="#241a12",radius=2.0),
+ mk("35-pop-kitchen","Pop Kitchen","Rozvoz jídla","en","unbounded","source_serif","space_mono","#ff3d54",paper="#fffaf6",ink="#20120f",radius=1.8,bodyclass="em-solid"),
+ mk("36-blueprint","Blueprint","Inženýrství","cs","space_grotesk","source_serif","jetbrains","#2563c9",paper="#f4f7fb",ink="#0f1722",radius=0.3,bodyclass="cs-outline"),
+ mk("37-wireframe","Wireframe","UX výzkum","en","archivo","source_serif","jetbrains","#4b4b55",paper="#fafafb",ink="#18181d",radius=0.4,bodyclass="cs-outline em-solid"),
+ mk("38-mono-red","Mono Red","Architektonické studio","en","archivo","source_serif","space_mono","#e23b2e",ink="#111114",radius=0.2,bodyclass="cs-outline em-solid"),
+ mk("39-pastel-mint","Pastel Mint","Papírnictví","cs","jakarta","source_serif","jetbrains","#3bbd8f",paper="#f6fbf9",ink="#15201b",radius=1.4,bodyclass="cs-flat"),
+ mk("40-cloud-infra","Cloud Infra","Cloudová infrastruktura","en","inter_tight","source_serif","jetbrains","#3a86ff",paper="#f6f9ff",ink="#101522",radius=1.2,bodyclass="cs-flat"),
+ mk("41-copper-works","Copper Works","Strojírenství","cs","libre_franklin","source_serif","jetbrains","#b5651d",paper="#fdfaf6",ink="#1c1610",radius=0.6),
+ mk("42-indigo-learn","Indigo Learn","E-learning","en","figtree","source_serif","jetbrains","#6366f1",paper="#0c0d16",ink="#e9eaf6",dark=True,radius=1.2),
+ mk("43-coral-hr","Coral HR","Nábor a HR","cs","manrope","source_serif","jetbrains","#ff6b5e",paper="#fff8f6",ink="#201513",radius=1.4),
+ mk("44-olive-table","Olive Table","Potraviny a nápoje","en","outfit","lora","jetbrains","#7a8b2a",paper="#faf9f0",ink="#1a1c12"),
+ mk("45-berry-retail","Berry Retail","Maloobchod","cs","albert","source_serif","jetbrains","#b5246b",paper="#fdf6fa",ink="#1d1219",radius=1.1),
+ mk("46-steel-logistics","Steel Logistics","Logistika","en","red_hat","source_serif","jetbrains","#4a6275",paper="#f5f7f9",ink="#11161b",radius=0.5),
+ mk("47-mustard-podcast","Mustard","Podcast","cs","schibsted","source_serif","space_mono","#d6a019",paper="#fffdf6",ink="#1e1a10",radius=1.2),
+ mk("48-ocean-lines","Ocean Lines","Námořní doprava","en","inter_tight","source_serif","jetbrains","#1d6fa5",paper="#f4f9fc",ink="#0e1820",radius=0.8),
+ mk("49-lavender-mind","Lavender Mind","Duševní zdraví","cs","outfit","newsreader","jetbrains","#8b7bd8",paper="#faf9fd",ink="#1a1622",radius=1.6),
+ mk("50-graphite-auto","Graphite Auto","Automobilový průmysl","en","archivo","source_serif","jetbrains","#d24a2a",paper="#0e0e10",ink="#ededf0",dark=True,radius=0.5,bodyclass="em-solid"),
+ mk("51-sunset-tourism","Sunset Tourism","Turistika","cs","hanken","lora","jetbrains","#f2683c",paper="#fffaf5",ink="#201410",radius=1.4),
+ mk("52-emerald-bank","Emerald Bank","Bankovnictví","en","jakarta","source_serif","plex_mono","#0f7a52",paper="#f5fbf8",ink="#0f1a15",radius=0.7),
+ mk("53-clay-craft","Clay and Craft","Keramika a řemeslo","cs","bricolage","lora","jetbrains","#b0573f",paper="#fbf6f1",ink="#1f160f",radius=1.6,bodyclass="cs-flat"),
+ mk("54-neon-cyan","Neon Cyan","Gaming","en","unbounded","source_serif","space_mono","#22e0d6",paper="#07090d",ink="#e6f6f5",dark=True,radius=1.0,bodyclass="em-solid"),
+ mk("55-vintage-wine","Vintage Wine","Vinařství","cs","fraunces","newsreader","jetbrains","#7b1e3a",paper="#fbf6f4",ink="#1c1213",radius=0.5,bodyclass="em-solid"),
+ mk("56-aqua-utility","Aqua Utility","Vodárenství","en","inter_tight","source_serif","jetbrains","#1ba0c4",paper="#f4fbfd",ink="#0d1a20",radius=0.9),
+ mk("57-saffron","Saffron","Restaurace","cs","epilogue","playfair","jetbrains","#e0851a",paper="#fffaf2",ink="#201810",bodyclass="em-solid"),
+ mk("58-slate-gov","Slate Gov","Veřejná správa","en","libre_franklin","source_serif","jetbrains","#3a4a63",paper="#f6f7f9",ink="#12161e",radius=0.4),
+ mk("59-magenta-social","Magenta Social","Sociální sítě","cs","sora","source_serif","jetbrains","#e0249a",paper="#fdf6fb",ink="#1c1019",radius=1.5),
+ mk("60-pine-forestry","Pine Forestry","Lesnictví","en","hanken","lora","jetbrains","#2c6e49",paper="#f6faf6",ink="#14201a",radius=0.9),
+ mk("61-bronze-exhibit","Bronze Exhibit","Muzejní výstava","cs","fraunces","lora","jetbrains","#9c6b30",paper="#fbf8f2",ink="#1c170f",radius=0.4,bodyclass="em-solid"),
+ mk("62-electric-robotics","Electric Robotics","Robotika","en","space_grotesk","source_serif","jetbrains","#2f6bff",paper="#0a0d14",ink="#e8ecf6",dark=True,radius=0.6,bodyclass="em-solid"),
+]
+
 # ----------------------------------------------------------------------------
 # ICONS (lucide-style line icons for KPI cards / cards3)
 # ----------------------------------------------------------------------------
@@ -127,6 +243,19 @@ ICONS = {
  "heart":'<path d="M19 14c1.5-1.5 3-3.3 3-5.5A4.5 4.5 0 0 0 12 5 4.5 4.5 0 0 0 2 8.5c0 2.2 1.5 4 3 5.5l7 7z"/>',
  "compass":'<circle cx="12" cy="12" r="9"/><path d="m16 8-2 6-6 2 2-6 6-2z"/>',
  "rocket":'<path d="M5 13c-2 1-3 5-3 5s4-1 5-3"/><path d="M15 7a8 8 0 0 1 5-2 8 8 0 0 1-2 5l-7 7-3-3z"/><circle cx="15" cy="9" r="1"/>',
+ "network":'<circle cx="6" cy="6" r="2.3"/><circle cx="18" cy="6" r="2.3"/><circle cx="12" cy="18" r="2.3"/><path d="M7.7 7.7 11 15.5M16.3 7.7 13 15.5M8.3 6h7.4"/>',
+ "gears":'<circle cx="9" cy="9" r="3"/><path d="M9 3.5v1.7M9 12.8v1.7M3.5 9h1.7M12.8 9h1.7M5.6 5.6l1.2 1.2M11.2 11.2l1.2 1.2"/><circle cx="17" cy="16.5" r="2.2"/>',
+ "growth":'<path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/><path d="M17 7h3v3"/>',
+ "brain":'<path d="M12 5.5a3 3 0 0 0-5 2.2 3 3 0 0 0-1 5 3 3 0 0 0 4 2.8h2z"/><path d="M12 5.5a3 3 0 0 1 5 2.2 3 3 0 0 1 1 5 3 3 0 0 1-4 2.8h-2z"/><path d="M12 5.5v10"/>',
+ "cloud":'<path d="M7 17.5a4 4 0 0 1 0-8 5 5 0 0 1 9.5-1A3.5 3.5 0 0 1 17 17.5z"/>',
+ "layers":'<path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/>',
+ "branch":'<circle cx="6" cy="12" r="2"/><path d="M8 12h3.5M12 12 18 7M12 12l6 5"/><circle cx="18.5" cy="6.5" r="1.6"/><circle cx="18.5" cy="17.5" r="1.6"/>',
+ "chip":'<rect x="7" y="7" width="10" height="10" rx="1.5"/><rect x="10" y="10" width="4" height="4"/><path d="M10 7V4.5M14 7V4.5M10 19.5V17M14 19.5V17M7 10H4.5M7 14H4.5M19.5 10H17M19.5 14H17"/>',
+ "people":'<circle cx="9" cy="8" r="3"/><path d="M4 19a5 5 0 0 1 10 0"/><circle cx="17.5" cy="9" r="2"/><path d="M15.5 19a4 4 0 0 1 5.5-3.2"/>',
+ "chat":'<path d="M21 12a8 8 0 0 1-11.5 7.2L4 21l1.8-5.5A8 8 0 1 1 21 12z"/>',
+ "flask":'<path d="M9 3.5h6M10 3.5v5.5l-5 8.5a2 2 0 0 0 1.7 3h10.6a2 2 0 0 0 1.7-3l-5-8.5V3.5"/><path d="M7.5 15h9"/>',
+ "scale":'<path d="M12 3.5v17M7 20.5h10"/><path d="M12 6 6.2 7.8M12 6l5.8 1.8"/><path d="M3.6 12a2.6 2 0 0 0 5.2 0zM15.2 12a2.6 2 0 0 0 5.2 0z"/>',
+ "megaphone":'<path d="M4 9.5V13l2 0.6 1.6 3.9 2.2-0.9-1.2-3 9.4 3.4V6L8.8 10H6a2 2 0 0 0-2 -0.5z"/><path d="M17 8.5a3 3 0 0 1 0 6"/>',
 }
 
 # ----------------------------------------------------------------------------
@@ -312,6 +441,7 @@ CSS = r"""
   --ink:{ink}; --ink-2:{ink2}; --ink-3:{ink3};
   --rule:{rule}; --rule-soft:{rulesoft};
   --divider-bg:{divider}; --divider-ink:{divink};
+  --r:{radius};
   --display:{display}; --serif:{serif}; --mono:{mono};
 }
 *{box-sizing:border-box; -webkit-font-smoothing:antialiased}
@@ -409,6 +539,11 @@ body > .stage, body > .notes, body > .controls{flex:0 0 auto}
 .slide.statement{justify-content:center; align-items:center; text-align:center}
 .slide.statement h1{font-size:calc(5.2cqw*var(--fs,1)); max-width:90%}
 .slide.statement .lead{margin:1cqw auto 0; max-width:74%; font-size:calc(2.5cqw*var(--fs,1))}
+.slide .card,.slide .kpi,.slide .scn-card,.slide .flow-b,.af-b{border-radius:calc(0.95cqw*var(--r,1))}
+.slide .scn-num{border-radius:calc(0.7cqw*var(--r,1))}
+body.cs-outline .slide .card,body.cs-outline .slide .kpi,body.cs-outline .slide .scn-card,body.cs-outline .slide .flow-b,body.cs-outline .af-b{background:transparent}
+body.cs-flat .slide .card,body.cs-flat .slide .kpi,body.cs-flat .slide .scn-card,body.cs-flat .slide .flow-b,body.cs-flat .af-b{border-color:transparent}
+body.em-solid .slide em{background:none;-webkit-text-fill-color:var(--c-1);color:var(--c-1)}
 @media (max-width:640px){ .controls{gap:6px; padding:8px 12px; font-size:11px} .controls .hint{display:none} }
 """
 
@@ -507,7 +642,7 @@ PAGE = """<!doctype html>
 <link href="https://fonts.googleapis.com/css2?family={font}&display=swap" rel="stylesheet">
 <style>{css}</style>
 </head>
-<body>
+<body class="{bodyclass}">
 <div class="stage">
   <div class="progress" id="progress"></div>
   <div class="slides-host" id="slidesHost">
@@ -539,6 +674,7 @@ def build_css(t):
         .replace("{ink}", t["ink"]).replace("{ink2}", t["ink2"]).replace("{ink3}", t["ink3"])
         .replace("{rule}", t["rule"]).replace("{rulesoft}", t["rulesoft"])
         .replace("{divider}", t["divider"]).replace("{divink}", t.get("divider_ink", "#ffffff"))
+        .replace("{radius}", str(t.get("radius", 1)))
         .replace("{display}", t["display"]).replace("{serif}", t["serif"]).replace("{mono}", t["mono"]))
 
 
@@ -570,6 +706,7 @@ def build_one(theme):
         .replace("{favhex}", theme["c1"].replace("#", "%23"))
         .replace("{font}", theme["font"])
         .replace("{css}", build_css(theme))
+        .replace("{bodyclass}", theme.get("bodyclass", ""))
         .replace("{slides}", slides_html)
         .replace("{js}", JS))
     outdir = os.path.join(TPL_DIR, theme["slug"])

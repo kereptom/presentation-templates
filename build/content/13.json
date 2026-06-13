@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Slate Consulting · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · strategie a poradenství","h1":"Strategie<br><em>od záměru k dopadu</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Strategické poradenství"],["Délka","60 minut"],["Publikum","Vedení a investoři"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, pět pohledů na stejnou strategii.","members":[["MV","Martin Vávra","Partner"],["KD","Klára Dušková","Vedoucí projektu"],["RB","Radek Beneš","Strategický analytik"],["AN","Adéla Nová","Finanční modelář"],["JK","Jiří Konečný","Change management"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na diskusi.","blocks":["1 · Kde dnes firma stojí","2 · Strategické možnosti","3 · Plán realizace"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde firma dnes <em>stojí</em>.","lead":"Trh, konkurence a největší rizika.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Strategie je série <em>rozhodnutí</em>.","illus":"target","lead":"Vize bez volby je jen přání. Hodnota vzniká tam, kde se firma vědomě rozhodne, co dělat nebude.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_up","+24 %","růst marže po přeorientování na klíčové segmenty"],["dollar","12 mil.","uvolněný provozní kapitál díky revizi portfolia"],["clock","6 měsíců","do prvních měřitelných výsledků transformace"]],"bullets":["Měřte dopad na hodnotu firmy, ne počet iniciativ.","Soustřeďte zdroje tam, kde má firma reálnou výhodu.","Malý ověřený krok poráží velký plán bez důkazu.","Začněte tam, kde už data i odhodlání máte.","Konečná čísla jsou ukázková a slouží k demonstraci."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Strategický přístup <em>v kostce</em>.","lead":"Nečekáme na dokonalá data, řídíme se hypotézami.","bullets":[["Diagnostikuje.","Trh, konkurenci a vnitřní silné stránky."],["Formuluje.","Jasné hypotézy o zdroji budoucí hodnoty."],["Ověřuje.","Každou volbu fakty a citlivostní analýzou."],["Prioritizuje.","Iniciativy podle dopadu a proveditelnosti."],["Realizuje.","S vlastníkem, rozpočtem a milníky."]],"illus":"brain","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Růst, nebo <em>konsolidace</em>.","lead":"Stejná firma, dvě strategické trajektorie.","cards":[["Expanze","Vstup na nové trhy a segmenty. Vyšší riziko, vyšší výnos."],["Konsolidace","Posílení jádra a marže. Stabilní, ale pomalejší."],["Akvizice","Růst nákupem konkurence. Rychlé, ale nákladné."],["Hybridní","Ochrana jádra a selektivní sázky na růst."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// nástroje","h2":"Co kde <em>nasadit</em>.","lead":"Šest typických stavebních bloků strategické práce.","cards":[["pie","Analýza trhu","Velikost, růst a dynamika klíčových segmentů."],["bars","Benchmark","Srovnání výkonu s konkurencí podle metrik."],["target","Cílení segmentů","Kde má firma právo zvítězit."],["dollar","Finanční model","Scénáře dopadu na výnosy a marži."],["compass","Roadmapa","Sled iniciativ s milníky a vlastníky."],["users","Řízení změny","Tým, který strategii pochopí a ponese."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>vývoje</em>.","items":[["1","plateau","Stagnace","Trh dozrál, růst se zpomalí a rozhoduje efektivita."],["2","expo","Akcelerace","Nový segment se otevírá a odměňuje rychlé hráče."],["3","decline","Disrupce","Zaběhnutý model slábne, je třeba se přeorientovat."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od záměru k <em>realizaci</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Diagnóza","výchozího stavu"],["Možnosti","strategické varianty"],["Volba","jasné priority"],["Plán","milníky a vlastníci"],["Realizace","a měření dopadu"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Strategie není o tom dělat víc věcí, ale o odvaze vybrat ty správné a zbytek odložit.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>realizace</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden vlastník.","Každá iniciativa má jméno člověka, který za ni ručí."],["Měřitelný cíl.","Předem víte, podle čeho poznáte úspěch."],["Tvrdá priorita.","Když je vším prioritou, není prioritou nic."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>jasnost</em>, ne objem.","lead":"Strategie bez vlastníka a priority skončí v šuplíku.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán <em>realizace</em>.","lead":"Co udělat tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Finanční model za <em>30 sekund</em>.","lead":"Přepneme do nástroje a propočítáme scénář naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Jdeme do toho <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","jmeno@firma.cz"],["Web","firma.cz"],["Další krok","Workshop za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

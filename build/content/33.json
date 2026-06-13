@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Bubblegum sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · kids & toys brand","h1":"Play that<br><em>sparks joy</em>.","lead":"Demo (sample) presentation template. All text is dummy placeholder content and only serves to showcase the styles.","meta":[["Topic","Kids & Toys"],["Length","30 minutes"],["Audience","Retail partners"],["Year","2026"]],"notes":"Opening slide. This is where the event name, a one-line subtitle and the bottom meta row belong. Highlight a word with em for the accent color."},
+
+    {"type":"team","kicker":"// your crew","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared mission: more smiles.","members":[["MA","Mia Allen","Brand lead"],["TR","Theo Reed","Product designer"],["SK","Sara Kim","Play research"],["LO","Liam Owens","Safety & quality"],["NB","Nora Brooks","Partnerships"]],"notes":"Team slide. Instead of photos it uses initials in a colored circle, so it needs no images."},
+
+    {"type":"agenda","kicker":"// today's agenda","h2":"How this block <em>flows</em>.","lead":"Three parts, with room for questions between them.","blocks":["1 · Who we play for","2 · This season's lineup","3 · Plan for the shelf"],"notes":"Agenda as three big tiles. Good at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Who we <em>play</em> for.","lead":"The kids, the parents and the moments that matter most.","notes":"Section divider between blocks. Big headline on a colored gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"Every box is a <em>doorway</em>.","illus":"people","lead":"A toy is never just plastic and paint. It is a story a child tells themselves, again and again.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: big headline, bold illustration, short caption. Great for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that fit","h2":"Three numbers that <em>matter</em>.","items":[["heart","92 %","of parents say our toys hold attention past the first week"],["clock","40 min","average focused play time per session at home"],["trend_up","+24 %","repeat purchase rate across the core range"]],"bullets":["Measure delight, not shelf space: play time beats packaging.","Start where the joy is real and the demand already shows.","A small loved range beats a big forgettable catalog."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a big number and a label, with supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"Good play, <em>in short</em>.","lead":"A toy earns its place through what it invites, not what it does.","bullets":[["Invites.","Open-ended play with no single right answer."],["Grows.","New layers as the child gets older and bolder."],["Connects.","Moments shared with a sibling, friend or parent."],["Lasts.","Built to survive the floor, the bath and the years."]],"illus":"layers","footnote":"// two-column slide with illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales itself up."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Loud, or <em>lasting</em>.","lead":"Same shelf, two philosophies and two very different afterlives.","cards":[["Trend toy","Sells fast on a fad, forgotten by spring."],["Licensed toy","Rides a known character, fades when the show ends."],["Classic toy","Earns its place over years of open play."],["Keepsake toy","Outlives childhood and gets handed down."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or listing variants."},
+
+    {"type":"cards3","kicker":"// the toolkit","h2":"What goes in the <em>box</em>.","lead":"Six building blocks behind a toy kids return to.","cards":[["leaf","Safe materials","Tested, non-toxic and gentle on small hands."],["target","Right age fit","Tuned to what the child can do and want next."],["zap","Spark moment","The first ten seconds that win a child over."],["users","Shared play","Designed for more than one pair of hands."],["shield","Built to last","Drops, chews and washes without giving up."],["doc","Clear story","Packaging a parent understands in one glance."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon in each card header. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it heads","h2":"Three ways the season <em>plays out</em>.","items":[["1","plateau","Steady favorite","Sales settle into a calm, dependable rhythm."],["2","expo","Breakout hit","Word of mouth spreads and demand climbs fast."],["3","decline","Quiet fade","A fad cools and shelf space is better spent elsewhere."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From sketch to <em>shelf</em>.","lead":"Five steps, each with a clear output.","steps":[["Sketch","an idea"],["Prototype","kids can touch"],["Playtest","with real children"],["Certify","safety checks"],["Ship","to the shelf"]],"footnote":"// horizontal process diagram","notes":"Horizontal flow of steps with arrows. Each box has a title and a small caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"A child does not remember the toy that did everything. They remember the one that let them do everything.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// keep in mind","h2":"Three rules of <em>play</em>.","lead":"Simple, but easy to forget on a deadline.","bullets":[["One clear joy.","Each toy promises one thing and delivers it well."],["Test with kids.","Real children decide, not the boardroom."],["Safety first.","Nothing ships until it passes every check."]],"footnote":"// simple list with emphasis","notes":"A plain bulleted slide with a strong lead word. Text scales up automatically to fill the space."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Wonder <em>wins</em>, not features.","lead":"A toy crammed with buttons but no story ends up under the bed.","notes":"Statement slide: one big sentence centered on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"Plan for the <em>shelf</em>.","lead":"What to do this week, this month and this season.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live demo","h1":"Unbox it in <em>30 seconds</em>.","lead":"We switch to the table and open a fresh set live.","footnote":"// placeholder slide for a demo or break","notes":"Placeholder slide. Centered headline, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let's make play <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","hello@brand.com"],["Web","brand.com"],["Next step","Sample box in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and a call to action."}
+  ]
+}

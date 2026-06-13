@@ -1,0 +1,39 @@
+{
+  "lang": "cs",
+  "title": "Šablona: Forest Outdoor · ukázková prezentace",
+  "slides": [
+    {"type":"title","kicker":"// ukázková šablona · outdoor a turistika","h1":"Forest Outdoor<br><em>vybaveni na cestu</em>.","lead":"Demonstrační prezentace šablony. Veškerý text je ukázkový (dummy) a slouží jen k předvedení stylů.","meta":[["Téma","Outdoor značka"],["Délka","40 minut"],["Publikum","Obchod a marketing"],["Datum","2026"]],"notes":"Úvodní slide. Sem patří název akce, jednovětý podtitul a metařádek dole. Slovo zvýrazněte pomocí em pro akcentní barvu."},
+
+    {"type":"team","kicker":"// váš tým","h2":"Kdo vás dnes <em>provede</em>.","lead":"Pět rolí, pět pohledů na stejnou stezku.","members":[["MV","Marek Vlček","Vedoucí značky"],["KS","Klára Sedláčková","Produktový design"],["OD","Ondřej Dvořák","Materiály a testování"],["JN","Jana Nová","Marketing a komunita"],["RP","Radek Pospíšil","Maloobchod a e-shop"]],"notes":"Slide týmu. Místo fotek používá iniciály v barevném kolečku, takže nepotřebuje žádné obrázky."},
+
+    {"type":"agenda","kicker":"// agenda dne","h2":"Jak dnešní blok <em>poběží</em>.","lead":"Tři části, mezi nimi prostor na otázky.","blocks":["1 · Kde značka dnes stojí","2 · Nová kolekce a příběh","3 · Plán na sezónu"],"notes":"Agenda jako tři velké dlaždice. Vhodné na začátek bloku."},
+
+    {"type":"divider","kicker":"// blok 1","h1":"Kde značka dnes <em>stojí</em>.","lead":"Trh, zákazník a naše největší příležitosti.","notes":"Předělový slide mezi bloky. Velký nadpis na barevném gradientu."},
+
+    {"type":"hero","kicker":"// velká myšlenka","h1":"Příroda nepotřebuje <em>výmluvy</em>.","illus":"growth","lead":"Lidé chtějí ven víc než kdy dřív. Vyhrává značka, která jim cestu usnadní, ne zkomplikuje.","footnote":"// ilustrační slide se zvětšeným obrázkem","notes":"Hero slide: velký nadpis, výrazná ilustrace, krátký popisek. Dobré pro pointu nebo kapitolu."},
+
+    {"type":"kpi","kicker":"// čísla, která sedí","h2":"Tři čísla, která <em>rozhodují</em>.","items":[["trend_up","+27 %","růst zájmu o vícedenní treky za poslední rok"],["heart","68 %","zákazníků se vrací pro druhý kus výbavy"],["leaf","-40 %","méně obalového plastu po přechodu na nové balení"]],"bullets":["Měřte věrnost, ne jen první nákup: vrací se ten, kdo vybavení důvěřuje.","Začněte u kategorie, kde už máte jméno a kde je poptávka nejsilnější.","Malá kolekce s jasným příběhem prodává líp než široký katalog bez tváře."],"footnote":"// zdroj: ukázková data","notes":"KPI dashboard: tři karty s ikonou, velkým číslem a popiskem, pod nimi podpůrné odrážky."},
+
+    {"type":"twocol","kicker":"// jak to funguje","h2":"Naše výroba <em>v kostce</em>.","lead":"Od materiálu po hřeben, každý krok má důvod.","bullets":[["Vybíráme.","Odolné a recyklované materiály s ohledem na váhu."],["Testujeme.","V terénu, ne jen v laboratoři."],["Šijeme.","V menších sériích pro kontrolu kvality."],["Opravujeme.","Servis prodlužuje život každého kusu."],["Vracíme.","Použité vybavení míří do druhého života."]],"illus":"gears","footnote":"// dvousloupcový slide s ilustrací","notes":"Dvousloupcový slide: odrážky se silným úvodním slovem vlevo, ilustrace vpravo. Text se sám zvětší."},
+
+    {"type":"cards2","kicker":"// dvě cesty","h2":"Levně, nebo <em>nadlouho</em>.","lead":"Stejná túra, dva přístupy k výbavě a dvě nákladové křivky.","cards":[["Nejlevněji","Koupíme nejnižší cenu. Často znamená brzkou výměnu."],["Univerzálně","Jeden kus na všechno. Funguje všude průměrně."],["Specializovaně","Výbava na konkrétní terén. Nejvyšší komfort."],["Modulárně","Základ plus doplňky podle ročního období."]],"footnote":"// čtyři karty ve dvou sloupcích","notes":"Mřížka 2x2 s kartami. Vhodné pro srovnání nebo výčet variant."},
+
+    {"type":"cards3","kicker":"// kolekce","h2":"Co kde <em>obléct</em>.","lead":"Šest pilířů naší outdoorové nabídky.","cards":[["compass","Navigace","Pomůcky pro orientaci v terénu bez signálu."],["shield","Vrstvení","Systém oblečení pro každé počasí."],["rocket","Trekové boty","Opora a záběr od stezky po skálu."],["target","Batohy","Nosný systém pro jedno- i vícedenní výpravy."],["leaf","Ekomateriály","Recyklované tkaniny s nízkou stopou."],["users","Komunita","Akce a srazy, kde výbavu vyzkoušíte."]],"footnote":"// mřížka 3x2 s ikonami","notes":"Mřížka 3x2 s ikonami v záhlaví každé karty. Skvělé na přehled nástrojů nebo schopností."},
+
+    {"type":"scenarios","kicker":"// kam to míří","h2":"Tři scénáře <em>sezóny</em>.","items":[["1","linear","Stabilní růst","Poptávka roste rovnoměrně, držíme tempo a kvalitu."],["2","expo","Vlna zájmu","Trend treků prudce roste, je třeba navýšit kapacitu."],["3","decline","Útlum","Počasí a ceny brzdí výlety, sázíme na věrné zákazníky."]],"illus":"branch","footnote":"// číslované scénáře s mini grafy","notes":"Číslované karty s malými trendovými grafy a ilustrací vpravo. Ideální na tři možnosti budoucnosti."},
+
+    {"type":"flow","kicker":"// postup","h2":"Od nápadu k <em>regálu</em>.","lead":"Pět kroků, každý s jasným výstupem.","steps":[["Navrhnout","podle terénu"],["Prototyp","ušít a zvážit"],["Otestovat","v reálné túře"],["Vyrobit","v malé sérii"],["Uvést","na trh a do e-shopu"]],"footnote":"// vodorovný procesní diagram","notes":"Vodorovný tok kroků se šipkami. Každý box má nadpis a malý popisek."},
+
+    {"type":"quote","kicker":"// myšlenka","h2":"","quote":"Nejlepší vybavení je to, na které během cesty ani jednou nepomyslíte.","by":"Ukázkový citát pro předvedení stylu","notes":"Citátový slide s výraznou levou linkou. Atribuci nechte malou."},
+
+    {"type":"bullets","kicker":"// na co myslet","h2":"Tři pravidla <em>kolekce</em>.","lead":"Jednoduchá, ale snadno se na ně zapomíná.","bullets":[["Jeden hrdina.","Každá sezóna má jeden výrobek, který vypráví příběh."],["Reálný test.","Nic nejde ven bez túry v opravdovém terénu."],["Servis předem.","Plán oprav vzniká dřív než první prodej."]],"footnote":"// jednoduchý seznam s důrazem","notes":"Prostý slide s odrážkami a silným úvodním slovem. Text se automaticky zvětší, aby zaplnil plochu."},
+
+    {"type":"statement","kicker":"// pointa bloku","h1":"Vyhrává <em>důvěra</em>, ne sleva.","lead":"Kdo se na výbavu spolehne v dešti, vrátí se za sucha.","notes":"Statement slide: jedna velká věta vycentrovaná na stránce. Použijte na klíčové sdělení."},
+
+    {"type":"divider","kicker":"// blok 2","h1":"Plán na <em>sezónu</em>.","lead":"Co spustit tento týden, tento měsíc a tento kvartál.","notes":"Druhý předěl, otevírá praktickou část."},
+
+    {"type":"demo","kicker":"// živá ukázka","h1":"Konfigurátor batohu za <em>30 sekund</em>.","lead":"Přepneme do e-shopu a sestavíme výbavu na míru naživo.","footnote":"// placeholder slide pro demo nebo přestávku","notes":"Placeholder slide. Vycentrovaný nadpis, ideální pro živé demo, přestávku nebo otázky."},
+
+    {"type":"closing","kicker":"// děkujeme","h1":"Vyrazíme <em>společně</em>.","lead":"Otázky, kontakt a další kroky.","meta":[["Kontakt","ahoj@forestoutdoor.cz"],["Web","forestoutdoor.cz"],["Další krok","Vzorky za 2 týdny"],["Materiály","ke stažení"]],"notes":"Závěrečný slide ve stylu titulního. Kontakt a výzva k akci."}
+  ]
+}

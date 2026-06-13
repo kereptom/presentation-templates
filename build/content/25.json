@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "title": "Template: Noir Gold sample deck",
+  "slides": [
+    {"type":"title","kicker":"// sample template · luxury goods and jewellery","h1":"The art of<br><em>quiet luxury</em>.","lead":"Demo (sample) presentation of the template. All text is placeholder (dummy) and serves only to showcase the styles.","meta":[["Theme","Luxury and jewellery"],["Length","45 minutes"],["Audience","Maison and retail"],["Year","2026"]],"notes":"Opening slide. Place the event name here, a one-line subtitle and a meta row at the bottom. Highlight one word with em for the accent colour."},
+
+    {"type":"team","kicker":"// your team","h2":"Who will <em>guide</em> you today.","lead":"Five roles, one shared standard of craft.","members":[["AC","Amélie Caron","Creative director"],["JR","James Rossi","Master jeweller"],["SV","Sofia Vega","Client experience"],["DH","Daniel Hart","Atelier lead"],["NK","Nadia Khan","Brand and heritage"]],"notes":"Team slide. Instead of photos it uses initials in a coloured circle, so it needs no images."},
+
+    {"type":"agenda","kicker":"// agenda for today","h2":"How this session will <em>unfold</em>.","lead":"Three parts, with room for questions in between.","blocks":["1 · Where the house stands","2 · What to craft now","3 · A 90-day plan"],"notes":"Agenda as three large tiles. Suitable at the start of a block."},
+
+    {"type":"divider","kicker":"// block 1","h1":"Where the house <em>stands</em>.","lead":"Heritage, clientele and the craft behind each piece.","notes":"Divider slide between blocks. A large heading on a coloured gradient."},
+
+    {"type":"hero","kicker":"// the big idea","h1":"Rarity is the new <em>currency</em>.","illus":"growth","lead":"Materials, provenance and the hand of the maker matter more than ever. Value is born where scarcity meets story.","footnote":"// illustrative slide with an enlarged image","notes":"Hero slide: a large heading, a striking illustration and a short caption. Good for a key point or a chapter."},
+
+    {"type":"kpi","kicker":"// numbers that hold","h2":"Three numbers that <em>decide</em>.","items":[["trend_up","+24 %","growth in high jewellery demand year over year"],["heart","92 %","clients who return after a personal styling session"],["clock","6 wks","average time to craft a bespoke commission"]],"bullets":["Measure devotion, not footfall: the relationship is the asset.","Begin where heritage already gives you the right to lead.","One signature piece beats a wide range without a story."],"footnote":"// source: sample data","notes":"KPI dashboard: three cards with an icon, a large number and a caption, supporting bullets below."},
+
+    {"type":"twocol","kicker":"// how it works","h2":"The bespoke commission <em>in brief</em>.","lead":"The client does not buy an object, they commission a memory.","bullets":[["Listens.","To the occasion, the story and the wearer."],["Designs.","A single piece, sketched by hand and refined."],["Crafts.","Stone by stone in the atelier, never rushed."],["Delivers.","A finished heirloom, presented with ceremony."]],"illus":"gears","footnote":"// two-column slide with an illustration","notes":"Two-column slide: bullets with a strong lead word on the left, illustration on the right. Text scales to fit."},
+
+    {"type":"cards2","kicker":"// two paths","h2":"Ready to wear, or <em>bespoke</em>.","lead":"The same client, two routes and two very different margins.","cards":[["Off the case","Buy what exists. Fast, but rarely unforgettable."],["Personalised","A signature piece, lightly adjusted. Warmer, still familiar."],["Bespoke","Designed from nothing for one wearer. The highest devotion."],["Heritage","A house archive piece, reissued in limited number."]],"footnote":"// four cards in two columns","notes":"A 2x2 grid of cards. Good for comparison or a list of options."},
+
+    {"type":"cards3","kicker":"// the craft","h2":"What goes into <em>each piece</em>.","lead":"Six building blocks of a house worthy of its name.","cards":[["compass","Provenance","Every stone traced from mine to setting."],["zap","Goldsmithing","Metal worked by hand in the atelier."],["pie","Gem selection","Cut, colour and clarity chosen with care."],["doc","Certification","Documented authenticity that travels with the piece."],["shield","Insurance","Protection that gives the client peace of mind."],["users","Aftercare","A lifetime of cleaning, resizing and repair."]],"footnote":"// 3x2 grid with icons","notes":"A 3x2 grid with an icon at the head of each card. Great for an overview of tools or capabilities."},
+
+    {"type":"scenarios","kicker":"// where it is heading","h2":"Three scenarios of <em>the market</em>.","items":[["1","plateau","Maturity","Growth steadies, the work is to deepen loyalty and craft."],["2","expo","Surge","Demand for rare pieces accelerates and reshapes the range."],["3","selfimp","Reinvention","The house redefines luxury itself, not only its objects."]],"illus":"branch","footnote":"// numbered scenarios with mini charts","notes":"Numbered cards with small trend charts and an illustration on the right. Ideal for three possible futures."},
+
+    {"type":"flow","kicker":"// the process","h2":"From sketch to <em>heirloom</em>.","lead":"Five steps, each with a clear outcome.","steps":[["Consult","the occasion"],["Design","a single sketch"],["Source","the finest stones"],["Craft","in the atelier"],["Present","with ceremony"]],"footnote":"// horizontal process diagram","notes":"A horizontal flow of steps with arrows. Each box has a heading and a small caption."},
+
+    {"type":"quote","kicker":"// a thought","h2":"","quote":"True luxury is never about the price of the object, it is about the depth of the attention behind it.","by":"Sample quote to showcase the style","notes":"Quote slide with a bold left rule. Keep the attribution small."},
+
+    {"type":"bullets","kicker":"// what to mind","h2":"Three rules of the <em>maison</em>.","lead":"Simple, yet easy to forget under pressure.","bullets":[["One maker.","Every commission carries the name of the artisan behind it."],["No compromise.","The piece ships only when the craft is right."],["The client first.","Discretion and care outrank the sale, always."]],"footnote":"// a simple list with emphasis","notes":"A plain slide with bullets and a strong lead word. Text scales up automatically to fill the area."},
+
+    {"type":"statement","kicker":"// the point of the block","h1":"Patience wins, not <em>haste</em>.","lead":"A piece rushed to market is a story left untold.","notes":"Statement slide: one large sentence centred on the page. Use it for a key message."},
+
+    {"type":"divider","kicker":"// block 2","h1":"A plan for the <em>quarter</em>.","lead":"What to do this week, this month and this season.","notes":"Second divider, opening the practical part."},
+
+    {"type":"demo","kicker":"// live showcase","h1":"A bespoke ring, designed in <em>minutes</em>.","lead":"We switch to the configurator and sketch a piece live.","footnote":"// placeholder slide for a demo or a break","notes":"Placeholder slide. A centred heading, ideal for a live demo, a break or questions."},
+
+    {"type":"closing","kicker":"// thank you","h1":"Let us craft something <em>together</em>.","lead":"Questions, contact and next steps.","meta":[["Contact","name@maison.com"],["Web","maison.com"],["Next step","Atelier visit in 2 weeks"],["Materials","available to download"]],"notes":"Closing slide in the style of the title. Contact and a call to action."}
+  ]
+}
