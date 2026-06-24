@@ -155,6 +155,29 @@ starting fresh, you can keep px, but then you MUST hold the layout rules below (
 based illustration, SVG text sized relative to its own viewBox). New projects: use
 `cqw`.
 
+### 2.1 Deck client runtime (nav, speaker notes, notes zoom)
+
+The client script handles: arrow / space / tap navigation, `F` fullscreen, a progress
+bar, and a speaker-notes overlay toggled with `N`. Carry these into every deck built on
+this engine family.
+
+**Notes zoom (persisted).** The presenter must be able to resize the speaker-notes text
+on the fly and have it remembered. Pattern:
+
+- Drive the notes panel font size from a CSS variable: `#notes{font-size:var(--note-fs,16px)}`
+  (the `h4` header keeps its own fixed size so only the body scales).
+- A sticky control top-right inside the panel with a `&minus;` button, the current size,
+  and a `+` button (`data-z="-1"` / `data-z="1"`). Also bind `+`/`=` and `-`/`_` keys
+  while the panel is open.
+- On change: `el.style.setProperty('--note-fs', px+'px')`, clamp to `11–40px` (step 2),
+  and `localStorage.setItem('noteFs', px)`. On load, read `noteFs` back and apply before
+  first paint. Wrap localStorage in try/catch (private mode).
+- The notes click handler must `stopPropagation()` so zoom clicks do not trigger
+  tap-to-advance.
+
+Reference implementation: `34_shape_agent/assets/deck.js` (`applyNoteFs` / `zoomNotes`)
+and the `.note-zoom` rules in `assets/deck.css`.
+
 ---
 
 ## 3. Layout and component library
@@ -171,9 +194,12 @@ Pick the layout that fits the content. Do not force everything into bullets.
 - **bullets**: kicker + h2 across the top, then 3 to 5 short bullets. If illustrated,
   bullets go in the left column of a split, illustration right. Never more than 5
   bullets; if more, switch layout or split the slide.
-- **two-col cards**: 2 or 4 cards (an even count) in a 2 column grid. Each card: bold
-  title + 2 lines. Avoid 3 cards in a 2 column grid (it leaves a dead quadrant); use a
-  3 column row or pad to 4.
+- **two-col cards**: cards in a 2 column grid, each a bold title + 2 lines. An even
+  count (2 or 4) fills cleanly. If the count is ODD (3, 5), do NOT leave the last card
+  alone on the left with a dead quadrant beside it: CENTER the lonely last card on its
+  row. CSS: `.cols .card:last-child:nth-child(odd){grid-column:1 / -1; justify-self:
+  center; width:calc(50% - <half the gap>)}`. The orphan card then sits centered, one
+  column wide, under the row above it.
 - **kpi tiles**: 2 to 5 tiles, each a big gradient number + short label. Great for
   "what works" or metrics.
 - **quote**: large italic serif, left accent border, attribution in mono.
@@ -263,8 +289,25 @@ become faint. Implementation (PIL): split RGB, `m = darker(darker(R,G),B)`,
   next to 1.32fr text.
 - Section dividers (dark): no illustration. Typographic only.
 - Web index header (dark): the one allowed dark-surface illustration, transparent,
-  cornered, about `38%` width, `opacity:.9`, kept clear of the title text. Use a
-  composition with strong cyan and magenta so it glows on the dark header.
+  on the right of the title text, `opacity:1`, generated as a dark composition (luminous
+  cyan and magenta lines, keyed black-to-transparent so the glow shows). Two things that
+  matter and are easy to get wrong:
+  - CROP the dead transparent margin off the PNG first (crop to the alpha bounding box).
+    A generated illustration usually fills only the middle ~50% of its frame; if you do
+    not crop, the visible art sits far inside its box and reads as mis-placed, and sizing
+    is guesswork.
+  - Do NOT "center the art in the gap between the text and the card edge". The text block
+    has a ragged right boundary (the longest line sticks out, the shorter lines do not),
+    so a geometric center between text-right and card-edge looks off, the eye sees the
+    larger whitespace beside the short lines. Instead frame SYMMETRICALLY: make the art's
+    right margin to the card edge EQUAL the text block's left margin (the card padding,
+    e.g. 46px). Text hugs the left inset, art hugs the right inset, the card frames
+    evenly. Verify by the VISIBLE pixels, not the element box: the `<img>`
+    `getBoundingClientRect` can include transparent inset (a stray crop pad or the art
+    not reaching its own frame edge), so screenshot and scan the bright-pixel extent of
+    the art and compare that right margin to the text's left margin. Crop tight (no
+    padding) so the box equals the art. (In one case the element box implied a 16px gap
+    while the visible art was actually 70px off the edge, it read as left-shifted.)
 
 ### 5.4 Style and line weight (consistency is everything)
 
@@ -465,7 +508,8 @@ gradient, and the deck is legible at small size.
 5. Illustrations: unique per slide, uniform medium line weight, transparent, placed in a
    grid column or corner with breathing room; light slides only, dark dividers clean.
 6. Diagrams: text large enough to read, cells not mostly empty.
-7. Two col slides have an even card count (no dead quadrant).
+7. Two col slides: even card count, or odd count with the last card centered on its row
+   (never a dead quadrant).
 8. Type scale and color tokens consistent across all slides; no orphan line breaks (no
    one or two words wrapping alone); cells keep padding and gaps so they breathe.
 9. Web index: header art clear of the title; disclaimer if anything is aspirational.
