@@ -121,3 +121,27 @@ si v tabulce níže to jedno číslo (`NN`) a jdi rovnou na jeho soubory.
 | 60 | `60-pine-forestry` | Pine Forestry | Lesnictví | en | light |
 | 61 | `61-bronze-exhibit` | Bronze Exhibit | Muzejní výstava | cs | light |
 | 62 | `62-electric-robotics` | Electric Robotics | Robotika | en | dark |
+
+## Slide / one-pager guidelines now live in the claude-skills repo (edit there)
+
+The two operating manuals `HOW_AGENT_MAKE_SLIDES.md` and `HOW_AGENT_MAKE_ONEPAGER.md`
+in this project are **symlinks** into the private `claude-skills` repo:
+
+- `HOW_AGENT_MAKE_SLIDES.md`   -> `../claude-skills/create-presentation/references/HOW_AGENT_MAKE_SLIDES.md`
+- `HOW_AGENT_MAKE_ONEPAGER.md` -> `../claude-skills/create-onepager/references/HOW_AGENT_MAKE_ONEPAGER.md`
+
+They are the **single source of truth** for the global `create-presentation` and
+`create-onepager` skills (see `~/Projects/claude-skills/`, symlinked into
+`~/.claude/skills/`).
+
+**Rule for agents:** when the user asks to change, improve, or add to these slide or
+one-pager guidelines, you are editing the file in the **claude-skills repo** (the
+symlink resolves there). Before saving such an edit:
+
+1. State exactly what will change and that it modifies the shared global skill
+   (which can be cloned to any machine), then **ask for confirmation**.
+2. Only after confirmation, edit the manual (via either the symlink here or the real
+   path in `~/Projects/claude-skills/`), then commit and push the `claude-skills` repo
+   so every machine gets it on `git pull`.
+
+Do not fork or duplicate these manuals back into this project; keep one source of truth.
